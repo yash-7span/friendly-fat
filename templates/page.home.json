@@ -1,0 +1,13 @@
+{
+  "layout": "theme.home",
+  "sections": {
+    "home-hero": {
+      "type": "home-hero",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "home-hero"
+  ]
+}

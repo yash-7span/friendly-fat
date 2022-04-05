@@ -3,11 +3,18 @@
   "sections": {
     "home-hero": {
       "type": "home-hero",
+      "settings": {}
+    },
+    "1649136989bccbca08": {
+      "type": "content-with-background",
       "settings": {
+        "section_image": "shopify:\/\/shop_images\/man-playing-basketball.jpg",
+          "section_heading": "The world is a happier place when people are feeling awesome!"
       }
     }
   },
-  "order": [
-    "home-hero"
+  "order": [ 
+  "home-hero",
+  "1649136989bccbca08"
   ]
 }

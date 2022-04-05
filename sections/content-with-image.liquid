@@ -1,0 +1,99 @@
+<div bind="ea7206dd-1261-24e8-390f-c055192b520e" class="section-devoius wf-section">
+  <div class="page-padding">
+    <div class="container-xlarge">
+      <div class="padding-large padding-vertical">
+        <div class="devious-wrapper">
+          <div class="devious-text-wrapper">
+            <div class="devious-heading-wrapper">
+              <h1 option:text="home-devious-heading" class="heading-large text-color-cream no-capital">{{section.settings.section_heading}}</h1>
+            </div>
+            <div class="devious-subheading-wrapper">
+              <div option:textarea="home-devious-text-area" class="text-size-medium">{{section.settings.section_text}}</div>
+            </div>
+            <a option:url="cta-link" href="{{section.settings.btn_link}}" class="button w-button">{{section.settings.btn_text}}</a>
+          </div>
+          <div data-delay="2000" data-animation="cross" class="slider-characters w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
+            <div class="mask-characters w-slider-mask">
+              {% assign devious_block = section.blocks | where: 'type', 'devious_block' %}
+              {% for block in devious_block %}
+              <div class="slide-character w-slide">
+                <div class="slide-character-wrapper">
+                  <div class="character-wrapper">
+                    <img loading="lazy" src="{{ block.settings.devious_image | img_url: 'master' }}" alt="" class="img-fit-contain"></div>
+                  <div class="heading-small">{{ block.settings.devious_text }}</div>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            <div class="hide w-slider-arrow-left">
+              <div class="w-icon-slider-left"></div>
+            </div>
+            <div class="hide w-slider-arrow-right">
+              <div class="w-icon-slider-right"></div>
+            </div>
+            <div class="hide w-slider-nav w-round"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Content With Images",
+    "settings": [
+		{
+          "type": "text",
+          "id": "section_heading",
+          "label": "Section Title"
+    	},
+		{
+          "type": "textarea",
+          "id": "section_text",
+          "label": "Section Text"
+    	},
+		{
+          "type": "url",
+          "id": "btn_link",
+          "label": "Button Link"
+    	},
+		{
+          "type": "text",
+          "id": "btn_text",
+          "label": "Button Text"
+    	}
+	],
+	"blocks": [
+        {
+          "type": "devious_block",
+          "name": "Devious Block",
+          "settings": [
+            {
+              "type": "image_picker",
+              "id": "devious_image",
+              "label": "Devious Image"
+            },            
+            {
+              "type": "text",
+              "id": "devious_text",
+              "label": "Devious Text"
+            }
+          ]
+        }
+	],
+	"presets": [
+		{
+		  "name": {
+          "en": "Content With Images"
+  		}
+  	  }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

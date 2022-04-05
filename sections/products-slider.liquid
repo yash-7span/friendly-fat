@@ -1,0 +1,121 @@
+<div bind="f1674068-6f4f-b60a-172f-d3b41d43a41a" class="section-shop-now wf-section">
+  <div class="container-xlarge">
+    <div class="shopnow-slider-wrapper">
+      <div class="section-heading-wrapper">
+        <h3 option:text="home-shop-heading" class="heading-large text-color-cream align-center">{{ section.settings.section_title }}</h3>
+      </div>
+      <div data-delay="4000" data-animation="slide" class="slider-product hide w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true" fs-cmsslider-element="slider">
+        <div class="mark-product w-slider-mask">
+          <div class="slide-product w-slide">
+            <a href="#" class="slider-content-wrapper w-inline-block">
+              <div class="slider-img-wrapper"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" bind="f1674068-6f4f-b60a-172f-d3b41d43a425" alt="" class="img-full-width"></div>
+              <div bind="f1674068-6f4f-b60a-172f-d3b41d43a426" class="text-size-medium-bold">This is some text inside of a div block.</div>
+              <div class="ratings-wrapper">
+                <div class="star-wrapper"><img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star"><img src="images/starbig-inactive.png" loading="lazy" alt="" class="star"><img src="images/star-gray.png" loading="lazy" alt="" class="transparent-star"></div>
+              </div>
+            </a>
+          </div>
+          <div class="slide-product w-slide">
+            <div class="slider-content-container">
+              <div class="slider-content-wrapper">
+                <div class="slider-img-wrapper"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" bind="f1674068-6f4f-b60a-172f-d3b41d43a433" alt="" class="img-full-width"></div>
+                <div bind="f1674068-6f4f-b60a-172f-d3b41d43a434" class="text-size-medium-bold">This is some text inside of a div block.</div>
+                <div class="ratings-wrapper">
+                  <div class="star-wrapper"><img src="images/Star.png" loading="lazy" alt="" class="star"><img src="images/Star.png" loading="lazy" alt="" class="star"><img src="images/Star.png" loading="lazy" alt="" class="star"><img src="images/starbig-inactive.png" loading="lazy" alt="" class="star"><img src="images/star-gray.png" loading="lazy" alt="" class="transparent-star"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-arrow-left w-slider-arrow-left">
+          <div class="left-arrow-slider">&lt;</div>
+        </div>
+        <div class="slider-arrow-right w-slider-arrow-right">
+          <div class="rigth-arrow-slider">&gt;</div>
+        </div>
+        <div class="show-mobile-landscape position-bottom w-slider-nav w-round"></div>
+      </div>
+    </div>
+    <div class="product-slider-wrapper">
+      <div class="swiper-nav-wrapper">
+        <a href="#" class="swiper-button-prev w-inline-block">
+          <div class="left-arrow-slider">&lt;</div>
+        </a>
+        <a href="#" class="swiper-button-next w-inline-block">
+          <div class="rigth-arrow-slider">&gt;</div>
+        </a>
+      </div>
+      <div fs-cmsslider-element="list" bind="f1674068-6f4f-b60a-172f-d3b41d43a444" class="swiper my-swiper w-dyn-list">
+        <div bind="f1674068-6f4f-b60a-172f-d3b41d43a445" role="list" class="swiper-wrapper w-dyn-items w-row">
+          {% for product in collections[section.settings.feature_collection].products %}
+          <div bind="f1674068-6f4f-b60a-172f-d3b41d43a446" role="listitem" class="swiper-slide w-dyn-item w-col w-col-6">
+            <a option:url="product link" bind="f1674068-6f4f-b60a-172f-d3b41d43a447" href="{{ product.url }}" class="slider-content-wrapper w-inline-block">
+              <div class="slider-img-wrapper">
+                <img src="{{  product.featured_image | img_url: 'master' }}" loading="lazy" bind="f1674068-6f4f-b60a-172f-d3b41d43a449" alt="" class="img-full-width">
+              </div>
+              <div bind="f1674068-6f4f-b60a-172f-d3b41d43a44a" class="text-size-medium-bold">{{ product.title }}</div>
+              <div class="ratings-wrapper">
+                <div class="star-wrapper">
+                  <img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star">
+                  <img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star">
+                  <img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star">
+                  <img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star">
+                  <img src="images/starbig-inactive.png" loading="lazy" alt="" class="star">
+                  <img src="images/star-gray.png" loading="lazy" alt="" class="transparent-star">
+                </div>
+              </div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div fs-cmsslider-element="list" bind="f1674068-6f4f-b60a-172f-d3b41d43a444" class="slider-list-wrapper w-dyn-list">
+    <div bind="f1674068-6f4f-b60a-172f-d3b41d43a445" role="list" class="slider-list masterlist w-dyn-items w-row">
+      <div bind="f1674068-6f4f-b60a-172f-d3b41d43a446" role="listitem" class="slider-content w-dyn-item w-col w-col-6">
+        <a option:url="product link" bind="f1674068-6f4f-b60a-172f-d3b41d43a447" href="#" class="slider-content-wrapper w-inline-block">
+          <div class="slider-img-wrapper"><img src="" loading="lazy" bind="f1674068-6f4f-b60a-172f-d3b41d43a449" alt="" class="img-full-width"></div>
+          <div bind="f1674068-6f4f-b60a-172f-d3b41d43a44a" class="text-size-medium-bold"></div>
+          <div class="ratings-wrapper">
+            <div class="star-wrapper"><img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star"><img src="images/starbig-inactive.png" loading="lazy" alt="" class="star"><img src="images/star-gray.png" loading="lazy" alt="" class="transparent-star"></div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div bind="f1674068-6f4f-b60a-172f-d3b41d43a452" class="w-dyn-empty">
+      <div>No items found.</div>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Product Slider",
+    "settings": [
+		{
+          "type": "text",
+          "id": "section_title",
+          "label": "Section Title",
+	      "default": "Shop Now"
+		},
+        {
+          "type": "collection",
+          "id": "feature_collection",
+          "label": "Chose Collection to show on slideshow"
+        }
+	],
+	"presets": [
+      {
+        "name": {
+        "en": "Product Slider"
+		  }
+	  }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

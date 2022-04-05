@@ -1,0 +1,30 @@
+<div bind="2edb4635-c260-0919-021d-1a45f2fc0410" class="try-lion-s-mane-wrapper">
+  <div class="banner-flames-text-wrapper">
+    {% if section.settings.icon_image %}<div class="flames-wrapper"><img src="{{ section.settings.icon_image | img_url: 'master' }}" loading="lazy" option:image="Flames-img" alt="" class="flame"></div>{%endif%}
+    <div class="text-wrapper">
+      <div option:text="banner-heading-small" class="heading-small banner">{{section.settings.announce_text}}</div>
+    </div>
+  </div>
+  <div data-w-id="a3ed0e8d-11ed-804c-2f01-3da95ba710bd" class="close-banner-wrapper">
+    <div class="close-wrapper"><img src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/close.svg?v=1649075643" loading="lazy" alt="" class="close-image-banner"></div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Announcement Bar",
+    "settings": [
+		{
+		"type" : "textarea",
+		"id": "announce_text",
+		"label": "Annountment Text",
+		"default": "Try our Lion’s mane, an edible mushroom that kicks ass!"
+		},
+		{
+          "type" : "image_picker",
+          "id": "icon_image",
+          "label": "Icon before Text"
+        }
+	]
+  }
+{% endschema %}

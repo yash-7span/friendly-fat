@@ -44,10 +44,127 @@
       "settings": {
         "section_image": "shopify:\/\/shop_images\/beach-coconut-delicious-322483-1.jpg"
       }
+    },
+    "products-slider": {
+      "type": "products-slider",
+      "settings": {
+        "section_title": "Shop Now",
+        "feature_collection": "frontpage"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
+      "blocks": {
+        "a4233b7e-b34d-4898-bb80-5d6181afde8e": {
+          "type": "testimonials",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse-3.png",
+            "comment": "Probably the best MCT on the market! Dissolves quickly, no lumps, and makes my coffee super creamy!",
+            "name": "Joe Rogan",
+            "possition": "Comedian, podcast host & MMA commentator"
+          }
+        },
+        "dd25bd6d-2f86-4cde-bd5e-491a6397d7f1": {
+          "type": "testimonials",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse-3.png",
+            "comment": "Probably the best MCT on the market! Dissolves quickly, no lumps, and makes my coffee super creamy!",
+            "name": "Joe Rogan",
+            "possition": "Comedian, podcast host & MMA commentator"
+          }
+        },
+        "db56eb9a-5240-48dd-af11-de9eb6da0c3a": {
+          "type": "testimonials",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ellipse-3.png",
+            "comment": "Probably the best MCT on the market! Dissolves quickly, no lumps, and makes my coffee super creamy!",
+            "name": "Joe Rogan",
+            "possition": "Comedian, podcast host & MMA commentator"
+          }
+        }
+      },
+      "block_order": [
+        "a4233b7e-b34d-4898-bb80-5d6181afde8e",
+        "dd25bd6d-2f86-4cde-bd5e-491a6397d7f1",
+        "db56eb9a-5240-48dd-af11-de9eb6da0c3a"
+      ],
+      "settings": {
+      }
+    },
+    "16491490640ec52d4f": {
+      "type": "health-section",
+      "settings": {
+        "section_bg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/scene-background.svg?v=1649149284",
+        "section_stage": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/stage.svg?v=1649149353",
+        "curtain_left": "shopify:\/\/shop_images\/curtain-left.png",
+        "curtain_right": "shopify:\/\/shop_images\/curtain-right.png",
+        "section_heading": "<span class=\"heading-title-small\">DON’T BE FOOLED BY<\/span> THE HEALTH MASQUERADE",
+        "section_text": "There’s too much bullshit going on behind healthy looking labels and creative marketing.",
+        "section_text1": "So called ‘healthy’ products make bold claims, but at a closer look, they are full of crap. Liar liar pants on fire!",
+        "curtain_health": "shopify:\/\/shop_images\/health-before.png",
+        "curtain_health1": "shopify:\/\/shop_images\/health-after.png"
+      }
+    },
+    "1649139684634184c1": {
+      "type": "content-with-image",
+      "blocks": {
+        "61c83a94-7ac0-4950-bb46-d7a20577c351": {
+          "type": "devious_block",
+          "settings": {
+            "devious_image": "shopify:\/\/shop_images\/lifting-bar.png",
+            "devious_text": "“Bullshit Bar”"
+          }
+        },
+        "8acf143a-316b-4e8c-8090-7e8c9c53fa58": {
+          "type": "devious_block",
+          "settings": {
+            "devious_image": "shopify:\/\/shop_images\/smoothie.png",
+            "devious_text": "“Shady Shakesson”"
+          }
+        },
+        "cc75afd6-1384-438a-b9fb-566bc4d24c08": {
+          "type": "devious_block",
+          "settings": {
+            "devious_image": "shopify:\/\/shop_images\/meditating-soda.png",
+            "devious_text": "“Devious Drink”"
+          }
+        },
+        "89bd5ad1-773c-44a9-a302-cb180dfa579d": {
+          "type": "devious_block",
+          "settings": {
+            "devious_image": "shopify:\/\/shop_images\/pudding.png",
+            "devious_text": "“Pesky Pudding”"
+          }
+        }
+      },
+      "block_order": [
+        "61c83a94-7ac0-4950-bb46-d7a20577c351",
+        "8acf143a-316b-4e8c-8090-7e8c9c53fa58",
+        "cc75afd6-1384-438a-b9fb-566bc4d24c08",
+        "89bd5ad1-773c-44a9-a302-cb180dfa579d"
+      ],
+      "settings": {
+        "section_heading": ".. But friends don’t lie",
+        "section_text": "We fight for a future where store shelves are filled with real food and healthy fats, and less bullshit such as sugars, crappy carbs, junk additives and sneaky marketing",
+        "btn_link": "#",
+        "btn_text": "Read our manifesto"
+      }
+    },
+    "1649136989bccbca08": {
+      "type": "content-with-background",
+      "settings": {
+        "section_image": "shopify:\/\/shop_images\/man-playing-basketball.jpg",
+        "section_heading": "The world is a happier place when people are feeling awesome!"
+      }
     }
   },
   "order": [
     "home-hero",
-    "advantages"
+    "advantages",
+    "products-slider",
+    "testimonials",
+    "16491490640ec52d4f",
+    "1649139684634184c1",
+    "1649136989bccbca08"
   ]
 }

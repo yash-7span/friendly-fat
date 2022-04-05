@@ -1,0 +1,42 @@
+<div bind="a7e471f0-a5d0-168b-f9a7-9cd0517da404" class="section-the-world wf-section" style="background-image:url({{section.settings.section_image | img_url : 'master'}})" {% if section.settings.hide_show == 'hide'%} style="display:none" {% endif %}>
+  <div class="page-padding">
+    <div class="container-extra-large">
+      <div class="world-wrapper">
+        <div class="world-heading-wrapper">
+          <h3 option:text="home-world-heading" class="heading-large uncapitalized-text">{{section.settings.section_heading}}</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Content With Background",
+    "settings": [
+		{
+          "type": "image_picker",
+          "id": "section_image",
+          "label": "Section Background Image"
+    	},
+		{
+          "type": "text",
+          "id": "section_heading",
+          "label": "Section Title"
+    	}
+	],
+	"presets": [
+		{
+		  "name": {
+          "en": "Content With Background"
+  		}
+  	  }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

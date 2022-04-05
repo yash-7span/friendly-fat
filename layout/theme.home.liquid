@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="{{ request.locale.iso_code }}">
+<html class="no-js" lang="{{ request.locale.iso_code }}" data-wf-page="61e7aa41824d2f97955c1e9c" data-wf-site="61e7aa41824d2f42455c1e9b">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,8 +27,9 @@
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
 
+    {%comment%}
     {% render 'meta-tags' %}
-    
+    {% endcomment %}
     
     <!--  New styles    -->
     {{ 'normalize.css' |  asset_url | stylesheet_tag }}

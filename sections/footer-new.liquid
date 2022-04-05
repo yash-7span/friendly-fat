@@ -1,0 +1,156 @@
+<footer bind="fea7c617-6e28-6be1-8dfa-8ec3dfcc3419" class="footer wf-section">
+  <div class="footer-wrapper">
+    <div class="footer-form-warpper">
+      <div class="form-wrapper-footer">
+        <div class="form-header">
+          <h1 class="heading-regular text-color-cream">Let’s be friends forever!</h1>
+        </div>
+        <div class="form-block w-form">
+          <form id="wf-form-Newsletter-Form" name="wf-form-Newsletter-Form" data-name="Newsletter Form" method="get" class="footer-form">
+            <div class="form-wrapper-input"><input type="email" class="text-field w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Your email here" id="email-2" required=""></div>
+            <div class="submit-wrapper"><input type="submit" value="Join our newsletter" data-wait="Please wait..." class="submit-button w-button"></div>
+          </form>
+          <div class="w-form-done">
+            <div>Thank you! Your submission has been received!</div>
+          </div>
+          <div class="w-form-fail">
+            <div>Oops! Something went wrong while submitting the form.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-content-wrapper">
+      <div class="page-padding">
+        <div class="container-extra-large">
+          <div class="flex-content-wrapper">
+            <div class="text-link-wrapper-footer">
+              <div class="footer-text-link-wrapper margin-70">
+                <div class="footer-text-wrapper">
+                  <div class="text-link-header-wrapper">
+                    <a option:url="cookbook-url" href="#" class="heading-small text-color-cream">{{section.settings.footer_links_1_title}}</a>
+                  </div>
+                  <div class="text-link-wrapper">
+                    {%- for link in section.settings.footer_links_1.links -%}
+                    <a href="{{ link.url }}" class="text-size-regular text-color-cream">{{ link.title }}</a>
+                    {%- endfor -%}
+                  </div>
+                </div>
+              </div>
+              <div class="footer-text-link-wrapper margin-74px">
+                <div class="footer-text-wrapper">
+                  <div class="text-link-header-wrapper">
+                    <a option:url="cookbook-url" href="#" class="heading-small text-color-cream">{{section.settings.footer_links_2_title}}</a>
+                  </div>
+                  <div class="text-link-wrapper">
+                    {%- for link in section.settings.footer_links_2.links -%}
+                    <a href="{{ link.url }}" class="text-size-regular text-color-cream">{{ link.title }}</a>
+                    {%- endfor -%}
+                  </div>
+                </div>
+              </div>
+              <div class="footer-text-link-wrapper">
+                <div class="footer-text-wrapper">
+                  <div class="text-link-header-wrapper">
+                    <a option:url="cookbook-url" href="#" class="heading-small text-color-cream">{{section.settings.footer_links_3_title}}</a>
+                  </div>
+                  <div class="text-link-wrapper">
+                    {%- for link in section.settings.footer_links_3.links -%}
+                    <a href="{{ link.url }}" class="text-size-regular text-color-cream">{{ link.title }}</a>
+                    {%- endfor -%}
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-logo-main-wrapper">
+              <a href="index.html" aria-current="page" class="footer-logo-container w-inline-block w--current"><img src="{{section.settings.footer_logo}}" loading="lazy" option:url="FFC-footer-img-url" alt="" class="footer-logo"></a>
+              <div class="footer-text-link-wrapper no-margin">
+                <div class="footer-text-wrapper">
+                  {{section.settings.address}}
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-icons-wrapper">
+            <div class="footer-linkblock-images">
+              {% assign payments_blocks = section.blocks | where: 'type', 'payments' %}
+              {% for block in payments_blocks %}
+              	<div class="footer-linkblock"><img src="{{ block.settings.pay_logo | img_url: 'master' }}" loading="lazy" alt=""></div>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+{% schema %}
+  {
+    "name": "Footer",
+    "settings": [
+		{
+		"type" : "text",
+		"id": "footer_links_1_title",
+		"label": "Footer Links 1 Title",
+		"default": "Supplements"
+	   	},
+		{
+		"type" : "link_list",
+		"id": "footer_links_1",
+		"label": "Footer Links 1"
+	   },
+		{
+		"type" : "text",
+		"id": "footer_links_2_title",
+		"label": "Footer Links 2 Title",
+		"default": "Snacks"
+	   	},
+		{
+		"type" : "link_list",
+		"id": "footer_links_2",
+		"label": "Footer Links 2"
+	   },
+		{
+		"type" : "text",
+		"id": "footer_links_3_title",
+		"label": "Footer Links 3 Title",
+		"default": "Other things"
+	   	},
+		{
+		"type" : "link_list",
+		"id": "footer_links_3",
+		"label": "Footer Links 3"
+	   },
+	   {
+		"type" : "text",
+		"id": "footer_logo",
+		"label": "Footer Logo",
+		"info": "Upload logo image in the files and use the image url in the text box."
+	   },
+	  {
+		"type" : "textarea",
+		"id": "address",
+		"label": "Address"
+	   }
+	],
+	"blocks": [
+        {
+          "type": "payments",
+          "name": "Payments Logos",
+          "settings": [
+           	{
+              "type": "image_picker",
+              "id": "pay_logo",
+              "label": "Logo"
+          	}
+          ]
+		}
+	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,62 @@
+<div bind="c36824d6-9286-6498-4a8a-91206077752a" class="section-home-benefits wf-section">
+  <div class="benefits-wrapper">
+    <div class="benefits-text-wrapper">
+      {% assign advantages = section.blocks | where: 'type', 'advantages' %}
+	  {% for block in advantages %}
+      <div class="benefit-item">
+        <h3 option:text="home-benefits-nosugar" class="heading-medium">{{block.settings.title}}</h3>
+        <div class="item-wrapper">
+          <div option:textarea="home-benefits-max-carbs" class="text-size-medium text-color-cream">{{block.settings.tag}}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% if section.settings.section_image %}
+    <div class="benefits-img-wrapper"><img src="{{ section.settings.section_image | img_url: 'master' }}" loading="lazy" option:image="home-benefits-FFC-image" sizes="(max-width: 991px) 100vw, 95vw" srcset="{{ section.settings.section_image | img_url: 'master' }} 500w, {{ section.settings.section_image | img_url: 'master' }} 800w, {{ section.settings.section_image | img_url: 'master' }} 965w" alt="" class="img-full-width"></div>
+  	{% endif %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Product Advantages",
+    "settings": [
+		{
+          "type" : "image_picker",
+          "id": "section_image",
+          "label": "Section Image"
+        }
+	],
+	"blocks": [
+        {
+          "type": "advantages",
+          "name": "Advantages",
+          "settings": [
+           	{
+              "type": "text",
+              "id": "title",
+              "label": "Title"
+          	},
+			{
+              "type": "text",
+              "id": "tag",
+              "label": "Tag"
+          	}
+          ]
+		}
+	],
+	"presets": [
+      {
+        "name": {
+        "en": "Product Advantages"
+		  }
+	  }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

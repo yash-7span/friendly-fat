@@ -4,10 +4,50 @@
     "home-hero": {
       "type": "home-hero",
       "settings": {
+        "section_title": "FUEL YOUR MISSION",
+        "section_tagline": "Snacks and supplements made with real ingredients. No sugar, no bullshit.",
+        "btn_title": "Shop Now",
+        "btn_link": "#",
+        "section_image": "shopify:\/\/shop_images\/topbg1b-new.png"
+      }
+    },
+    "advantages": {
+      "type": "advantages",
+      "blocks": {
+        "53a3a296-8fe4-4bc0-b82a-a71206bfaea7": {
+          "type": "advantages",
+          "settings": {
+            "title": "NO SUGAR & LOW CARB",
+            "tag": "Max 5g carbs per serving"
+          }
+        },
+        "3520095a-7e87-4014-8361-0ff6f7ccdcbf": {
+          "type": "advantages",
+          "settings": {
+            "title": "100% NATURAL INGREDIENTS",
+            "tag": "No additives or junk fillers"
+          }
+        },
+        "0b8659a9-0e11-42d0-bd81-bdd435698e1c": {
+          "type": "advantages",
+          "settings": {
+            "title": "HEALTHY<br>FATS",
+            "tag": "Nutrient rich & delicious"
+          }
+        }
+      },
+      "block_order": [
+        "53a3a296-8fe4-4bc0-b82a-a71206bfaea7",
+        "3520095a-7e87-4014-8361-0ff6f7ccdcbf",
+        "0b8659a9-0e11-42d0-bd81-bdd435698e1c"
+      ],
+      "settings": {
+        "section_image": "shopify:\/\/shop_images\/beach-coconut-delicious-322483-1.jpg"
       }
     }
   },
   "order": [
-    "home-hero"
+    "home-hero",
+    "advantages"
   ]
 }

@@ -1,0 +1,189 @@
+{
+  "layout": "theme.product",
+  "sections": {
+    "product-cover": {
+      "type": "product-cover",
+      "blocks": {
+        "a490dbd8-64a5-436f-bcd2-796245985e43": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-1.png",
+            "features_text": "100 % natural"
+          }
+        },
+        "fe4a15d0-5d3c-4a9e-a3cc-89892451ee84": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-2.png",
+            "features_text": "Keto friendly"
+          }
+        },
+        "6d2283a4-ecb8-4340-a5d7-2b2775f308de": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-3.png",
+            "features_text": "Vegan"
+          }
+        },
+        "a0fd7991-f288-4ba9-bf7b-077e2724798b": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-4.png",
+            "features_text": "Gluten free"
+          }
+        },
+        "0618db0d-e78f-4b8c-bca4-5872fa2e1e13": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-5.png",
+            "features_text": "Dairy free"
+          }
+        },
+        "7914bf7d-b182-4d21-a32d-76bfbad2b8ab": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-6.png",
+            "features_text": "No sugar"
+          }
+        }
+      },
+      "block_order": [
+        "a490dbd8-64a5-436f-bcd2-796245985e43",
+        "fe4a15d0-5d3c-4a9e-a3cc-89892451ee84",
+        "6d2283a4-ecb8-4340-a5d7-2b2775f308de",
+        "a0fd7991-f288-4ba9-bf7b-077e2724798b",
+        "0618db0d-e78f-4b8c-bca4-5872fa2e1e13",
+        "7914bf7d-b182-4d21-a32d-76bfbad2b8ab"
+      ],
+      "settings": {
+      }
+    },
+    "1649246199abda83bd": {
+      "type": "ingredients",
+      "settings": {
+        "section_bg": "shopify:\/\/shop_images\/roughedges.png",
+        "section_heading": "WHAT'S INSIDE",
+        "section_title": "MCT-oil from coconut",
+        "section_dec": "Acacia Fiber helps you ooze awesomeness on a daily basis.",
+        "section_arrow": "shopify:\/\/shop_images\/Polygon-1.png",
+        "section_title1": "Acacia fiber",
+        "section_dec1": "Acacia Fiber helps you ooze awesomeness on a daily basis."
+      }
+    },
+    "164924851544a442e1": {
+      "type": "product-advantages",
+      "blocks": {
+        "40d8761a-246c-4e9a-82c7-50e701030c50": {
+          "type": "advantages_block",
+          "settings": {
+            "advantages_title": "Fuels your brain",
+            "advantages_text": "MCT provides instant energy and focus when you need to get shit done!"
+          }
+        },
+        "18e12e96-bb6e-41da-9045-b008ba4a4bd1": {
+          "type": "advantages_block",
+          "settings": {
+            "advantages_title": "Long lasting energy",
+            "advantages_text": "MCT is instantly converted to energy and because its a fat it lasts longer than carbs."
+          }
+        },
+        "8749c033-ffab-4195-96c6-adc1a599b172": {
+          "type": "advantages_block",
+          "settings": {
+            "advantages_title": "Supports weightloss",
+            "advantages_text": "MCT increases satiety and fatburn and help reduce cravings between meals."
+          }
+        },
+        "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8": {
+          "type": "advantages_block",
+          "settings": {
+            "advantages_title": "Keeps blood sugar stable",
+            "advantages_text": "Get the most out of your day without energy crashes or hunger pangs."
+          }
+        }
+      },
+      "block_order": [
+        "40d8761a-246c-4e9a-82c7-50e701030c50",
+        "18e12e96-bb6e-41da-9045-b008ba4a4bd1",
+        "8749c033-ffab-4195-96c6-adc1a599b172",
+        "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8"
+      ],
+      "settings": {
+        "section_bg": "shopify:\/\/shop_images\/mct-birds.jpg"
+      }
+    },
+    "16492508185ee8a919": {
+      "type": "product-benefits",
+      "blocks": {
+        "6a275c2b-7dfb-4b74-8d0c-726fac219065": {
+          "type": "benifits_left",
+          "settings": {
+            "benifits_text": "100% natural energy",
+            "benifits_subtext": "Only MCT-oil and acacia fiber. That's it. No fillers or junk additives."
+          }
+        },
+        "ad226b0c-205f-4856-8190-28e642770ce1": {
+          "type": "benifits_left",
+          "settings": {
+            "benifits_text": "Gut healthy fibers",
+            "benifits_subtext": "Acacia fiber is a natural prebiotic fiber that feeds our friendly gut bacteria."
+          }
+        },
+        "e263665d-80ea-476e-97bc-40b5bbaafc60": {
+          "type": "benifits_right",
+          "settings": {
+            "benifits_text": "C8 MCT-oil from coconut",
+            "benifits_subtext": "C8 is the holy grail of MCT’s. We extract it from coconut, no palm oil in sight."
+          }
+        },
+        "50d26c46-aa58-4d89-a102-962af35781b0": {
+          "type": "benifits_right",
+          "settings": {
+            "benifits_text": "Dissolves easy",
+            "benifits_subtext": "Makes the coffee creamy and smooth without the need of a mixer"
+          }
+        }
+      },
+      "block_order": [
+        "6a275c2b-7dfb-4b74-8d0c-726fac219065",
+        "ad226b0c-205f-4856-8190-28e642770ce1",
+        "e263665d-80ea-476e-97bc-40b5bbaafc60",
+        "50d26c46-aa58-4d89-a102-962af35781b0"
+      ],
+      "settings": {
+        "section_heading": "BENEFITS",
+        "section_image": "shopify:\/\/shop_images\/Benefits-mct-powder-image.png",
+        "section_bg": "shopify:\/\/shop_images\/roughedges.png"
+      }
+    },
+    "1649255280f1e480cb": {
+      "type": "product-about",
+      "settings": {
+        "section_image": "shopify:\/\/shop_images\/about-product.png",
+        "section_text": "MCT stands for Medium Chain Triglycerides which are fatty acids derived mainly from coconut oil. MCT’s are shorter in length than most other fats and can therefore take a shortcut in the body and instantly be used as powerful energy."
+      }
+    },
+    "1649255761b8483492": {
+      "type": "why-use",
+      "settings": {
+        "section_heading": "WHY SHOULD I USE IT?",
+        "section_waves": "shopify:\/\/shop_images\/waves.png"
+      }
+    },
+    "16493080030e67300f": {
+      "type": "user-guide",
+      "settings": {
+        "section_heading": "HOW TO USE IT?"
+      }
+    }
+  },
+  "order": [
+    "product-cover",
+    "1649246199abda83bd",
+    "164924851544a442e1",
+    "16492508185ee8a919",
+    "1649255280f1e480cb",
+    "1649255761b8483492",
+    "16493080030e67300f"
+  ]
+}

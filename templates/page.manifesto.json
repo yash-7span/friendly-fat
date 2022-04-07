@@ -1,0 +1,89 @@
+{
+  "layout": "theme.home",
+  "sections": {
+    "about-hero": {
+      "type": "about-hero",
+      "settings": {
+        "section_title": "ON A MISSION TO UNLOCK HUMAN SUPERPOWERS",
+        "section_text": "The problem is that most on-the-go foods contain way too much sugar, crappy carbs and artificial ingredients. More importantly, they contain no or very small amounts of healthy fats, delivering a poor nutritional product that won’t elevate your performance in any way, but more likely it will degrade our performance. Even the supposed to be “healthy” food is often filled with junk additives and has very low nutritional value. <br><br>We made it our mission to fuel people who want to perform at their highest level, both physically and mentally during long and busy days with clean snacks and supplements. Because we believe the world is a happier place when people have energy and health to create the life they dream of living."
+      }
+    },
+    "1649234885a37e1626": {
+      "type": "about-content",
+      "blocks": {
+        "ad4becca-f7f9-463d-be88-5e0d4421e397": {
+          "type": "about_block",
+          "settings": {
+            "about_title": "No sugar. No bullshit",
+            "about_text": "There’s too much bullshit going on behind healthy looking labels and creative marketing. We fight for a future where store shelves are filled with real food and healthy fats, and less bullshit such as sugars, crappy carbs, empty calories and artificial additives."
+          }
+        },
+        "bdba9b3d-b05c-41f5-9c20-148846712200": {
+          "type": "about_block",
+          "settings": {
+            "about_title": "NO COMPROMISES",
+            "about_text": "There are many ways to sneak in doubtful ingredients without you having a clue. If we can't make a product without the smallest sneaky ingredient, we don't do it. Even if we could mask the crap with a healthy looking label and make a lot of money of it, we don't. Because, friends don’t lie."
+          }
+        },
+        "d0ec9e8d-a28d-403b-895a-26a176601076": {
+          "type": "about_block",
+          "settings": {
+            "about_title": "WE ARE WHAT WE EAT",
+            "about_text": "Cliche, but true. How you feel and perform is always a result of what you are fueling your body with. Like a flower needs nutritious soil to fully bloom, we need natural and nutritious foods to unlock our full potential as humans. That’s just the law of nature."
+          }
+        },
+        "277184ca-efe1-4938-8a5d-3e3209aadfe1": {
+          "type": "about_block",
+          "settings": {
+            "about_title": "FAT IS OUR BEST FRIEND",
+            "about_text": "Fat has had a bad rep for way too long. The truth is, fat is a superior source of essential nutrients and is necessary for our bodies to function optimally. Fat also makes you feel satisfied and energized for longer. In other words, fat is our best friend for enhanced performance, weight management and overall wellbeing."
+          }
+        },
+        "6be8fdd5-c1c9-48c4-9dd2-b5a7d75ea1b0": {
+          "type": "about_block",
+          "settings": {
+            "about_title": "WE COUNT NUTRIENTS, NOT CALORIES",
+            "about_text": "Counting calories and “low fat” products belongs to the 90's, right? They are just false guidelines to healthy eating. For us, health is about getting the energy and nutrients our body needs to thrive, not just about avoiding calories. We’d rather eat 500 calories of real and delicious food than 300 calories of some low calorie  chemical shit storm that creates chaos in our bodies."
+          }
+        },
+        "19b62f93-7bb6-4ea3-8127-5dc151d13abb": {
+          "type": "about_block",
+          "settings": {
+            "about_title": "",
+            "about_text": "<div class=\"image-wrapper\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/barbell-icon.png?v=1649236320\" loading=\"lazy\" bind=\"bce8070c-e470-9b31-7b7b-b2b1b0611088\" alt=\"\" class=\"barbell-image\">\n  <div class=\"smudge-container\">\n    <div class=\"smudge-flex-vertical\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Smudge.png?v=1649236320\" loading=\"lazy\" bind=\"24fac5d7-87ef-839a-327f-fcc2d228eb36\" alt=\"\" class=\"smudge-image\">\n      <div class=\"smudge-arrowimage-wrapper\">\n        <p bind=\"f7ed3398-6bcf-c768-4072-e5d51b8d6c8c\" class=\"text-size-medium\">We believe the world is a happier place when people are feeling awesome!<\/p>\n      <\/div>\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/arrow_1.svg?v=1649236320\" loading=\"lazy\" bind=\"859dd52d-ee99-e3cc-89c6-9a50c46351c5\" alt=\"\" class=\"arrow-image\">\n    <\/div>\n  <\/div>\n<\/div>"
+          }
+        },
+        "eb5d9fab-3ead-4305-9ed5-a480c6101e6a": {
+          "type": "about_block",
+          "settings": {
+            "about_title": "NATURAL FOOD BEFORE TRENDY DIETS",
+            "about_text": "Keto, vegan, paleo or whatever. We believe anyone can thrive on a diet including fat, carbs and all kinds of protein. What matters the most is the quality of the food you eat and the micro nutrients in them. So the most important question when choosing a diet is: \"will I be able to serve my body with the essential vitamins and minerals that it needs while following it?\" If it not, it’s not a healthy diet for you no matter what trendy name it's called."
+          }
+        },
+        "99792a59-2dc0-4454-9f66-df90cd8c8481": {
+          "type": "about_block",
+          "settings": {
+            "about_title": "INSPIRE POSITIVE CHANGE",
+            "about_text": "We aim to lead a positive change towards a healthier food system. We hope to inspire people and businesses around us to be better as well and together we can create a chain reaction of positive change in the world, towards better health and happiness."
+          }
+        }
+      },
+      "block_order": [
+        "ad4becca-f7f9-463d-be88-5e0d4421e397",
+        "bdba9b3d-b05c-41f5-9c20-148846712200",
+        "d0ec9e8d-a28d-403b-895a-26a176601076",
+        "277184ca-efe1-4938-8a5d-3e3209aadfe1",
+        "6be8fdd5-c1c9-48c4-9dd2-b5a7d75ea1b0",
+        "19b62f93-7bb6-4ea3-8127-5dc151d13abb",
+        "eb5d9fab-3ead-4305-9ed5-a480c6101e6a",
+        "99792a59-2dc0-4454-9f66-df90cd8c8481"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "about-hero",
+    "1649234885a37e1626"
+  ]
+}

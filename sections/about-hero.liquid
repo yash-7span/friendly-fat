@@ -1,0 +1,43 @@
+<div class="section-on-a-mission wf-section">
+  <div class="page-padding">
+    <div class="container-large">
+      <div class="on-a-mission-paragraph">
+        <h1 class="heading-large left-align">{{section.settings.section_title}}</h1>
+      </div>
+      <div class="on-a-mission-paragraph">
+        <p class="text-size-medium text-color-cream">{{section.settings.section_text}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "About Hero",
+    "settings": [
+		{
+          "type": "text",
+          "id": "section_title",
+          "label": "Section Title"
+    	},
+		{
+          "type": "textarea",
+          "id": "section_text",
+          "label": "Section Text"
+    	}
+	],
+	"presets": [
+		{
+		  "name": {
+          "en": "About Hero"
+  		}
+  	  }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

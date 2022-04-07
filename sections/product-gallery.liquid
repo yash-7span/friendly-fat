@@ -1,0 +1,45 @@
+<div class="section-row-images wf-section">
+  <div class="image-flex-wrapper">
+    {% assign gallery = section.blocks | where: 'type', 'gallery' %}
+    {% for block in gallery %}
+    <div class="image-row-warpper ">
+      <img loading="lazy" bind="a4f45f8e-96db-cb68-f5a1-517e91b4733d" src="{{ block.settings.product_image | img_url: 'master' }}" alt="" class="img-full-width first-img">
+    </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Product Gallery",
+    "settings": [
+		
+	],
+	"blocks": [
+      {
+        "type": "gallery",
+        "name": "Gallery",
+        "settings": [            
+          {
+            "type": "image_picker",
+            "id": "product_image",
+            "label": "Product Gallery Image"
+          }
+        ]
+      }
+    ],
+	"presets": [
+		{
+		  "name": {
+          "en": "Product Gallery "
+  		}
+  	  }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

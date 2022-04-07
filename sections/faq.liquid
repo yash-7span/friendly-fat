@@ -1,0 +1,81 @@
+<div class="section-dropdonws wf-section">
+  <div class="page-padding">
+    <div class="container-large">
+      <div class="faq-heading-wrapper">
+        <h3 class="heading-large">{{section.settings.section_heading}}</h3>
+      </div>
+      <div class="faq-wrapper">
+        <div class="faqs-cms-wrapper">
+          {% assign faq = section.blocks | where: 'type', 'faq' %}
+          {% for block in faq %}
+          <div class="faqs-dropdown-wrapper">
+            <div data-hover="false" data-delay="0" class="faq_dropdown w-dropdown">
+              <div class="faq_toggle w-dropdown-toggle">
+                <div bind="bbe738f0-2ed6-add3-b11f-4e89bea2906c" class="faq_question first">{{ block.settings.section_title }}</div>
+                <div bind="bbe738f0-2ed6-add3-b11f-4e89bea2906d" class="faq_icon w-embed">
+                  <svg width="13" height="22" viewbox="0 0 13 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M2 2L11 11L2 20" stroke="url(#paint0_linear_26_527)" stroke-width="4" stroke-linejoin="round"></path>
+                    <defs>
+                      <lineargradient id="paint0_linear_26_527" x1="11.5743" y1="5.71086" x2="-0.107907" y2="10.731" gradientunits="userSpaceOnUse">
+                        <stop stop-color="dark brown"></stop>
+                        <stop offset="1" stop-color="drak brown"></stop>
+                      </lineargradient>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+              <div class="faq_dropdown-list w-dropdown-list">
+                <p class="faq_answer">{{ block.settings.section_text }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Faq Section",
+    "settings": [
+		{
+          "type": "text",
+          "id": "section_heading",
+          "label": "Section Heading"
+    	}
+	],
+	"blocks": [
+        {
+          "type": "faq",
+          "name": "Faq",
+          "settings": [           
+            {
+              "type": "text",
+              "id": "section_title",
+              "label": "Faq Question"
+            },
+			{
+              "type": "textarea",
+              "id": "section_text",
+              "label": "Faq Answer"
+            }
+          ]
+        }
+	],
+	"presets": [
+		{
+		  "name": {
+          "en": "Faq Section"
+  		}
+  	  }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

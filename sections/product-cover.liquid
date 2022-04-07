@@ -5,52 +5,73 @@
       <div class="hero-section-wrapper">
         <div class="hero-content-flex">
           <div class="_3-circle-image-wrapper">
-            <div class="circle-image-wrapper">
-              <img html:attribute="src|{{ product.metafields.accentuate.sectioncircleimageone }};alt|{{ product.metafields.accentuate.sectioncircleimgalt }}" loading="lazy" bind="3a6135b0-6fd4-4a74-cd2a-fb38dc235e0c" src="images/bottle.png" alt="" class="circle-image"></div>
-            <div class="circle-image-wrapper">
-              <img html:attribute="src|{{ product.metafields.accentuate.sectioncircleimagetwo }};alt|{{ product.metafields.accentuate.sectioncircleimgalttwo }}" loading="lazy" bind="0c6233c5-8526-7dfb-5ff4-a7470f8deca5" src="images/cpack.png" alt="" class="circle-image"></div>
-            <div class="circle-image-wrapper">
-              <img html:attribute="src|{{ product.metafields.accentuate.sectioncircleimagethree }};alt|{{ product.metafields.accentuate.sectioncircleimgaltthree }}" loading="lazy" bind="1e9796b3-ba57-f1ad-c79f-d047254b1ee3" src="images/cpack2.png" alt="" class="circle-image"></div>
+            <div class="circle-image-wrapper"><img loading="lazy" bind="3a6135b0-6fd4-4a74-cd2a-fb38dc235e0c" src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/Rectangle_1302.jpg?v=1649325007" alt="" class="circle-image"></div>
+            <div class="circle-image-wrapper"><img loading="lazy" bind="0c6233c5-8526-7dfb-5ff4-a7470f8deca5" src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/Water_bottle_push_up_get_shit_done_1.jpg?v=1649325007" alt="" class="circle-image"></div>
+            <div class="circle-image-wrapper"><img loading="lazy" bind="1e9796b3-ba57-f1ad-c79f-d047254b1ee3" src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/FFC_new_design-6_1.jpg?v=1649325006" alt="" class="circle-image"></div>
           </div>
-          <div class="hero-main-image-wrapper"><img html:attribute="src|{{ product.metafields.accentuate.sectionmainimage }};alt|{{ product.metafields.accentuate.sectionmainimagealt }}" loading="lazy" bind="2d20e309-230d-ee1d-caf1-c0fbf7e868bd" src="" product-metafield:image="product-featured-image" alt="" class="img-full-width fit-contain"></div>
+          <div class="hero-main-image-wrapper">
+            <img loading="lazy" bind="2d20e309-230d-ee1d-caf1-c0fbf7e868bd" src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/Benefits-mct-powder-image.png?v=1649251285" product-metafield:image="product-featured-image" alt="" class="img-full-width fit-contain">
+          </div>
+          {% comment %}
+          <div class="product-slider-wrap">
+            <div class="product-slide-nav _3-circle-image-wrapper">
+              {% for image in product.images %}
+              <div class="circle-image-wrapper">
+                <img src="{{image | img_url : 'master'}}" alt="" loading="lazy" bind="3a6135b0-6fd4-4a74-cd2a-fb38dc235e0c" class="circle-image">
+              </div>
+              {%endfor%}
+            </div>
+
+            {%if product.images.size > 1%}
+            <div class="product-slider hero-main-image-wrapper">
+              {% for image in product.images %}
+              <div>
+              <img src="{{image | img_url : 'master'}}" loading="lazy" bind="2d20e309-230d-ee1d-caf1-c0fbf7e868bd" product-metafield:image="product-featured-image" alt="" class="img-full-width fit-contain">
+              </div>
+                {%endfor%}
+            </div>
+            {%endif%}
+          </div>
+          {% endcomment %}
+          
           <div class="hero-main-products-details-wrapper">
             <div class="content-wrapper-products">
-              <h1 item="title" liquid:object="product.metafields.accentuate.sectionproductname" bind="bfc6db84-9535-365f-f92d-6cdc203cca68" class="heading-medium">MCT-Powder Unflavored</h1>
+              <h1 item="title" liquid:object="product.metafields.accentuate.sectionproductname" bind="bfc6db84-9535-365f-f92d-6cdc203cca68" class="heading-medium">{{ product.title | escape }}</h1>
+              
               <div class="review-wrapper">
                 <div class="star-wrapper"><img src="images/star_icon_yellow.png" loading="lazy" width="40" html:attribute="src|{{ product.metafields.accentuate.sectioniconsstar }};alt|{{ product.metafields.accentuate.sectionstaronealt }}" alt="" class="star first"><img src="images/star_icon_yellow.png" loading="lazy" html:attribute="src|{{ product.metafields.accentuate.sectioniconsstar }};alt|{{ product.metafields.accentuate.sectionstaronealt }}" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" html:attribute="src|{{ product.metafields.accentuate.sectioniconsstar }};alt|{{ product.metafields.accentuate.sectionstaronealt }}" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" html:attribute="src|{{ product.metafields.accentuate.sectioniconsstar }};alt|{{ product.metafields.accentuate.sectionstaronealt }}" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" html:attribute="src|{{ product.metafields.accentuate.sectioniconsstarempty }};alt|{{ product.metafields.accentuate.sectionstaremptyalt }}" alt="" class="star cc-opacity"></div>
                 <div class="review-text-warpper">
                   <div option:textarea="product-page-reviews" liquid:object="product.metafields.accentuate.sectionproductreviews" class="text-size-regular text-opacity">4.2 (37 reviews)Write a review</div>
                 </div>
               </div>
-              <a option:textarea="product-page-ingredients" liquid:object="product.metafields.accentuate.sectionproductnutritioninfo" href="#" class="text-size-medium-bold underlined">Ingredients &amp; nutritional info</a>
-              <div article-metafield:text="product-page-description" class="product-wrapper-description">
-                <div item="description" class="rtb-product w-richtext">
-                  <h4>100% C8 MCT-Powder with Acacia fiber for increased energy, safety and focus. Unflavored.</h4>
-                  <p>‍</p>
-                  <ul role="list">
-                    <li>No fillers or junk additives</li>
-                    <li>Dissolves without a mixer</li>
-                    <li>Keeps blood sugar stable. Avoid energy dips</li>
-                  </ul>
-                </div>
-                <p item="description" liquid:object="product.metafields.accentuate.sectionproductdescription" bind="ffb70b4f-2afa-6caa-3779-d9ed3a72444a" class="text-size-large-bold margin-top-small hide">100% C8 MCT-Powder with Acacia fiber for increased energy, satiety and focus. Unflavored.</p>
-              </div>
-              <p item="description" liquid:object="product.metafields.accentuate.sectionproductdescription" bind="ffb70b4f-2afa-6caa-3779-d9ed3a72444a" class="text-size-large-bold">$12 / bag</p>
+              {{ product.description }}
+              
+              
+              <p item="description" liquid:object="product.metafields.accentuate.sectionproductdescription" bind="ffb70b4f-2afa-6caa-3779-d9ed3a72444a" class="text-size-large-bold">{{ product.price | money }} / bag</p>
               <div bind="bfc6db84-9535-365f-f92d-6cdc203cca7f" class="addtocart-input products">
-                <form data-node-type="commerce-add-to-cart-form" template-bind="bfc6db84-9535-365f-f92d-6cdc203cca80" position-bind-position="prepend" bind="bfc6db84-9535-365f-f92d-6cdc203cca80" class="w-commerce-commerceaddtocartform default-state-2"><label for="quantity-9dd9ed1a1f4325b5665023740a7d1be-5" position-id="bfc6db84-9535-365f-f92d-6cdc203cca88" bind="bfc6db84-9535-365f-f92d-6cdc203cca88" class="field-label-2">Quantity</label>
-                  <div class="quanity-text-field-wrapper"><input type="number" pattern="^[0-9]+$" inputmode="numeric" id="quantity-9dd9ed1a1f4325b5665023740a7d1be4" name="commerce-add-to-cart-quantity-input" min="1" position-id="bfc6db84-9535-365f-f92d-6cdc203cca8a" bind="bfc6db84-9535-365f-f92d-6cdc203cca8a" class="w-commerce-commerceaddtocartquantityinput quantity-2" value="1">
-                    <div class="embed-arrow-left w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M17 5.88L11.2312 12L17 18.12L15.224 20L7.66667 12L15.224 4L17 5.88Z" fill="currentColor"></path>
-                      </svg></div>
-                    <div class="embed-arrow-right w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect width="24" height="24" transform="translate(0 24) rotate(-90)" fill="white"></rect>
-                      <path d="M7 18.12L12.7688 12L7 5.88L8.77598 4L16.3333 12L8.77598 20L7 18.12Z" fill="currentColor"></path>
-                      </svg></div>
+                {%- form 'product', product, id: product_form_id, class: 'form w-commerce-commerceaddtocartform default-state-2', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+                <form method="post" action="/cart/add" class="w-commerce-commerceaddtocartform default-state-2" data-node-type="commerce-add-to-cart-form" template-bind="bfc6db84-9535-365f-f92d-6cdc203cca80" position-bind-position="prepend" bind="bfc6db84-9535-365f-f92d-6cdc203cca80">
+                  <label for="quantity-9dd9ed1a1f4325b5665023740a7d1be-5" position-id="bfc6db84-9535-365f-f92d-6cdc203cca88" bind="bfc6db84-9535-365f-f92d-6cdc203cca88" class="field-label-2">Quantity</label>
+                  <div class="quanity-text-field-wrapper">
+                    <input min="1" type="number" id="quantity" name="quantity" value="1" pattern="^[0-9]+$" inputmode="numeric" position-id="bfc6db84-9535-365f-f92d-6cdc203cca8a" bind="bfc6db84-9535-365f-f92d-6cdc203cca8a" class="w-commerce-commerceaddtocartquantityinput quantity-2"/>
+                    <div class="embed-arrow-left w-embed">
+                      <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M17 5.88L11.2312 12L17 18.12L15.224 20L7.66667 12L15.224 4L17 5.88Z" fill="currentColor"></path>
+                      </svg>
+                    </div>
+                    <div class="embed-arrow-right w-embed">
+                      <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="24" height="24" transform="translate(0 24) rotate(-90)" fill="white"></rect>
+                        <path d="M7 18.12L12.7688 12L7 5.88L8.77598 4L16.3333 12L8.77598 20L7 18.12Z" fill="currentColor"></path>
+                      </svg>
+                    </div>
                     <div class="quantity-label mobile">Qty</div>
                     <div class="quantity-label">Quantity</div>
-                  </div><input type="submit" position-id="bfc6db84-9535-365f-f92d-6cdc203cca8b" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." value="Add to cart" class="w-commerce-commerceaddtocartbutton add-to-cart-button product">
-                  <a href="checkout.html" data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" class="w-commerce-commercebuynowbutton buy-now-button-2">Buy now</a>
+                  </div>
+                  <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                  <input type="submit" position-id="bfc6db84-9535-365f-f92d-6cdc203cca8b" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." value="Add to cart" class="w-commerce-commerceaddtocartbutton add-to-cart-button product" />
                 </form>
+                {%- endform -%}
                 <div bind="bfc6db84-9535-365f-f92d-6cdc203cca8d" style="display:none" class="w-commerce-commerceaddtocartoutofstock">
                   <div>This product is out of stock.</div>
                 </div>
@@ -59,7 +80,11 @@
                 </div>
               </div>
             </div>
-            <div class="stamp-wrapper"><img src="images/stamp2.svg" loading="lazy" html:attribute="src|{{ product.metafields.accentuate.sectionstampimg }};alt|{{ product.metafields.accentuate.sectionstampalt }}" width="159" option:image="product-stamp-img" alt="" class="stamp"></div>
+            {% if section.settings.show_bedge == true %}
+            <div class="stamp-wrapper">
+              <img src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/tffcstamp.png?v=1649340823" loading="lazy" width="159" option:image="product-stamp-img" alt="" class="stamp">
+            </div>
+            {% endif %}
           </div>
         </div>
       </div>
@@ -87,7 +112,11 @@
     "name": "Product Cover",
 	"max_blocks": 6,
     "settings": [
-
+		{
+          "type": "checkbox",
+          "id": "show_bedge",
+          "label": "Show Bedge"
+        }
 	],
 	"blocks": [
       {

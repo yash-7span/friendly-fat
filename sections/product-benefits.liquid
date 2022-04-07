@@ -1,0 +1,107 @@
+<div class="section-benefits wf-section">
+  <div class="page-padding">
+    <div class="container-large">
+      <div class="benefits-content-main-wrapper">
+        <div class="benefits-heading-wrapper margin-top-big">
+          <h3 class="heading-large">{{section.settings.section_heading}}</h3>
+        </div>
+        <div class="benefits-main-content-wrapper sticky">
+          <div class="benefits-leftside-wrapper">
+            {% assign benifits_left = section.blocks | where: 'type', 'benifits_left' %}
+	      	{% for block in benifits_left %}
+            <div data-w-id="bcad9014-a1cd-d0f3-fe97-328543cfa3be" style="opacity:0" class="benefits-wrapper-text">
+              <h3 class="heading-regular">{{ block.settings.benifits_text }}</h3>
+              <div class="text-size-medium">{{ block.settings.benifits_subtext }}</div>
+            </div>
+            {% endfor %}
+          </div>
+          <div class="benefits-image-wrapper">
+            <div class="benefits-mainimage-wrapper">
+              <img src="{{ section.settings.section_image | img_url: 'master' }}" loading="lazy" bind="f9f2d258-b05c-622f-4761-25e641c180de" width="223" alt="" class="benefits-image">
+            </div>
+          </div>
+          <div class="benefits-rigthside-wrapper">
+            {% assign benifits_right = section.blocks | where: 'type', 'benifits_right' %}
+	      	{% for block in benifits_right %}
+            <div data-w-id="23c75848-d1ee-2d9d-99ce-ec93cd54a99b" style="opacity:0" class="benefits-wrapper-text max-width-22">
+              <h3 class="heading-regular">{{ block.settings.benifits_text }}</h3>
+              <div class="text-size-medium">{{ block.settings.benifits_subtext }}</div>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="{{ section.settings.section_bg | img_url: 'master' }}" loading="lazy" sizes="100vw" srcset="{{ section.settings.section_bg | img_url: 'master' }} 500w, {{ section.settings.section_bg | img_url: 'master' }} 1440w" alt="" class="lower-roughedges">
+</div>
+
+{% schema %}
+  {
+    "name": "Benefits Section",
+    "settings": [
+		{
+          "type": "text",
+          "id": "section_heading",
+          "label": "Section Heading"
+    	},
+		{
+          "type": "image_picker",
+          "id": "section_image",
+          "label": "Benefits Image"	
+    	},
+		{
+          "type": "image_picker",
+          "id": "section_bg",
+          "label": "Section Background Roughedges"	
+    	}
+	],
+	"blocks": [
+      {
+        "type": "benifits_left",
+        "name": "Benifits Left",
+        "settings": [            
+          {
+            "type": "text",
+            "id": "benifits_text",
+            "label": "Benifits Title"
+          },
+		  {
+            "type": "textarea",
+            "id": "benifits_subtext",
+            "label": "Benifits Text"
+          }
+        ]
+      },
+      {
+        "type": "benifits_right",
+        "name": "Benifits Right",
+        "settings": [            
+          {
+            "type": "text",
+            "id": "benifits_text",
+            "label": "Benifits Title"
+          },
+		  {
+            "type": "textarea",
+            "id": "benifits_subtext",
+            "label": "Benifits Text"
+          }
+        ]
+      }
+    ],
+	"presets": [
+      {
+        "name": {
+        "en": "Benefits Section"
+		  }
+	  }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

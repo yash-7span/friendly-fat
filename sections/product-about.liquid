@@ -1,0 +1,43 @@
+<div class="section-whatis-mct wf-section">
+  <div class="page-padding">
+    <div class="container-extra-large">
+      <div class="what-is-mct-wrapper">
+        <img src="{{ section.settings.section_image | img_url: 'master' }}" loading="lazy" alt="" class="what-is-mct-img">
+        <div class="what-is-mct-text-wrapper">
+          <p class="text-size-medium">{{section.settings.section_text}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Product About Section",
+    "settings": [
+		{
+          "type": "image_picker",
+          "id": "section_image",
+          "label": "Section Image"	
+    	},
+		{
+          "type": "textarea",
+          "id": "section_text",
+          "label": "Section Text"
+    	}
+	],
+	"presets": [
+      {
+        "name": { 
+        "en": "Product About Section"
+		  }
+	  }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

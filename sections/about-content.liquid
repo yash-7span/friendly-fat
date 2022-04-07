@@ -1,0 +1,59 @@
+<div class="section-no-sugar wf-section">
+  <div class="page-padding">
+    <div class="container-large">
+      <div class="nosugar-cms-wrapper">
+        {% assign about_block = section.blocks | where: 'type', 'about_block' %}
+        {% for block in about_block %}
+        <div class="cms-item">
+          <div class="max-width-425">
+            {% if block.settings.about_title != '' %}
+            <h3 bind="d7d8ea11-edd5-c405-14b9-cfa8bad3c916" class="heading-medium capitalized text-color-cream">{{ block.settings.about_title }}</h3>
+            {% endif %}
+            <p bind="89456dff-865a-892f-95de-32a8148760c4" class="text-size-medium text-color-cream">{{ block.settings.about_text }}</p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "About Content",
+    "settings": [
+	
+	],
+	"blocks": [
+        {
+          "type": "about_block",
+          "name": "About Block",
+          "settings": [           
+            {
+              "type": "text",
+              "id": "about_title",
+              "label": "About Title"
+            },
+			{
+              "type": "textarea",
+              "id": "about_text",
+              "label": "About Text"
+            }
+          ]
+        }
+	],
+	"presets": [
+		{
+		  "name": {
+          "en": "About Content"
+  		}
+  	  }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

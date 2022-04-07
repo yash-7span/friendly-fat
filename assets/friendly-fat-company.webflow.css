@@ -2879,7 +2879,7 @@ figcaption {
 .heading-large {
   font-family: Kaarna, sans-serif;
   font-size: 5.56em;
-  line-height: 1.2;
+  line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -4992,7 +4992,7 @@ figcaption {
   right: 0%;
   bottom: 0%;
   z-index: 1;
-  display: -webkit-box;
+  display: -webkit-box; 
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -5698,7 +5698,7 @@ figcaption {
 
 .section-on-a-mission {
   height: auto;
-  padding-top: 23.7em;
+  padding-top: 20em;
   background-color: #5b2f2f;
 }
 
@@ -5797,7 +5797,7 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   margin-top: -10px;
-  padding: 8.07em 0px 7.86em;
+  padding: 0em 0px 7.86em;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -5920,7 +5920,7 @@ figcaption {
   position: static;
   display: block;
   width: 45%;
-  margin-bottom: 2.78em;
+  margin-top: 2.78em;
   text-align: left;
 }
 
@@ -7657,7 +7657,10 @@ figcaption {
   -ms-transform: none;
   transform: none;
 }
-
+.slider-img-wrapper img{
+  height: 190px;
+  object-fit: contain;
+}
 .product-price {
   margin-top: 0.555em;
   color: #fdf5e5;
@@ -8266,6 +8269,8 @@ figcaption {
   position: relative;
   z-index: 10;
   color: #fdf5e5;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .image-wrapper-benefits {
@@ -8794,6 +8799,7 @@ figcaption {
   position: relative;
   margin-top: 2.08em;
   cursor: pointer;
+  padding-right: 25px;
 }
 
 .stamp {
@@ -9799,7 +9805,7 @@ figcaption {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  background-image: url('../images/mctbgbirds2.png');
+  background-image: url('https://cdn.shopify.com/s/files/1/0062/3981/3716/files/mctbgbirds2.jpg?v=1649249639');
   background-position: 100% 50%;
   background-size: contain;
   background-repeat: repeat-x;
@@ -10045,7 +10051,7 @@ figcaption {
 
 .scene-before-characters-wrapper {
   position: relative;
-  bottom: -2em;
+  bottom: 40px;
   z-index: 50;
   display: -webkit-box;
   display: -webkit-flex;
@@ -10152,7 +10158,6 @@ figcaption {
 
 .scene-after-text-wrapper {
   z-index: 20;
-  display: none;
   width: 100%;
   max-width: 44.5em;
   color: #fdf5e5;
@@ -10177,9 +10182,8 @@ figcaption {
 
 .scene-after-characters-wrapper {
   position: relative;
-  bottom: 1em;
+  bottom: 40px;
   z-index: 50;
-  display: none;
   width: 100%;
   margin-left: 1.39em;
   -webkit-box-pack: center;
@@ -10190,6 +10194,32 @@ figcaption {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+
+.scene-after-characters-wrapper,
+.scene-after-text-wrapper{
+  display: none;
+  margin: 0;
+}
+
+.scene-before-characters-wrapper
+.scene-before-text-wrapper{
+  display: block;
+  margin: 0;
+}
+
+.scene-content-wrapper:hover .scene-after-characters-wrapper,
+.scene-content-wrapper:hover .scene-after-text-wrapper{
+  display: block
+}
+.scene-content-wrapper:hover .scene-before-characters-wrapper,
+.scene-content-wrapper:hover .scene-before-text-wrapper{
+  display: none
+}
+.character-img{
+  max-width: 75%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .bar-unmasked-wrapper {
@@ -10490,7 +10520,7 @@ figcaption {
 
 .scene-character-wrapper {
   position: relative;
-  bottom: -3.47em;
+  bottom: 0;
   z-index: 5;
   display: -webkit-box;
   display: -webkit-flex;
@@ -10505,6 +10535,7 @@ figcaption {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+  cursor: pointer;
 }
 
 .character-trigger {
@@ -13388,7 +13419,7 @@ figcaption {
 
   .section-no-sugar {
     margin-top: 0px;
-    padding-top: 3.97em;
+    padding-top: 0em;
     padding-bottom: 2em;
   }
 
@@ -14716,6 +14747,30 @@ figcaption {
   .nav-bg.show-tablet {
     display: none;
   }
+  .scene-after-text-wrapper .heading-large,
+  .scene-before-text-wrapper .heading-large{
+  	text-align: center;
+  }
+  .character-img{
+  	max-width: 98%;
+  }
+  .character-wrapper{
+    max-width: 10em;
+    text-align: center;
+  }
+  .slider-characters{
+  	margin-right: auto;
+  }
+  .hide-mobile{
+  	display: none
+  }
+  .cms-item .image-wrapper{
+  	margin-bottom: 0;
+  }
+  .scene-before-characters-wrapper,
+  .scene-after-characters-wrapper{
+    bottom: 90px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -14958,7 +15013,7 @@ figcaption {
   }
 
   .heading-small {
-    font-size: 0.83em;
+    font-size: 1.5em;
   }
 
   .heading-small.text-size26 {
@@ -15163,7 +15218,7 @@ figcaption {
   }
 
   .form-wrapper-input {
-    margin-right: 0px;
+    margin-right: 10px;
     padding-top: 0em;
     text-align: left;
   }
@@ -15868,7 +15923,7 @@ figcaption {
   }
 
   .world-wrapper {
-    min-height: 30em;
+    min-height: 20em;
   }
 
   .try-lion-s-mane-wrapper {
@@ -16230,6 +16285,38 @@ figcaption {
   .embed-arrow-left {
     margin-right: 4.1em;
   }
+  .image-cover-top{
+  	display: none;
+  }
+  .footer-form{
+  	width: auto;
+    justify-content: space-between;
+  }
+  .submit-button{
+  	width: 140px;
+  }
+  .flex-content-wrapper{
+  	margin-bottom: 0;
+  }
+  .footer-icons-wrapper{
+  	padding-bottom: 0;
+  }
+  .section-the-world{
+  	height: 20em;
+  }
+  .world-wrapper{
+  	padding-top: 10em;
+    padding-bottom: 10em;
+  }
+  .cms-item:first-child {
+    margin-top: 0;
+  }
+  .stage-wrapper{
+  	height: 28em;
+  }
+  .scene-text-wrapper{
+  	top: 5em;
+  }
 }
 
 #w-node-_0bc77b0d-ebb4-b79a-25d7-ac0bbcc35c3b-c95c1ea1 {
@@ -16249,4 +16336,8 @@ figcaption {
   font-weight: 700;
   font-style: normal;
   font-display: swap;
+}
+
+.manifesto .nav-link{
+  color: #fff !important
 }

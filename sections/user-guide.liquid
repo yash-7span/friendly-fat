@@ -1,0 +1,107 @@
+<div class="section-how-to-use-it wf-section">
+  <div class="page-padding">
+    <div class="container-large">
+      <div class="howto-content-wrapper">
+        <div class="heading-content-wrapper">
+          <div class="heading-mixin-wrapper">
+            <div class="heading-wrapper-use">
+              <h3 class="heading-large font-size-72px">{{section.settings.section_heading}}</h3>
+            </div>
+          </div>
+          <div class="mix-in-wrapper">
+            <div class="cms-how-to-use-it">
+              <div bind="a20f9771-4228-8418-7eae-be9673f901fa" class="heading-small spacing first-item">Mix in your coffee or tea..</div>
+              <div class="image-howto-wrapper">
+                <img loading="lazy" bind="a20f9771-4228-8418-7eae-be9673f901fc" src="images/Coffee-110x100.svg" alt="" class="slide-image first-icon"></div>
+            </div>
+            <div class="cms-how-to-use-it">
+              <div bind="0f7f0afe-c543-635a-93e6-6377915ab99c" class="heading-small spacing second-item">..or smoothies</div>
+              <div class="image-howto-wrapper smootie-margin">
+                <img loading="lazy" bind="0f7f0afe-c543-635a-93e6-6377915ab99f" src="images/Smoothie-110x110.svg" alt="" class="slide-image second-icon"></div>
+            </div>
+            <div class="cms-how-to-use-it">
+              <div bind="0fc29644-3a04-b174-8cb9-dbd0d5d32756" class="heading-small spacing third-item">...or add power to other snacks.</div>
+              <div class="image-howto-wrapper">
+                <img loading="lazy" bind="0fc29644-3a04-b174-8cb9-dbd0d5d32759" src="images/Snakcs--110x110.svg" alt="" class="slide-image third-icon"></div>
+            </div>
+            <div class="how-touse-textcontent">
+              <div class="text-size-large product">Mix in your coffee or tea..</div>
+              <div class="image-howto-wrapper"><img src="images/Coffee.png" loading="lazy" alt="" class="slide-image"></div>
+            </div>
+            <div class="how-touse-textcontent">
+              <div class="text-size-large product">..or smoothies</div>
+              <div class="image-howto-wrapper"><img src="images/Smoothie.png" loading="lazy" alt="" class="slide-image"></div>
+            </div>
+            <div class="how-touse-textcontent">
+              <div class="text-size-large product">...or add power to other snacks.</div>
+              <div class="image-howto-wrapper"><img src="images/Snacks.png" loading="lazy" alt="" class="slide-image"></div>
+            </div>
+          </div>
+          <div class="mix-in-wrapper mobile-visible">
+            <div data-delay="4000" data-animation="slide" class="howtouseit-slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true" fs-cmsslider-element="slider">
+              <div class="howtouseit-mask w-slider-mask">
+                <div class="how-slide-item w-slide">
+                  <div class="how-touse-textcontent">
+                    <div class="text-wrapper-item">
+                      <div class="heading-small">Mix in your coffee or tea..</div>
+                      <img loading="lazy" src="images/Coffee.png" alt="" class="slider-image">
+                    </div>
+                  </div>
+                </div>
+                <div class="how-slide-item w-slide">
+                  <div class="how-touse-textcontent">
+                    <div class="text-wrapper-item">
+                      <div class="heading-small">..or smoothies</div>
+                      <img loading="lazy" src="images/Smoothie.png" alt="" class="slider-image">
+                    </div>
+                  </div>
+                </div>
+                <div class="how-slide-item w-slide">
+                  <div class="how-touse-textcontent">
+                    <div class="text-wrapper-item">
+                      <div class="heading-small">...or add power to other snacks.</div>
+                      <img src="images/Snacks.png" loading="lazy" alt="" class="slider-image">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="left-arrow w-slider-arrow-left">
+                <div class="arrow-icons-hide w-icon-slider-left"></div>
+              </div>
+              <div class="w-slider-arrow-right">
+                <div class="arrow-icons-hide w-icon-slider-right"></div>
+              </div>
+              <div class="how-touse-slide-nav w-slider-nav w-round"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "User Guide",
+    "settings": [
+		{
+          "type": "text",
+          "id": "section_heading",
+          "label": "Section Heading"
+    	}
+	],
+	"presets": [
+      {
+        "name": { 
+        "en": "User Guide"
+		  }
+	  }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,101 @@
+<div class="section-why-should wf-section">
+  <div class="page-padding">
+    <div class="container-large">
+      <div class="why-should-wrapper">
+        <div class="why-shoud-header-wrapper">
+          <div class="why-should-heading-wrapper">
+            <h3 option:text="products-why-heading" class="heading-large align-center">{{section.settings.section_heading}}</h3>
+          </div>
+        </div>
+        {% assign advantages_block = section.blocks | where: 'type', 'advantages_block' %}
+        {% for block in advantages_block %}
+        <div class="why-should-wrappers">
+          <div class="image-why-wrapper">
+            <img loading="lazy" bind="4105ec9d-9082-e435-c240-14f3ac549d55" src="images/done.png" alt="" class="character-icons"></div>
+          <div class="why-content-wrapper padding-left">
+            <div class="why-heading-wrapper">
+              <h3 bind="4105ec9d-9082-e435-c240-14f3ac549d51" class="heading-medium text-color-cream">{{block.settings.title}}</h3>
+            </div>
+            <div class="why-text-wrapper">
+              <p bind="4105ec9d-9082-e435-c240-14f3ac549d53" class="text-size-medium text-color-cream">{{block.settings.subtitle}}</p>
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+        
+        <div class="why-should-wrappers reverse">
+          <div class="image-why-wrapper"><img loading="lazy" bind="ab84d4b8-f5ba-df90-ade6-4298748b86e8" src="images/Boxing.png" alt="" class="character-icons">
+            <div class="smudge-wrapper"><img src="images/Group2.svg" loading="lazy" alt="" class="arrow-on-smudge"><img src="images/Smudge.png" loading="lazy" alt="" class="smudge">
+              <div class="text-orange-box">
+                <h3 class="heading-small">Upgrade your morning routine</h3>
+              </div>
+            </div>
+          </div>
+          <div class="why-content-wrapper align-left">
+            <div class="why-heading-wrapper">
+              <h3 bind="ab84d4b8-f5ba-df90-ade6-4298748b86eb" class="heading-medium text-color-cream">To avoid that afternoon crash.</h3>
+            </div>
+            <div class="why-text-wrapper">
+              <p bind="ab84d4b8-f5ba-df90-ade6-4298748b86ee" class="text-size-medium text-color-cream">Feeling tired in the afternoons? MCT gives you instant energy and keeps your blood sugar stable. No more yawning in the office!</p>
+            </div>
+          </div>
+        </div>
+        <div class="why-should-wrappers">
+          <div class="image-why-wrapper">
+            <img loading="lazy" bind="ac21e0de-d65c-2c6a-7a12-8dfe016eda4d" src="images/Boxing.png" alt="" class="character-icons"></div>
+          <div class="why-content-wrapper padding-left">
+            <div class="why-heading-wrapper">
+              <h3 bind="ac21e0de-d65c-2c6a-7a12-8dfe016eda50" class="heading-medium text-color-cream">To reduce cravings between meals.</h3>
+            </div>
+            <div class="why-text-wrapper">
+              <p bind="ac21e0de-d65c-2c6a-7a12-8dfe016eda53" class="text-size-medium text-color-cream">Never feeling really satisfied? MCT makes you feeling full for longer and help you resist the constant urge to snack!</p>
+            </div>
+          </div>
+        </div>
+        <div class="why-should-wrappers reverse">
+          <div class="image-why-wrapper">
+            <img loading="lazy" bind="2d968300-77e9-49dc-56a2-87486b80d15f" src="images/barbell-icon.png" alt="" class="character-icons"></div>
+          <div class="why-content-wrapper align-left">
+            <div class="why-heading-wrapper">
+              <h3 bind="2d968300-77e9-49dc-56a2-87486b80d162" class="heading-medium text-color-cream">To boost your workout performance.</h3>
+            </div>
+            <div class="why-text-wrapper">
+              <p bind="2d968300-77e9-49dc-56a2-87486b80d165" class="text-size-medium text-color-cream">MCT gives you instant but also long lasting energy to crush it at the gym! It’s especially powerful for endurance sports like running and cycling.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><img src="{{ section.settings.section_waves | img_url: 'master' }}" loading="lazy" sizes="100vw" srcset="{{ section.settings.section_waves | img_url: 'master' }} 500w, {{ section.settings.section_waves | img_url: 'master' }} 800w, {{ section.settings.section_waves | img_url: 'master' }} 1440w" alt="" class="vector-wave-why-should">
+</div>
+
+{% schema %}
+  {
+    "name": "Why Use Section",
+    "settings": [
+		{
+          "type": "text",
+          "id": "section_heading",
+          "label": "Section Heading"
+    	},
+		{
+          "type": "image_picker",
+          "id": "section_waves",
+          "label": "Section Waves Image"	
+    	}
+	],
+	"presets": [
+      {
+        "name": { 
+        "en": "Why Use Section"
+		  }
+	  }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

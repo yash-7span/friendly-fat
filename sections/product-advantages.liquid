@@ -1,0 +1,71 @@
+<div class="section-fuels-yourbrain cc-relative wf-section">
+  <div class="bg-image-wrapper">
+    <div class="bg-wrapper">
+      <img src="{{ section.settings.section_bg | img_url: 'master' }}" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1432px) 98vw, 1404px" srcset="{{ section.settings.section_bg | img_url: 'master' }} 500w, {{ section.settings.section_bg | img_url: 'master' }} 800w, {{ section.settings.section_bg | img_url: 'master' }} 1080w, {{ section.settings.section_bg | img_url: 'master' }} 1404w" alt="" class="bg-image-lionsmane">
+      <div class="birds-eye-view-repeater"></div>
+    </div>
+  </div>
+  <div class="container-medium">
+    <div class="page-padding">
+      <div class="fuel-content-wrapper">
+        <div class="fuels-text-content-wrapper cc-relative">
+          {% assign advantages_block = section.blocks | where: 'type', 'advantages_block' %}
+          {% for block in advantages_block %}
+          <div class="fuels-text-wrapper">
+            <div class="heading-wrapper">
+              <h1 option:text="fuel-overlay-heading" class="heading-medium text-color-cream">{{ block.settings.advantages_title }}</h1>
+            </div>
+            <div class="subheading-wrapper">
+              <p option:textarea="fuel-overlay-text" class="text-size-medium">{{ block.settings.advantages_text }}</p>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Advantages Section",
+    "settings": [
+		{
+          "type": "image_picker",
+          "id": "section_bg",
+          "label": "Section Background Image"	
+    	}
+	],
+	"blocks": [
+      {
+        "type": "advantages_block",
+        "name": "Advantages Block",
+        "settings": [           
+          {
+            "type": "text",
+            "id": "advantages_title",
+            "label": "Advantages Title"
+          },
+	      {
+            "type": "textarea",
+            "id": "advantages_text",
+            "label": "Advantages Text"
+          }
+      	]
+      }
+	],
+	"presets": [
+      {
+        "name": {
+        "en": "Advantages Section"
+		  }
+	  }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,52 @@
+<div class="section-compare wf-section">
+  <div class="page-padding">
+    <div class="container-large">
+      <div class="compare">
+        <div class="compare__content">
+          <h2 class="heading-large">{{section.settings.section_heading}}</h2>
+          <p class="text-size-medium">{{section.settings.section_text}}</p>
+        </div>
+        <div class="compare__img">
+          <img src="{{ section.settings.section_image | img_url: 'master' }}" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Compare Section",
+    "settings": [
+		{
+          "type": "text",
+          "id": "section_heading",
+          "label": "Section Heading"
+    	},
+		{
+          "type": "textarea",
+          "id": "section_text",
+          "label": "Section Text"
+    	},
+		{
+          "type": "image_picker",
+          "id": "section_image",
+          "label": "Benefits Image"	
+    	}
+	],
+	"presets": [
+      {
+        "name": {
+        "en": "Compare Section"
+		  }
+	  }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

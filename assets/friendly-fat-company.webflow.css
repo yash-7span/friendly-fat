@@ -6414,12 +6414,13 @@ figcaption {
 }
 .hero-product__media {
   width: 100%;
-  max-width: 50%;
+  max-width: 45%;
   padding-right: 40px;
 }
 .hero-product__content {
+  position: relative;
   width: 100%;
-  max-width: 50%;
+  max-width: 55%;
   padding-left: 40px;
 }
 .product-slider-wrap {
@@ -6551,7 +6552,7 @@ figcaption {
   width: 100%;
   height: 60px;
   margin-bottom: 0px;
-  padding-right: 1.94em;
+  padding-right: 2.7em;
   padding-left: 1.11em;
   border-width: 2px;
   border-color: #ff8432;
@@ -10696,6 +10697,24 @@ figcaption {
   background-color: #34cbac;
 }
 
+.section-compare{
+  padding: 80px 0;
+  background: #FFEDDF;
+}
+.compare__content{
+  text-align: center
+}
+.compare__content p{
+  max-width: 600px;
+  margin: 30px auto 0;
+}
+.compare__img img{
+  padding-top: 50px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
 @media screen and (max-width: 991px) {
   body {
     font-size: 1rem;
@@ -12468,12 +12487,21 @@ figcaption {
   .hero-product__media{
   	width: 100%;
     max-width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
     padding-right: 0
   }
   .hero-product__content{
   	width: 100%;
     max-width: 100%;
     padding-left: 0
+  }
+  .product-slide img{
+    object-fit: cover;
+    height: 410px;
+  }
+  .product-slide-nav._3-circle-image-wrapper.slick-vertical.slick-initialized.slick-slider {
+    margin-left: 0;
   }
 }
 
@@ -13705,7 +13733,7 @@ figcaption {
 
   .quantity-2 {
     padding-top: 0px;
-    padding-right: 2.5em;
+    padding-right: 3.4em;
     padding-bottom: 0px;
     opacity: 1;
     font-size: 1.2em;
@@ -14874,6 +14902,17 @@ figcaption {
   .how-touse-slide-nav .w-slider-dot{
     border: 2px solid #372C23;
   }
+  .product-slider-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .compare__content .heading-large{
+  	text-align: center
+  }
+  .section-compare{
+  	padding: 60px 0;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -15604,7 +15643,7 @@ figcaption {
     justify-content: flex-start;
   }
 
-  ._3-circle-image-wrapper {
+/*   ._3-circle-image-wrapper {
     width: 40px;
     margin-right: 2em;
     -webkit-box-pack: start;
@@ -15617,7 +15656,7 @@ figcaption {
     width: 70%;
     margin-right: 0em;
     margin-left: 0em;
-  }
+  } */
 
   .review-wrapper {
     -webkit-box-orient: vertical;
@@ -15635,7 +15674,7 @@ figcaption {
     height: 45px;
     margin-bottom: auto;
     padding-top: 0px;
-    padding-right: 1.6em;
+    padding-right: 2.3em;
     padding-bottom: 0px;
   }
 
@@ -15980,9 +16019,9 @@ figcaption {
     text-align: center;
   }
 
-  .circle-image {
+/*   .circle-image {
     max-width: 3em;
-  }
+  } */
 
   .benefits-rigthside-wrapper {
     width: auto;
@@ -16441,6 +16480,30 @@ figcaption {
   }
   .why-shoud-header-wrapper {
     margin-bottom: 2em;
+  }
+  .product-slide-nav {
+    max-width: 75px;
+    margin: 0 auto;
+  }
+  .hero-main-image-wrapper {
+    width: 14em;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .product-slide-nav .circle-image-wrapper{
+  	height: 60px!important;
+    width: 60px!important;
+  }
+  .product-slide-nav._3-circle-image-wrapper.slick-vertical.slick-initialized.slick-slider{
+  	margin-right: 0;
+  }
+  .product-slide img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
+  .hero-main-products-details-wrapper {
+    padding-top: 20px;
   }
 }
 

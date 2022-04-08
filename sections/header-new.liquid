@@ -35,7 +35,7 @@
         <div data-node-type="commerce-cart-wrapper" bind="582a0a3e-3849-ea1b-e8d1-a87a20433e71" data-open-product="" data-wf-cart-type="modal" data-wf-cart-query="" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper">
           <a href="#" data-node-type="commerce-cart-open-link" bind="582a0a3e-3849-ea1b-e8d1-a87a20433e72" class="w-commerce-commercecartopenlink cart-button w-inline-block"><img src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/shopping-cart-white.svg?v=1649081272" loading="lazy" alt="" class="cart-icon-white">
             <img src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/shopping-cart-icon_d841bf76-c935-4aed-ad75-fe3a13bcd327.svg?v=1649163025" loading="lazy" alt="" class="cart-icon-brown">
-            <div bind="582a0a3e-3849-ea1b-e8d1-a87a20433e74" class="w-commerce-commercecartopenlinkcount cart-quantity">0</div>
+            <div bind="582a0a3e-3849-ea1b-e8d1-a87a20433e74" class="w-commerce-commercecartopenlinkcount cart-quantity">{% if cart.item_count > 1 %}{{cart.item_count}}{% else %}0{% endif %}</div>
           </a>
           <div data-node-type="commerce-cart-container-wrapper" bind="582a0a3e-3849-ea1b-e8d1-a87a20433e75" style="display:none" class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-modal">
             <div data-node-type="commerce-cart-container" bind="582a0a3e-3849-ea1b-e8d1-a87a20433e76" class="w-commerce-commercecartcontainer">
@@ -98,9 +98,6 @@
                     </div>
                   </div>
                 </form>
-                <div bind="582a0a3e-3849-ea1b-e8d1-a87a20433e9d" class="w-commerce-commercecartemptystate">
-                  <div>No items found.</div>
-                </div>
                 <div bind="582a0a3e-3849-ea1b-e8d1-a87a20433ea0" style="display:none" data-node-type="commerce-cart-error" class="w-commerce-commercecarterrorstate">
                   <div bind="582a0a3e-3849-ea1b-e8d1-a87a20433ea1" class="w-cart-error-msg" data-w-cart-quantity-error="Product is not available in this quantity." data-w-cart-general-error="Something went wrong when adding this item to the cart." data-w-cart-checkout-error="Checkout is disabled on this site." data-w-cart-cart_order_min-error="The order minimum was not met. Add more items to your cart to continue." data-w-cart-subscription_error-error="Before you purchase, please use your email invite to verify your address so we can send order updates.">Product is not available in this quantity.</div>
                 </div>

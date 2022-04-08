@@ -164,6 +164,14 @@
         "section_text": "MCT stands for Medium Chain Triglycerides which are fatty acids derived mainly from coconut oil. MCT’s are shorter in length than most other fats and can therefore take a shortcut in the body and instantly be used as powerful energy."
       }
     },
+    "1649400986aa5d34cb": {
+      "type": "compare-section",
+      "settings": {
+        "section_heading": "US VS THEM",
+        "section_text": "Most sugar free products are filled with junk, and most natural products are filled with sugar. We’ve combined the best of two worlds. Natural & sugar free.",
+        "section_image": "shopify:\/\/shop_images\/compare.png"
+      }
+    },
     "1649255761b8483492": {
       "type": "why-use",
       "blocks": {
@@ -340,6 +348,7 @@
     "164924851544a442e1",
     "16492508185ee8a919",
     "1649255280f1e480cb",
+    "1649400986aa5d34cb",
     "1649255761b8483492",
     "16493080030e67300f",
     "1649315994f16d631c",

@@ -3,38 +3,29 @@
     <div class="container-xlarge">
       
       <div class="hero-section-wrapper">
-        <div class="hero-content-flex">
-          <div class="_3-circle-image-wrapper">
-            <div class="circle-image-wrapper"><img loading="lazy" bind="3a6135b0-6fd4-4a74-cd2a-fb38dc235e0c" src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/Rectangle_1302.jpg?v=1649325007" alt="" class="circle-image"></div>
-            <div class="circle-image-wrapper"><img loading="lazy" bind="0c6233c5-8526-7dfb-5ff4-a7470f8deca5" src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/Water_bottle_push_up_get_shit_done_1.jpg?v=1649325007" alt="" class="circle-image"></div>
-            <div class="circle-image-wrapper"><img loading="lazy" bind="1e9796b3-ba57-f1ad-c79f-d047254b1ee3" src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/FFC_new_design-6_1.jpg?v=1649325006" alt="" class="circle-image"></div>
-          </div>
-          <div class="hero-main-image-wrapper">
-            <img loading="lazy" bind="2d20e309-230d-ee1d-caf1-c0fbf7e868bd" src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/Benefits-mct-powder-image.png?v=1649251285" product-metafield:image="product-featured-image" alt="" class="img-full-width fit-contain">
-          </div>
-          {% comment %}
-          <div class="product-slider-wrap">
-            <div class="product-slide-nav _3-circle-image-wrapper">
-              {% for image in product.images %}
-              <div class="circle-image-wrapper">
-                <img src="{{image | img_url : 'master'}}" alt="" loading="lazy" bind="3a6135b0-6fd4-4a74-cd2a-fb38dc235e0c" class="circle-image">
-              </div>
-              {%endfor%}
-            </div>
-
-            {%if product.images.size > 1%}
-            <div class="product-slider hero-main-image-wrapper">
-              {% for image in product.images %}
-              <div>
-              <img src="{{image | img_url : 'master'}}" loading="lazy" bind="2d20e309-230d-ee1d-caf1-c0fbf7e868bd" product-metafield:image="product-featured-image" alt="" class="img-full-width fit-contain">
-              </div>
+        <div class="hero-content-flex hero-product">
+          <div class="hero-product__media">
+            <div class="product-slider-wrap">
+              <div class="product-slide-nav _3-circle-image-wrapper">
+                {% for image in product.images %}
+                <div class="circle-image-wrapper">
+                  <img src="{{image | img_url : 'master'}}" alt="" loading="lazy" bind="3a6135b0-6fd4-4a74-cd2a-fb38dc235e0c" class="circle-image">
+                </div>
                 {%endfor%}
+              </div>
+
+              {%if product.images.size > 1%}
+              <div class="product-slider hero-main-image-wrapper">
+                {% for image in product.images %}
+                <div class="product-slide">
+                  <img src="{{image | img_url : 'master'}}" loading="lazy" bind="2d20e309-230d-ee1d-caf1-c0fbf7e868bd" alt="" class="img-full-width fit-contain">
+                </div>
+                {%endfor%}
+              </div>
+              {%endif%}
             </div>
-            {%endif%}
-          </div>
-          {% endcomment %}
-          
-          <div class="hero-main-products-details-wrapper">
+          	</div>
+          <div class="hero-main-products-details-wrapper hero-product__content">
             <div class="content-wrapper-products">
               <h1 item="title" liquid:object="product.metafields.accentuate.sectionproductname" bind="bfc6db84-9535-365f-f92d-6cdc203cca68" class="heading-medium">{{ product.title | escape }}</h1>
               

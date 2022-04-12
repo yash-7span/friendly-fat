@@ -7,7 +7,7 @@
           <div data-w-id="94d021d1-9076-45e9-86b5-77343bfecde7" data-animation-type="lottie" data-src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/menu-nav-06-ffffff-easey.json?v=1649160105" data-loop="0" data-direction="1" data-autoplay="0" data-is-ix2-target="1" data-renderer="svg" data-default-duration="2.36" data-duration="0" data-ix2-initial-state="0" class="hamburger-lottie-white"></div>
         </div>
       </div>
-      <a href="index.html" aria-current="page" class="brand show-tablet w-nav-brand w--current">
+      <a href="{{ shop.url }}/pages/home" aria-current="page" class="brand show-tablet w-nav-brand w--current">
         <div class="logo-big-wrapper">
           <div class="big-mark-wrapper"><img src="{{section.settings.logo_image}}" loading="lazy" option:image="FFC-main-logo-desktop" width="98" alt="" class="logo-brand"></div>
         </div>
@@ -19,7 +19,7 @@
          	 <a href="{{ link.url }}" class="nav-link shop">{{ link.title }}</a>
            {% endfor %}
         </div>
-        <a href="index.html" aria-current="page" class="brand hide-tablet hide-mobile w-nav-brand w--current">
+        <a href="{{ shop.url }}/pages/home" aria-current="page" class="brand hide-tablet hide-mobile w-nav-brand w--current">
           <div class="logo-big-wrapper">
             <div class="big-mark-wrapper"><img src="{{section.settings.logo_image}}" loading="lazy" option:image="FFC-main-logo-desktop" width="98" alt="" class="logo-brand"></div>
           </div>
@@ -35,7 +35,7 @@
         <div data-node-type="commerce-cart-wrapper" bind="582a0a3e-3849-ea1b-e8d1-a87a20433e71" data-open-product="" data-wf-cart-type="modal" data-wf-cart-query="" data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper">
           <a href="#" data-node-type="commerce-cart-open-link" bind="582a0a3e-3849-ea1b-e8d1-a87a20433e72" class="w-commerce-commercecartopenlink cart-button w-inline-block"><img src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/shopping-cart-white.svg?v=1649081272" loading="lazy" alt="" class="cart-icon-white">
             <img src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/shopping-cart-icon_d841bf76-c935-4aed-ad75-fe3a13bcd327.svg?v=1649163025" loading="lazy" alt="" class="cart-icon-brown">
-            <div bind="582a0a3e-3849-ea1b-e8d1-a87a20433e74" class="w-commerce-commercecartopenlinkcount cart-quantity">0</div>
+            <div bind="582a0a3e-3849-ea1b-e8d1-a87a20433e74" class="w-commerce-commercecartopenlinkcount cart-quantity">{% if cart.item_count > 1 %}{{cart.item_count}}{% else %}0{% endif %}</div>
           </a>
           <div data-node-type="commerce-cart-container-wrapper" bind="582a0a3e-3849-ea1b-e8d1-a87a20433e75" style="display:none" class="w-commerce-commercecartcontainerwrapper w-commerce-commercecartcontainerwrapper--cartType-modal">
             <div data-node-type="commerce-cart-container" bind="582a0a3e-3849-ea1b-e8d1-a87a20433e76" class="w-commerce-commercecartcontainer">
@@ -98,9 +98,6 @@
                     </div>
                   </div>
                 </form>
-                <div bind="582a0a3e-3849-ea1b-e8d1-a87a20433e9d" class="w-commerce-commercecartemptystate">
-                  <div>No items found.</div>
-                </div>
                 <div bind="582a0a3e-3849-ea1b-e8d1-a87a20433ea0" style="display:none" data-node-type="commerce-cart-error" class="w-commerce-commercecarterrorstate">
                   <div bind="582a0a3e-3849-ea1b-e8d1-a87a20433ea1" class="w-cart-error-msg" data-w-cart-quantity-error="Product is not available in this quantity." data-w-cart-general-error="Something went wrong when adding this item to the cart." data-w-cart-checkout-error="Checkout is disabled on this site." data-w-cart-cart_order_min-error="The order minimum was not met. Add more items to your cart to continue." data-w-cart-subscription_error-error="Before you purchase, please use your email invite to verify your address so we can send order updates.">Product is not available in this quantity.</div>
                 </div>

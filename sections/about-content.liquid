@@ -2,16 +2,41 @@
   <div class="page-padding">
     <div class="container-large">
       <div class="nosugar-cms-wrapper">
-        {% assign about_block = section.blocks | where: 'type', 'about_block' %}
-        {% for block in about_block %}
+        {% for block in section.blocks %}
+        {% if block.type == "about_block"%}
         <div class="cms-item">
           <div class="max-width-425">
-            {% if block.settings.about_title != '' %}
+            {% if block.settings.about_title != blank %}
             <h3 bind="d7d8ea11-edd5-c405-14b9-cfa8bad3c916" class="heading-medium capitalized text-color-cream">{{ block.settings.about_title }}</h3>
             {% endif %}
             <p bind="89456dff-865a-892f-95de-32a8148760c4" class="text-size-medium text-color-cream">{{ block.settings.about_text }}</p>
           </div>
         </div>
+        {% endif %}
+        {% if block.type == "about_block_image"%}
+        <div class="cms-item">
+          <div class="max-width-425">
+            <div class="image-wrapper">
+              {% if block.settings.content_image != blank %}
+              <img src="{{ block.settings.content_image | img_url : "master" }}" loading="lazy" bind="bce8070c-e470-9b31-7b7b-b2b1b0611088" alt="" class="barbell-image">
+              {% endif %}
+              <div class="smudge-container">
+                <div class="smudge-flex-vertical">
+                  {% if block.settings.in_circle_text != blank %}
+                  <img src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/Smudge.png?v=1649236320" loading="lazy" bind="24fac5d7-87ef-839a-327f-fcc2d228eb36" alt="" class="smudge-image">
+                  <div class="smudge-arrowimage-wrapper">
+                    <p bind="f7ed3398-6bcf-c768-4072-e5d51b8d6c8c" class="text-size-medium">{{ block.settings.in_circle_text }}</p>
+                  </div>
+                  {% endif %}
+                  {% if block.settings.show_arrow %}
+                  <img src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/arrow_1.svg?v=1649236320" loading="lazy" bind="859dd52d-ee99-e3cc-89c6-9a50c46351c5" alt="" class="arrow-image">
+                  {% endif %}
+                </div>
+              </div>
+            </div>	
+          </div>
+        </div>
+        {% endif %}
         {% endfor %}
       </div>
     </div>
@@ -38,6 +63,27 @@
               "type": "textarea",
               "id": "about_text",
               "label": "About Text"
+            }
+          ]
+        },
+		{
+          "type": "about_block_image",
+          "name": "About Block Image",
+          "settings": [           
+            {
+              "type": "image_picker",
+              "id": "content_image",
+              "label": "Add content image"
+            },
+			{
+              "type": "text",
+              "id": "in_circle_text",
+              "label": "Add text in circle"
+            },
+			{
+              "type": "checkbox",
+              "id": "show_arrow",
+              "label": "Show Arrow"
             }
           ]
         }

@@ -195,6 +195,30 @@
             dots: false,
             vertical: true,
             infinite:true,
+          
+          	responsive: [
+              {
+                breakpoint: 991,
+                settings: {
+                  slidesToShow: 4,
+                }
+              },
+              {
+                breakpoint: 479,
+                settings: {
+                  slidesToShow: 4,
+                  slidesToScroll: 1,
+                  vertical: false,
+                }
+              }
+            ]
+        });
+        let i = 1;
+        $(".qtyplus").on("click", () => {
+           $(".quantity__input").val(++i);
+        }),
+          $(".qtyminus").on("click", () => {
+           i > 1 && $(".quantity__input").val(--i);
         });
       </script>
       

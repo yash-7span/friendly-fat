@@ -24,33 +24,38 @@
               </div>
               {%endif%}
             </div>
-          	</div>
+          </div>
           <div class="hero-main-products-details-wrapper hero-product__content">
             <div class="content-wrapper-products">
               <h1 item="title" liquid:object="product.metafields.accentuate.sectionproductname" bind="bfc6db84-9535-365f-f92d-6cdc203cca68" class="heading-medium">{{ product.title | escape }}</h1>
               
               <div class="review-wrapper">
-                <div class="star-wrapper"><img src="images/star_icon_yellow.png" loading="lazy" width="40" html:attribute="src|{{ product.metafields.accentuate.sectioniconsstar }};alt|{{ product.metafields.accentuate.sectionstaronealt }}" alt="" class="star first"><img src="images/star_icon_yellow.png" loading="lazy" html:attribute="src|{{ product.metafields.accentuate.sectioniconsstar }};alt|{{ product.metafields.accentuate.sectionstaronealt }}" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" html:attribute="src|{{ product.metafields.accentuate.sectioniconsstar }};alt|{{ product.metafields.accentuate.sectionstaronealt }}" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" html:attribute="src|{{ product.metafields.accentuate.sectioniconsstar }};alt|{{ product.metafields.accentuate.sectionstaronealt }}" alt="" class="star"><img src="images/star_icon_yellow.png" loading="lazy" html:attribute="src|{{ product.metafields.accentuate.sectioniconsstarempty }};alt|{{ product.metafields.accentuate.sectionstaremptyalt }}" alt="" class="star cc-opacity"></div>
-                <div class="review-text-warpper">
-                  <div option:textarea="product-page-reviews" liquid:object="product.metafields.accentuate.sectionproductreviews" class="text-size-regular text-opacity">4.2 (37 reviews)Write a review</div>
+                {% comment %}
+                <div class="star-wrapper">
+                  <img src="images/star_icon_yellow.png" loading="lazy" width="40" alt="" class="star cc-opacity">
                 </div>
+                <div class="review-text-warpper">
+                  <div class="text-size-regular text-opacity">4.2 (37 reviews)Write a review</div>
+                </div>
+                {% endcomment %}
               </div>
               {{ product.description }}
               
               
-              <p item="description" liquid:object="product.metafields.accentuate.sectionproductdescription" bind="ffb70b4f-2afa-6caa-3779-d9ed3a72444a" class="text-size-large-bold">{{ product.price | money }} / bag</p>
+              <p item="description" bind="ffb70b4f-2afa-6caa-3779-d9ed3a72444a" class="text-size-large-bold">{{ product.price | money }} / bag</p>
               <div bind="bfc6db84-9535-365f-f92d-6cdc203cca7f" class="addtocart-input products">
                 {%- form 'product', product, id: product_form_id, class: 'form w-commerce-commerceaddtocartform default-state-2', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                 <form method="post" action="/cart/add" class="w-commerce-commerceaddtocartform default-state-2" data-node-type="commerce-add-to-cart-form" template-bind="bfc6db84-9535-365f-f92d-6cdc203cca80" position-bind-position="prepend" bind="bfc6db84-9535-365f-f92d-6cdc203cca80">
                   <label for="quantity-9dd9ed1a1f4325b5665023740a7d1be-5" position-id="bfc6db84-9535-365f-f92d-6cdc203cca88" bind="bfc6db84-9535-365f-f92d-6cdc203cca88" class="field-label-2">Quantity</label>
+                  
                   <div class="quanity-text-field-wrapper">
-                    <input min="1" type="number" id="quantity" name="quantity" value="1" pattern="^[0-9]+$" inputmode="numeric" position-id="bfc6db84-9535-365f-f92d-6cdc203cca8a" bind="bfc6db84-9535-365f-f92d-6cdc203cca8a" class="w-commerce-commerceaddtocartquantityinput quantity-2"/>
-                    <div class="embed-arrow-left w-embed">
+                    <input min="1" type="text" id="quantity" name="quantity" value="1" position-id="bfc6db84-9535-365f-f92d-6cdc203cca8a" bind="bfc6db84-9535-365f-f92d-6cdc203cca8a" class="w-commerce-commerceaddtocartquantityinput quantity-2 quantity__input"/>
+                    <div class="embed-arrow-left w-embed qtyminus">
                       <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M17 5.88L11.2312 12L17 18.12L15.224 20L7.66667 12L15.224 4L17 5.88Z" fill="currentColor"></path>
                       </svg>
                     </div>
-                    <div class="embed-arrow-right w-embed">
+                    <div class="embed-arrow-right w-embed qtyplus">
                       <svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <rect width="24" height="24" transform="translate(0 24) rotate(-90)" fill="white"></rect>
                         <path d="M7 18.12L12.7688 12L7 5.88L8.77598 4L16.3333 12L8.77598 20L7 18.12Z" fill="currentColor"></path>
@@ -59,6 +64,7 @@
                     <div class="quantity-label mobile">Qty</div>
                     <div class="quantity-label">Quantity</div>
                   </div>
+                  
                   <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
                   <input type="submit" position-id="bfc6db84-9535-365f-f92d-6cdc203cca8b" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." value="Add to cart" class="w-commerce-commerceaddtocartbutton add-to-cart-button product" />
                 </form>

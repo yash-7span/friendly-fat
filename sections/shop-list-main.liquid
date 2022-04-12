@@ -1,0 +1,123 @@
+<div class="section-products wf-section">
+  <div class="page-padding">
+    <div class="container-xlarge" >
+      <div class="dropdown-wrapper">
+        {% comment %}
+        	<div class="dropdown-wrapper-list">
+          <div data-hover="false" data-delay="0" class="w-dropdown">
+            <div class="w-dropdown-toggle">
+              <div class="w-icon-dropdown-toggle"></div>
+              <div class="text-size-medium text-opacity">All products</div>
+            </div>
+            <nav class="w-dropdown-list">
+              {% for collection in collections %}
+              <a href="{{collection.url}}" class="w-dropdown-link">{{ collection.title }}</a>
+              {% endfor %}
+            </nav>
+          </div>
+          
+          <div data-hover="false" data-delay="0" class="sort-by--container w-dropdown product-shorting">
+            <div class="w-dropdown-toggle">
+<!--               <div class="w-icon-dropdown-toggle"></div> -->
+              <div class="text-size-medium text-opacity">Sort by:</div>
+            </div>
+            
+            <select id="sort-by" class="sort-by">
+              {% for option in collection.sort_options %}
+              <option value="{{ option.value }}"{% if option.value == collection.sort_by %} selected{% endif %}>{{ option.name }}</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        {% endcomment %}
+        <div class="cms-wrapper-shop" id="ProductGridContainer">
+          <div bind="c143aa25-3b7b-8c31-e79f-fc07f10c1215" class="collection cms-list-wrapper-shop w-dyn-list">
+             <div class="loading-overlay gradient"></div>
+            <div bind="c143aa25-3b7b-8c31-e79f-fc07f10c1216" role="list" id="product-grid" class="cms-list-wrapper-grid w-dyn-items">
+              {%- for product in collection.products -%}
+              <div bind="c143aa25-3b7b-8c31-e79f-fc07f10c1217" role="listitem" class="shop-item w-dyn-item">
+                <div class="item-wrapper-shop">
+                  <a bind="1120c276-edcf-3eb2-5a70-75aa089bc614" href="{{ product.url }}" class="image-link-block w-inline-block">
+                    <img bind="09da8d9c-6802-9ea0-5c23-15f3483d6853" loading="lazy" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D" src="{{ product.featured_image | img_url : 'master' }}" alt="" class="product-image">
+                  </a>
+                </div>
+                <div class="item-wrapper-info">
+                  <div class="shop-text-wrapper">
+                    <a bind="131dd647-6df1-b5f0-b47f-5849f54d4f67" href="{{ product.url }}" class="text-size-large-bold">{{ product.title }}</a>
+                    <div class="ratings-wrapper">
+                      <div class="star-wrapper">
+                        <img src="https://uploads-ssl.webflow.com/61e7aa41824d2f42455c1e9b/61ef9ecfd2ed63658a02fa97_Star.png" loading="lazy" alt="" class="star">
+                        <img src="https://uploads-ssl.webflow.com/61e7aa41824d2f42455c1e9b/61ef9ecfd2ed63658a02fa97_Star.png" loading="lazy" alt="" class="star">
+                        <img src="https://uploads-ssl.webflow.com/61e7aa41824d2f42455c1e9b/61ef9ecfd2ed63658a02fa97_Star.png" loading="lazy" alt="" class="star">
+                        <img src="https://uploads-ssl.webflow.com/61e7aa41824d2f42455c1e9b/61ef9ecfd2ed63658a02fa97_Star.png" loading="lazy" alt="" class="star">
+                        <img src="https://uploads-ssl.webflow.com/61e7aa41824d2f42455c1e9b/61ef9f1ff28beac92a26cb4e_star%20gray.png" loading="lazy" alt="" class="transparent-star">
+                      </div>
+                      <div class="text-size-regular text-opacity">4.2 (37 reviews)</div>
+                    </div>
+                    <div class="price-btn-wrapper">
+                      <a bind="df6ee390-89b1-73ac-9ba4-4ce92a9dcd81" data-commerce-type="variation-price" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" href="#" class="text-size-medium">{{ product.price | money }}</a>
+                      <div bind="64b9b57b-865a-288d-5cc2-fad9bf1d42ed">
+                        <form action="/cart/add" data-node-type="commerce-add-to-cart-form" template-bind="64b9b57b-865a-288d-5cc2-fad9bf1d42ee" position-bind-position="prepend" bind="64b9b57b-865a-288d-5cc2-fad9bf1d42ee" data-commerce-sku-id="61efa57b750fc27ece854c9a" data-loading-text="Adding to cart..." data-commerce-product-id="61efa57af64f0f65c5c5ca96" class="w-commerce-commerceaddtocartform default-state">                        
+                          <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+                          <input min="1" type="number" id="quantity" name="quantity" value="1" hidden/>
+                          <input type="submit" position-id="64b9b57b-865a-288d-5cc2-fad9bf1d42f9" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding to cart..." value="Add to Cart" class="w-commerce-commerceaddtocartbutton add-to-cart-button">
+                          <a href="/checkout" data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" class="w-commerce-commercebuynowbutton buy-now-button w-dyn-hide">Buy now</a>
+                        </form>
+                        <div bind="64b9b57b-865a-288d-5cc2-fad9bf1d42fb" style="display:none" class="w-commerce-commerceaddtocartoutofstock">
+                          <div>This product is out of stock.</div>
+                        </div>
+                        <div bind="64b9b57b-865a-288d-5cc2-fad9bf1d42fe" data-node-type="commerce-add-to-cart-error" style="display:none" class="w-commerce-commerceaddtocarterror">
+                          <div bind="64b9b57b-865a-288d-5cc2-fad9bf1d42ff" data-node-type="commerce-add-to-cart-error" data-w-add-to-cart-quantity-error="Product is not available in this quantity." data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart." data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription." data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item." data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site." data-w-add-to-cart-select-all-options-error="Please select an option in each set.">Product is not available in this quantity.</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {% endfor %}
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <script type="text/javascript">
+  // Save existing sort parameters
+  Shopify.queryParams = {};
+  if(location.search.length) {
+    for(var aKeyValue, i = 0, aCouples = location.search.substr(1).split('&'); i < aCouples.length; i++) {
+      aKeyValue = aCouples[i].split('=');
+      if (aKeyValue.length > 1) {
+        Shopify.queryParams[decodeURIComponent(aKeyValue[0])] = decodeURIComponent(aKeyValue[1]);
+      }
+    }
+  }
+
+  // Add existing sort parameters to current URL
+  document.querySelector('.sort-by').addEventListener('change', function(e) {
+    var value = e.currentTarget.value;
+    Shopify.queryParams.sort_by = value;
+    location.search = new URLSearchParams(Shopify.queryParams).toString();
+  });
+</script> -->
+{% schema %}
+    {
+    "name": "Shop List Main",
+    "settings": [
+     
+	],
+    "presets": [
+      {
+        "name": "shop-list-main"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

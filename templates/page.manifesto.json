@@ -46,11 +46,12 @@
             "about_text": "Counting calories and “low fat” products belongs to the 90's, right? They are just false guidelines to healthy eating. For us, health is about getting the energy and nutrients our body needs to thrive, not just about avoiding calories. We’d rather eat 500 calories of real and delicious food than 300 calories of some low calorie  chemical shit storm that creates chaos in our bodies."
           }
         },
-        "19b62f93-7bb6-4ea3-8127-5dc151d13abb": {
-          "type": "about_block",
+        "e8623108-df4e-4274-9137-1e046ebf96c9": {
+          "type": "about_block_image",
           "settings": {
-            "about_title": "",
-            "about_text": "<div class=\"image-wrapper\">\n  <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/barbell-icon.png?v=1649236320\" loading=\"lazy\" bind=\"bce8070c-e470-9b31-7b7b-b2b1b0611088\" alt=\"\" class=\"barbell-image\">\n  <div class=\"smudge-container\">\n    <div class=\"smudge-flex-vertical\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Smudge.png?v=1649236320\" loading=\"lazy\" bind=\"24fac5d7-87ef-839a-327f-fcc2d228eb36\" alt=\"\" class=\"smudge-image\">\n      <div class=\"smudge-arrowimage-wrapper\">\n        <p bind=\"f7ed3398-6bcf-c768-4072-e5d51b8d6c8c\" class=\"text-size-medium\">We believe the world is a happier place when people are feeling awesome!<\/p>\n      <\/div>\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/arrow_1.svg?v=1649236320\" loading=\"lazy\" bind=\"859dd52d-ee99-e3cc-89c6-9a50c46351c5\" alt=\"\" class=\"arrow-image\">\n    <\/div>\n  <\/div>\n<\/div>"
+            "content_image": "shopify:\/\/shop_images\/barbell_icon_b824f091-cdaf-469f-907a-396d08c26acf.png",
+            "in_circle_text": "We believe the world is a happier place when people are feeling awesome!",
+            "show_arrow": true
           }
         },
         "eb5d9fab-3ead-4305-9ed5-a480c6101e6a": {
@@ -74,7 +75,7 @@
         "d0ec9e8d-a28d-403b-895a-26a176601076",
         "277184ca-efe1-4938-8a5d-3e3209aadfe1",
         "6be8fdd5-c1c9-48c4-9dd2-b5a7d75ea1b0",
-        "19b62f93-7bb6-4ea3-8127-5dc151d13abb",
+        "e8623108-df4e-4274-9137-1e046ebf96c9",
         "eb5d9fab-3ead-4305-9ed5-a480c6101e6a",
         "99792a59-2dc0-4454-9f66-df90cd8c8481"
       ],

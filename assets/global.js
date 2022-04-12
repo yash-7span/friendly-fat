@@ -899,3 +899,21 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+
+Shopify.queryParams = {};
+if(location.search.length) {
+  for(var aKeyValue, i = 0, aCouples = location.search.substr(1).split('&'); i < aCouples.length; i++) {
+    aKeyValue = aCouples[i].split('=');
+    if (aKeyValue.length > 1) {
+      Shopify.queryParams[decodeURIComponent(aKeyValue[0])] = decodeURIComponent(aKeyValue[1]);
+    }
+  }
+}
+
+// Add existing sort parameters to current URL
+document.querySelector('.sort-by').addEventListener('change', function(e) {
+  var value = e.currentTarget.value;
+  Shopify.queryParams.sort_by = value;
+  location.search = new URLSearchParams(Shopify.queryParams).toString();
+});

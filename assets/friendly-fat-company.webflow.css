@@ -4639,9 +4639,18 @@ figcaption {
 
 .text-size-large-bold {
   font-family: Nunito, sans-serif;
-  font-size: 1.81em;
+  font-size: 1.5em;
   line-height: 1.2;
   font-weight: 700;
+}
+
+.item-wrapper-info .text-size-large-bold{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 51px;
 }
 
 .text-size-large-bold.margin-top-small {
@@ -6095,7 +6104,9 @@ figcaption {
   align-items: flex-start;
   background-color: transparent;
 }
-
+.section-products{
+  overflow: hidden
+}
 .slider-product.hide {
   display: none;
 }
@@ -6180,8 +6191,31 @@ figcaption {
 .dropdown-wrapper-list {
   padding-top: 4em;
   padding-bottom: 4em;
+  display: flex;
 }
-
+.sort-by--container.product-shorting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.w-dropdown{
+  margin: 0;
+}
+.w-dropdown-list .w-dropdown-link{
+	text-transform: uppercase
+}
+.sort-by--container.sort-by .text-size-medium{
+  padding-right: 15px;
+  margin: 0;
+  font-size: 1.1em;
+}
+.product-shorting:focus,
+.product-shorting:hover,
+.product-shorting:focus-visible,
+.product-shorting{
+  border: none;
+  font-size: 1.1em;
+}
 .grid-2 {
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -6241,10 +6275,10 @@ figcaption {
   display: flex;
   margin-top: 0.56em;
   margin-bottom: 0.56em;
-  -webkit-box-pack: center;
+/*   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  justify-content: center;
+  justify-content: center; */
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -6335,6 +6369,7 @@ figcaption {
 }
 
 .cms-wrapper-shop {
+  padding-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -8125,6 +8160,11 @@ figcaption {
   max-width: 12em;
 }
 
+.image-link-block img{
+  height: 200px;
+  object-fit: cover;
+}
+
 .row-images-item {
   display: block;
   width: 100%;
@@ -9216,9 +9256,9 @@ figcaption {
   z-index: -1;
   width: 100%;
   height: 99.65em;
-  max-width: 97.5em;
-  margin-right: -4px;
-  margin-left: -4px;
+  max-width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
@@ -9860,8 +9900,6 @@ figcaption {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  height: 100%;
-  -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -11612,10 +11650,16 @@ figcaption {
   }
 
   .cms-list-wrapper-grid {
-    -ms-grid-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 530px;
+/*     -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; */
   }
-
+  .shop-item.w-dyn-item {
+    flex: 0 0 45%;
+  }
   .ratings-wrapper {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -12502,6 +12546,9 @@ figcaption {
   }
   .product-slide-nav._3-circle-image-wrapper.slick-vertical.slick-initialized.slick-slider {
     margin-left: 0;
+  }
+  .cms-wrapper-shop{
+	padding-top: 0;
   }
 }
 
@@ -13590,19 +13637,19 @@ figcaption {
     grid-template-columns: 1fr 1fr;
   }
 
-  .ratings-wrapper {
+/*   .ratings-wrapper {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-  }
+  } */
 
-  .price-btn-wrapper {
+/*   .price-btn-wrapper {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-  }
+  } */
 
   .shop-text-wrapper {
     display: -webkit-box;
@@ -14364,7 +14411,7 @@ figcaption {
   }
 
   .hover-interacion {
-    top: 70px;
+    top: 80px;
     right: -14%;
   }
 
@@ -14912,6 +14959,15 @@ figcaption {
   }
   .section-compare{
   	padding: 60px 0;
+  }
+  .whats-inside-item{
+    position: relative;  
+  }
+  .inside-content-wrapper{
+	position: unset ;
+  }
+  .image-39{
+  	display: none;
   }
 }
 
@@ -15547,13 +15603,13 @@ figcaption {
     grid-template-columns: 1fr 1fr;
   }
 
-  .price-btn-wrapper {
+/*   .price-btn-wrapper {
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
     text-align: left;
-  }
+  } */
 
   .dropdown-wrapper {
     display: block;
@@ -16481,14 +16537,34 @@ figcaption {
   .why-shoud-header-wrapper {
     margin-bottom: 2em;
   }
-  .product-slide-nav {
-    max-width: 75px;
-    margin: 0 auto;
-  }
   .hero-main-image-wrapper {
-    width: 14em;
+    width: 100%;
     margin-right: 0;
     margin-left: 0;
+  }
+  .product-slider-wrap{
+  	display: flex;
+	flex-wrap: wrap-reverse;
+  }
+  .product-slider {
+    width: 100%;
+  }
+  .product-slide-nav {
+    display: block;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+   .product-slide-nav .slick-track {
+    display: flex;
+    justify-content: space-between;
+  }
+  .circle-image-wrapper{
+  	margin: 0 0.5em;
+  }
+  .img-full-width.fit-contain {
+    -o-object-fit: contain;
+    object-fit: contain;
+    height: 350px;
   }
   .product-slide-nav .circle-image-wrapper{
   	height: 60px!important;
@@ -16503,10 +16579,38 @@ figcaption {
     width: 100%;
   }
   .hero-main-products-details-wrapper {
-    padding-top: 20px;
+    padding-top: 30px;
+  }
+  .shop-item.w-dyn-item {
+    flex: 0 0 47%;
+    margin: 0;
+    padding: 0;
+  }
+  .item-wrapper-info .text-size-large-bold{
+  	height: auto;
+  }
+  .text-size-large-bold {
+    font-size: 1em;
+  }
+  .image-link-block img{
+  	height: 160px;
+  }
+  .section-products {
+    padding-top: 5em;
+  }
+  .cms-wrapper-shop{
+  	margin-bottom: 60px;
   }
 }
-
+@media screen and (max-width: 350px) {
+  .cms-list-wrapper-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .shop-item.w-dyn-item{
+	flex: 0 0 100%;
+  }
+}
 #w-node-_0bc77b0d-ebb4-b79a-25d7-ac0bbcc35c3b-c95c1ea1 {
   -ms-grid-column: span 1;
   grid-column-start: span 1;
@@ -16528,4 +16632,24 @@ figcaption {
 
 .manifesto .nav-link{
   color: #fff !important
+}
+.form-wrapper-footer .form-block{
+  position:relative;
+}
+
+.w-form-fail,
+.w-form-done{
+  font-size: 13px;
+  position: absolute;
+  bottom: -40px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px;
+}
+.w-form-done {
+  color: green;
+}
+.w-form-fail{
+  color: red;
 }

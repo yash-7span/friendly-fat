@@ -1,0 +1,43 @@
+<div class="section-unlock-superpowers wf-section">
+  <div class="page-padding">
+    <div class="container-large">
+      <div class="superpowers-hero-heading">
+        <div class="hero-textheading-wrapper">
+          <h1 class="heading-large">
+            {{section.settings.section_title}}
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>
+  <img src="{{ section.settings.section_image | img_url: 'master' }}" loading="lazy" sizes="100vw" srcset="{{ section.settings.section_image | img_url: 'master' }} 500w, {{ section.settings.section_image | img_url: 'master' }} 800w, {{ section.settings.section_image | img_url: 'master' }} 1440w" alt="" class="svg-absolute-herosection">
+</div>
+
+{% schema %}
+  {
+    "name": "Shop Cover",
+    "settings": [
+		{
+          "type": "html",
+          "id": "section_title",
+          "label": "Section Title"
+    	},
+		{
+          "type" : "image_picker",
+          "id": "section_image",
+          "label": "Section Wave Image"
+        }
+	],
+    "presets": [
+      {
+        "name": "shop-cover"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

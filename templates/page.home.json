@@ -7,7 +7,7 @@
         "section_title": "FUEL YOUR MISSION",
         "section_tagline": "Snacks and supplements made with real ingredients. No sugar, no bullshit.",
         "btn_title": "Shop Now",
-        "btn_link": "#",
+        "btn_link": "shopify:\/\/collections\/shop-list",
         "section_image": "shopify:\/\/shop_images\/topbg1b-new.png"
       }
     },
@@ -146,7 +146,7 @@
       "settings": {
         "section_heading": ".. But friends don’t lie",
         "section_text": "We fight for a future where store shelves are filled with real food and healthy fats, and less bullshit such as sugars, crappy carbs, junk additives and sneaky marketing",
-        "btn_link": "#",
+        "btn_link": "shopify:\/\/pages\/manifesto",
         "btn_text": "Read our manifesto"
       }
     },

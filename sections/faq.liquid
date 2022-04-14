@@ -1,4 +1,4 @@
-<div class="section-dropdonws wf-section">
+<div class="section-dropdonws wf-section" style="background-color: {{ section.settings.faq_bg }}">
   <div class="page-padding">
     <div class="container-large">
       <div class="faq-heading-wrapper">
@@ -40,6 +40,11 @@
   {
     "name": "Faq Section",
     "settings": [
+		{
+          "type": "color",
+          "id": "faq_bg",
+          "label": "Section Background Color"
+        },
 		{
           "type": "text",
           "id": "section_heading",

@@ -1,0 +1,13 @@
+{
+  "layout": "theme.product",
+  "sections": {
+    "product-cover": {
+      "type": "product-cover",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "product-cover"
+  ]
+}

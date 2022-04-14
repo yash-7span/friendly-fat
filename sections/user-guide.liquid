@@ -1,7 +1,7 @@
-<div class="section-how-to-use-it wf-section">
+<div class="section-how-to-use-it wf-section" style="background-color: {{ section.settings.user_guide_bg }}">
   <div class="page-padding">
-    <div class="container-large">
-      <div class="howto-content-wrapper">
+    <div class="container-large" style="color: {{ section.settings.guide_text_color }}">
+      <div class="howto-content-wrapper {% if section.settings.inverse_color_svg %}inverse-svg-color{% endif %}">
         <div class="heading-content-wrapper">
           <div class="heading-mixin-wrapper">
             <div class="heading-wrapper-use">
@@ -54,10 +54,28 @@
     "name": "User Guide",
     "settings": [
 		{
+          "type": "color",
+          "id": "user_guide_bg",
+          "label": "Section Background Color"
+        },
+		{
+          "type": "color",
+          "id": "guide_text_color",
+          "label": "Section Text Color"
+        },
+		{
+          "type": "checkbox",
+          "id": "inverse_color_svg",
+          "label": "Inverse color SVG",
+		  "default": false
+        },
+		
+		{
           "type": "text",
           "id": "section_heading",
           "label": "Section Heading"
     	}
+		
 	],
 	"blocks": [
         {

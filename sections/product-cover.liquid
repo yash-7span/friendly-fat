@@ -1,4 +1,4 @@
-<div id="mct-powder-unflavored" class="section-mct-powder-unflavored wf-section">
+<div id="mct-powder-unflavored" class="section-mct-powder-unflavored wf-section" style="background-image:url({{section.settings.section_bg_image | img_url : 'master'}}) ; background-color: {{ section.settings.section_bg }}">
   <div class="page-padding">
     <div class="container-xlarge">
       
@@ -77,9 +77,9 @@
                 </div>
               </div>
             </div>
-            {% if section.settings.show_bedge == true %}
+            {% if section.settings.badge_image != blank %}
             <div class="stamp-wrapper">
-              <img src="https://cdn.shopify.com/s/files/1/0062/3981/3716/files/tffcstamp.png?v=1649340823" loading="lazy" width="159" option:image="product-stamp-img" alt="" class="stamp">
+              <img src="{{ section.settings.badge_image | img_url : 'master' }}" loading="lazy" width="159" option:image="product-stamp-img" alt="" class="stamp">
             </div>
             {% endif %}
           </div>
@@ -110,11 +110,21 @@
 	"max_blocks": 6,
     "settings": [
 		{
-          "type": "checkbox",
-          "id": "show_bedge",
-          "label": "Show Bedge"
-        }
-	],
+          "type": "color",
+          "id": "section_bg",
+          "label": "Section Background Color"
+        },
+		{
+          "type": "image_picker",
+          "id": "section_bg_image",
+          "label": "Section Background Image"
+        },
+		{
+          "type": "image_picker",
+          "id": "badge_image",
+          "label": "Product Badge Image"
+        }	
+],
 	"blocks": [
       {
         "type": "features_block",

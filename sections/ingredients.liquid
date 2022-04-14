@@ -9,20 +9,24 @@
             <div bind="cf3fffc2-6520-4191-da21-6469d86a3069" role="listitem" class="whats-inside-item w-dyn-item">
               <div class="what-s-inside-heading-subtext-wrapper">
                 
+                {% for block in section.blocks %}
+                {% if block.type == 'ingredients'%}
                 <div data-w-id="cf3fffc2-6520-4191-da21-6469d86a306b" class="inside-content-wrapper">
-                  <div bind="cf3fffc2-6520-4191-da21-6469d86a306c" class="heading-medium underlined">{{section.settings.section_title}},</div>
+                  <div bind="cf3fffc2-6520-4191-da21-6469d86a306c" class="heading-medium underlined">{{block.settings.section_title}},</div>
                   <div style="display:none;opacity:0;-webkit-transform:translate3d(0, -20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="hover-interacion">
                     <img src="{{ section.settings.section_arrow | img_url: 'master' }}" loading="lazy" alt="" class="image-39">
-                    <div bind="cf3fffc2-6520-4191-da21-6469d86a306f" class="text-size-medium dark-brown centered">{{section.settings.section_dec}}</div>
+                    <div bind="cf3fffc2-6520-4191-da21-6469d86a306f" class="text-size-medium dark-brown centered">{{block.settings.section_dec}}</div>
                   </div>
                 </div>
-                <div data-w-id="cf3fffc2-6520-4191-da21-6469d86a306b" class="inside-content-wrapper">
+                {% endif %}
+                {% endfor %}
+<!--                 <div data-w-id="cf3fffc2-6520-4191-da21-6469d86a306b" class="inside-content-wrapper">
                   <div bind="cf3fffc2-6520-4191-da21-6469d86a306c" class="heading-medium underlined">{{section.settings.section_title1}}</div>
                   <div style="display:none;opacity:0;-webkit-transform:translate3d(0, -20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, -20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, -20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, -20px, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="hover-interacion">
                     <img src="{{ section.settings.section_arrow | img_url: 'master' }}" loading="lazy" alt="" class="image-39">
                     <div bind="cf3fffc2-6520-4191-da21-6469d86a306f" class="text-size-medium dark-brown centered">{{section.settings.section_dec1}}</div>
                   </div>
-                </div>
+                </div> -->
                 
               </div>
             </div>
@@ -48,6 +52,17 @@
           "label": "Section Heading"
     	},
 		{
+          "type": "image_picker",
+          "id": "section_arrow",
+          "label": "Ingredients Arrow Icon"
+    	}
+	],
+	  "blocks": [
+     {
+       "name": "Add Ingredients",
+       "type": "ingredients",
+       "settings": [
+        {
           "type": "text",
           "id": "section_title",
           "label": "Ingredients Title"
@@ -56,23 +71,10 @@
           "type": "textarea",
           "id": "section_dec",
           "label": "Ingredients Text"
-    	},
-		{
-          "type": "image_picker",
-          "id": "section_arrow",
-          "label": "Ingredients Arrow Icon"
-    	},
-		{
-          "type": "text",
-          "id": "section_title1",
-          "label": "Ingredients Title"
-    	},
-		{
-          "type": "textarea",
-          "id": "section_dec1",
-          "label": "Ingredients Text"
     	}
-	],
+       ]
+     }
+   ],
 	"presets": [
       {
         "name": {

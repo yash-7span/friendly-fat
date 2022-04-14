@@ -11,8 +11,11 @@
         {% for block in product_advantages %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         <div class="why-should-wrappers {% if thecycle == 'even' %}reverse{% endif %}">
+          {% if block.settings.section_image != blank %}
           <div class="image-why-wrapper">
-            <img loading="lazy" bind="4105ec9d-9082-e435-c240-14f3ac549d55" src="{{ block.settings.section_image | img_url: 'master' }}" alt="" class="character-icons"></div>
+            <img loading="lazy" bind="4105ec9d-9082-e435-c240-14f3ac549d55" src="{{ block.settings.section_image | img_url: 'master' }}" alt="" class="character-icons">
+          </div>
+          {% endif %}
           <div class="why-content-wrapper {% if thecycle == 'even' %}align-left {% else %}padding-left {% endif %}">
             <div class="why-heading-wrapper">
               <h3 bind="4105ec9d-9082-e435-c240-14f3ac549d51" class="heading-medium text-color-cream">{{ block.settings.section_title }}</h3>
@@ -25,7 +28,10 @@
         {% endfor %}
       </div>
     </div>
-  </div><img src="{{ section.settings.section_waves | img_url: 'master' }}" loading="lazy" sizes="100vw" srcset="{{ section.settings.section_waves | img_url: 'master' }} 500w, {{ section.settings.section_waves | img_url: 'master' }} 800w, {{ section.settings.section_waves | img_url: 'master' }} 1440w" alt="" class="vector-wave-why-should">
+  </div>
+  {% if section.settings.section_waves != blank %}
+  <img src="{{ section.settings.section_waves | img_url: 'master' }}" loading="lazy" sizes="100vw" srcset="{{ section.settings.section_waves | img_url: 'master' }} 500w, {{ section.settings.section_waves | img_url: 'master' }} 800w, {{ section.settings.section_waves | img_url: 'master' }} 1440w" alt="" class="vector-wave-why-should">
+  {% endif %}
 </div>
 
 {% schema %}

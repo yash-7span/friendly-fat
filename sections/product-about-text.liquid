@@ -1,0 +1,46 @@
+<div class="section-lions wf-section">
+  <div class="page-padding">
+    <div class="container-extra-large">
+      <div class="lions">
+        <div class="lions__main">
+          <h2 class="heading-large">{{section.settings.section_title}}</h2>
+        </div>
+        <div class="lions__text">
+          <p class="text-size-medium">{{section.settings.section_text}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Product About Text",
+    "settings": [
+		{
+          "type": "text",
+          "id": "section_title",
+          "label": "Section Title"
+    	},
+		{
+          "type": "textarea",
+          "id": "section_text",
+          "label": "Section Text"
+    	}
+	],
+	"presets": [
+      {
+        "name": { 
+        "en": "Product About Text"
+		  }
+	  }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

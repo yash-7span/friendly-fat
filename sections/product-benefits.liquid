@@ -1,4 +1,4 @@
-<div class="section-benefits wf-section">
+<div class="section-benefits wf-section" style="background-color: {{ section.settings.benefits_bg }}">
   <div class="page-padding">
     <div class="container-large">
       <div class="benefits-content-main-wrapper">
@@ -33,13 +33,20 @@
       </div>
     </div>
   </div>
+  {% if section.settings.section_bg != blank %}
   <img src="{{ section.settings.section_bg | img_url: 'master' }}" loading="lazy" sizes="100vw" srcset="{{ section.settings.section_bg | img_url: 'master' }} 500w, {{ section.settings.section_bg | img_url: 'master' }} 1440w" alt="" class="lower-roughedges">
+  {% endif %}
 </div>
 
 {% schema %}
   {
     "name": "Benefits Section",
     "settings": [
+		{
+          "type": "color",
+          "id": "benefits_bg",
+          "label": "Section Background Color"
+        },
 		{
           "type": "text",
           "id": "section_heading",

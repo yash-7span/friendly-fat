@@ -1,0 +1,410 @@
+{
+  "layout": "theme.product",
+  "sections": {
+    "product-cover": {
+      "type": "product-cover",
+      "blocks": {
+        "a490dbd8-64a5-436f-bcd2-796245985e43": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-1.png",
+            "features_text": "100 % natural"
+          }
+        },
+        "fe4a15d0-5d3c-4a9e-a3cc-89892451ee84": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-2.png",
+            "features_text": "Keto friendly"
+          }
+        },
+        "6d2283a4-ecb8-4340-a5d7-2b2775f308de": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-3.png",
+            "features_text": "Vegan"
+          }
+        },
+        "a0fd7991-f288-4ba9-bf7b-077e2724798b": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-4.png",
+            "features_text": "Gluten free"
+          }
+        },
+        "0618db0d-e78f-4b8c-bca4-5872fa2e1e13": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-5.png",
+            "features_text": "Dairy free"
+          }
+        },
+        "7914bf7d-b182-4d21-a32d-76bfbad2b8ab": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-6.png",
+            "features_text": "No sugar"
+          }
+        }
+      },
+      "block_order": [
+        "a490dbd8-64a5-436f-bcd2-796245985e43",
+        "fe4a15d0-5d3c-4a9e-a3cc-89892451ee84",
+        "6d2283a4-ecb8-4340-a5d7-2b2775f308de",
+        "a0fd7991-f288-4ba9-bf7b-077e2724798b",
+        "0618db0d-e78f-4b8c-bca4-5872fa2e1e13",
+        "7914bf7d-b182-4d21-a32d-76bfbad2b8ab"
+      ],
+      "settings": {
+        "section_bg": "#f4e0dd",
+        "section_bg_image": "shopify:\/\/shop_images\/hot-chocolate-bg.png",
+        "badge_image": "shopify:\/\/shop_images\/stamp_1_95b80e85-3b78-4c6e-8bd0-b83dc0863ead.png"
+      }
+    },
+    "1649246199abda83bd": {
+      "type": "ingredients",
+      "blocks": {
+        "e63a1ecc-d16f-4d0e-a355-b5e56ec91760": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "C8 MCT-oil from coconut",
+            "section_dec": "C8 MCT-oil from coconut,C8 MCT-oil from coconut,"
+          }
+        },
+        "3229b412-2a03-4c54-bc9b-bcdb36487373": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Acacia fiber",
+            "section_dec": "Acacia fiber,Acacia fiber,Acacia fiber,Acacia fiber,"
+          }
+        },
+        "63d7ef54-03bf-4bc3-8666-206f0048175c": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Cocoa powder",
+            "section_dec": "Cocoa powder,Cocoa powder,Cocoa powder,Cocoa powder,"
+          }
+        },
+        "0d35bb62-bab8-4aa6-9e4a-2b9408d35813": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Erythritol",
+            "section_dec": "Erythritol,Erythritol,Erythritol,Erythritol,"
+          }
+        },
+        "2aed6e93-b0cd-434e-a515-a835663a63ca": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Steviol glycosides",
+            "section_dec": "Steviol glycosidesSteviol glycosidesSteviol glycosidesSteviol glycosidesSteviol glycosides"
+          }
+        }
+      },
+      "block_order": [
+        "e63a1ecc-d16f-4d0e-a355-b5e56ec91760",
+        "3229b412-2a03-4c54-bc9b-bcdb36487373",
+        "63d7ef54-03bf-4bc3-8666-206f0048175c",
+        "0d35bb62-bab8-4aa6-9e4a-2b9408d35813",
+        "2aed6e93-b0cd-434e-a515-a835663a63ca"
+      ],
+      "settings": {
+        "section_bg": "shopify:\/\/shop_images\/roughedges.png",
+        "section_heading": "INGREDIENTS",
+        "section_arrow": "shopify:\/\/shop_images\/Polygon-1.png"
+      }
+    },
+    "164924851544a442e1": {
+      "type": "product-advantages",
+      "blocks": {
+        "40d8761a-246c-4e9a-82c7-50e701030c50": {
+          "type": "advantages_block",
+          "settings": {
+            "advantages_title": "Fuels your brain",
+            "advantages_text": "MCT provides instant energy and focus when you need to get shit done!combinatin!"
+          }
+        },
+        "18e12e96-bb6e-41da-9045-b008ba4a4bd1": {
+          "type": "advantages_block",
+          "settings": {
+            "advantages_title": "Long lasting energy",
+            "advantages_text": "MCT is instantly converted to energy and because its a fat it lasts longer than carbs."
+          }
+        },
+        "8749c033-ffab-4195-96c6-adc1a599b172": {
+          "type": "advantages_block",
+          "settings": {
+            "advantages_title": "Supports weightloss",
+            "advantages_text": "MCT increases satiety and fatburn and help reduce cravings between meals."
+          }
+        },
+        "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8": {
+          "type": "advantages_block",
+          "settings": {
+            "advantages_title": "Keeps blood sugar stable",
+            "advantages_text": "This means no energy crashes or hunger pangs."
+          }
+        }
+      },
+      "block_order": [
+        "40d8761a-246c-4e9a-82c7-50e701030c50",
+        "18e12e96-bb6e-41da-9045-b008ba4a4bd1",
+        "8749c033-ffab-4195-96c6-adc1a599b172",
+        "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8"
+      ],
+      "settings": {
+        "section_bg": "shopify:\/\/shop_images\/chocolate-birds-custom.png"
+      }
+    },
+    "16492508185ee8a919": {
+      "type": "product-benefits",
+      "blocks": {
+        "6a275c2b-7dfb-4b74-8d0c-726fac219065": {
+          "type": "benifits_left",
+          "settings": {
+            "benifits_text": "100% natural. No fillers.",
+            "benifits_subtext": "You don't need junk additives or sugar to make something taste amazing!"
+          }
+        },
+        "ad226b0c-205f-4856-8190-28e642770ce1": {
+          "type": "benifits_left",
+          "settings": {
+            "benifits_text": "Gut healthy fibers",
+            "benifits_subtext": "Acacia fiber is a natural prebiotic fiber that feeds our friendly gut bacteria."
+          }
+        },
+        "e263665d-80ea-476e-97bc-40b5bbaafc60": {
+          "type": "benifits_right",
+          "settings": {
+            "benifits_text": "C8 MCT from coconut",
+            "benifits_subtext": "C8 is the holy grail of MCT’s. We extract it from coconut, no palm oil in sight."
+          }
+        },
+        "50d26c46-aa58-4d89-a102-962af35781b0": {
+          "type": "benifits_right",
+          "settings": {
+            "benifits_text": "Delicious taste",
+            "benifits_subtext": "The combination of cocoa and bourbon vanilla gives it an amazing chocolate flavor."
+          }
+        }
+      },
+      "block_order": [
+        "6a275c2b-7dfb-4b74-8d0c-726fac219065",
+        "ad226b0c-205f-4856-8190-28e642770ce1",
+        "e263665d-80ea-476e-97bc-40b5bbaafc60",
+        "50d26c46-aa58-4d89-a102-962af35781b0"
+      ],
+      "settings": {
+        "benefits_bg": "#fdf5e5",
+        "section_heading": "BENEFITS",
+        "section_image": "shopify:\/\/shop_images\/Chocolate.png"
+      }
+    },
+    "1649849750d51ef620": {
+      "type": "product-about-text",
+      "settings": {
+        "section_title": "What is MCT?",
+        "section_text": "MCT stands for Medium Chain Triglycerides which are fatty acids derived mainly from coconut oil. MCT’s are shorter in lenght than most other fats and can therefore take a shortcut in the body and instantly be used as energy."
+      }
+    },
+    "1649255761b8483492": {
+      "type": "why-use",
+      "blocks": {
+        "537022a4-d3dc-4878-8fe5-fd25dfec75a6": {
+          "type": "product_advantages",
+          "settings": {
+            "section_image": "shopify:\/\/shop_images\/Powah.png",
+            "section_title": "To boost your brain...",
+            "section_text": "...and get shit done! Wake your brain in the morning by adding MCT to your coffee or tea and get the most out of your day."
+          }
+        },
+        "70ecd7c0-a8ef-4eba-afff-daee73946765": {
+          "type": "product_advantages",
+          "settings": {
+            "section_image": "shopify:\/\/shop_images\/Boxing.png",
+            "section_title": "To avoid that afternoon crash.",
+            "section_text": "Feeling tired in the afternoons? MCT gives you instant energy and keeps your blood sugar stable. No more yawning in the office!"
+          }
+        },
+        "089cf010-dfad-4a57-a072-adbd711e8112": {
+          "type": "product_advantages",
+          "settings": {
+            "section_image": "shopify:\/\/shop_images\/Yoga.png",
+            "section_title": "To reduce cravings between meals.",
+            "section_text": "Never feeling really satisfied? MCT makes you feeling full for longer and help you resist the constant urge to snack!"
+          }
+        },
+        "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9": {
+          "type": "product_advantages",
+          "settings": {
+            "section_image": "shopify:\/\/shop_images\/1048.png",
+            "section_title": "To boost your workout performance.",
+            "section_text": "MCT is perfect to have before a workout as it gives you instant and long lasting energy to crush it at the gym. It's also powerful fuel for endurance athletes."
+          }
+        },
+        "a7665b74-4d16-40af-afea-23e91781cbbc": {
+          "type": "product_advantages",
+          "settings": {
+            "section_image": "shopify:\/\/shop_images\/Chef.png",
+            "section_title": "To satisfy your sweet tooth.",
+            "section_text": "When you’re craaving chocolate but don’t want all the sugar! Blend with whipped cream for an instant chocolate mousse. Or heat with milk, for a sugar free hot cocoa. Or use in baking!"
+          }
+        }
+      },
+      "block_order": [
+        "537022a4-d3dc-4878-8fe5-fd25dfec75a6",
+        "70ecd7c0-a8ef-4eba-afff-daee73946765",
+        "089cf010-dfad-4a57-a072-adbd711e8112",
+        "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9",
+        "a7665b74-4d16-40af-afea-23e91781cbbc"
+      ],
+      "settings": {
+        "section_heading": "WHY SHOULD I USE IT?"
+      }
+    },
+    "16493080030e67300f": {
+      "type": "user-guide",
+      "blocks": {
+        "3f81d856-0432-415f-8bb8-1a5185999f0f": {
+          "type": "user_block",
+          "settings": {
+            "section_title": "Add 2-3 scoops to water and sweep",
+            "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/glass-ico.svg?v=1649853361"
+          }
+        },
+        "bd7fb5ab-1264-4398-9171-cdf3496c4917": {
+          "type": "user_block",
+          "settings": {
+            "section_title": "Add to your coffee or tea",
+            "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/tea-ico.svg?v=1649850162"
+          }
+        },
+        "c02df784-25d6-4c3b-8409-6802121108cf": {
+          "type": "user_block",
+          "settings": {
+            "section_title": "Mix in smoothies & shakes",
+            "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/cold-coffee.svg?v=1649853613"
+          }
+        },
+        "427d4b8d-9fda-4313-9329-8e1e0e21f203": {
+          "type": "user_block",
+          "settings": {
+            "section_title": "Boost other snacks like yogurt or energy balls",
+            "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/snacks.svg?v=1649853773"
+          }
+        }
+      },
+      "block_order": [
+        "3f81d856-0432-415f-8bb8-1a5185999f0f",
+        "bd7fb5ab-1264-4398-9171-cdf3496c4917",
+        "c02df784-25d6-4c3b-8409-6802121108cf",
+        "427d4b8d-9fda-4313-9329-8e1e0e21f203"
+      ],
+      "settings": {
+        "user_guide_bg": "#372c23",
+        "guide_text_color": "#fdf5e5",
+        "inverse_color_svg": true,
+        "section_heading": "HOW TO USE"
+      }
+    },
+    "1649315994f16d631c": {
+      "type": "product-gallery",
+      "blocks": {
+        "19c6d0e4-22b5-4f50-8e13-b3322e7fa656": {
+          "type": "gallery",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/Friendly_8_of_8_1.png"
+          }
+        },
+        "7fa34d3a-a7b2-49f2-a2a6-fc2ccba2d51c": {
+          "type": "gallery",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/Rectangle_1301.png"
+          }
+        },
+        "20d34d58-4f61-4af2-bf4c-544e05dda3c8": {
+          "type": "gallery",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/FFC_new_design-25_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "19c6d0e4-22b5-4f50-8e13-b3322e7fa656",
+        "7fa34d3a-a7b2-49f2-a2a6-fc2ccba2d51c",
+        "20d34d58-4f61-4af2-bf4c-544e05dda3c8"
+      ],
+      "settings": {
+      }
+    },
+    "1649326080cf851ab4": {
+      "type": "faq",
+      "blocks": {
+        "78cf29b8-2ffc-4ec6-9c98-99eb1b55091c": {
+          "type": "faq",
+          "settings": {
+            "section_title": "What is MCT?",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        },
+        "58e23bb7-8a15-4210-abe0-ef8b8e306de0": {
+          "type": "faq",
+          "settings": {
+            "section_title": "What is the benefits of MCT?",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        },
+        "473c1fd1-9b67-49d6-9141-2e7d3f58b543": {
+          "type": "faq",
+          "settings": {
+            "section_title": "How do I use MCT Powder?",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        },
+        "e2c4f709-a7d5-4a1a-92aa-8a90c173e35b": {
+          "type": "faq",
+          "settings": {
+            "section_title": "What is Acacia fiber?",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        },
+        "58b8ad2a-7e73-4ef5-b6f1-7fd649536510": {
+          "type": "faq",
+          "settings": {
+            "section_title": "What is the difference between coconut oil and MCT?",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        },
+        "c9082315-a02b-4ad6-b316-2d4ed40be7cf": {
+          "type": "faq",
+          "settings": {
+            "section_title": "Ingredients & Nutrition facts - Unflavored",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        }
+      },
+      "block_order": [
+        "78cf29b8-2ffc-4ec6-9c98-99eb1b55091c",
+        "58e23bb7-8a15-4210-abe0-ef8b8e306de0",
+        "473c1fd1-9b67-49d6-9141-2e7d3f58b543",
+        "e2c4f709-a7d5-4a1a-92aa-8a90c173e35b",
+        "58b8ad2a-7e73-4ef5-b6f1-7fd649536510",
+        "c9082315-a02b-4ad6-b316-2d4ed40be7cf"
+      ],
+      "settings": {
+        "faq_bg": "#e9cfcc",
+        "section_heading": "FAQs"
+      }
+    }
+  },
+  "order": [
+    "product-cover",
+    "1649246199abda83bd",
+    "164924851544a442e1",
+    "16492508185ee8a919",
+    "1649849750d51ef620",
+    "1649255761b8483492",
+    "16493080030e67300f",
+    "1649315994f16d631c",
+    "1649326080cf851ab4"
+  ]
+}

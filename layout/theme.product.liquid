@@ -175,43 +175,45 @@
       <script src="{{ 'webflow.js' | asset_url }}" defer="defer"></script>
       
       <script type="text/javascript">
-        $(".product-slider").slick({
-            slidesToShow: 1,
-            arrows: false,
-            slidesToScroll: 1,
-            autoplay: false,
-            autoplaySpeed: 2000,
-            dots: false,
-            vertical: false,
-            infinite:true,
-            asNavFor: ".product-slide-nav",
-        });
-        $(".product-slide-nav").slick({
-            slidesToShow: 5,
-          	slidesToScroll: 1,
-            arrows: false,
-            asNavFor: ".product-slider",
-            focusOnSelect: true,
-            dots: false,
-            vertical: true,
-            infinite:true,
-          
-          	responsive: [
-              {
-                breakpoint: 991,
-                settings: {
-                  slidesToShow: 4,
+        $(window).on('load', function() {
+          $(".product-slider").slick({
+              slidesToShow: 1,
+              arrows: false,
+              slidesToScroll: 1,
+              autoplay: false,
+              autoplaySpeed: 2000,
+              dots: false,
+              vertical: false,
+              infinite:true,
+              asNavFor: ".product-slide-nav",
+          });
+          $(".product-slide-nav").slick({
+              slidesToShow: 5,
+              slidesToScroll: 1,
+              arrows: false,
+              asNavFor: ".product-slider",
+              focusOnSelect: true,
+              dots: false,
+              vertical: true,
+              infinite:true,
+
+              responsive: [
+                {
+                  breakpoint: 991,
+                  settings: {
+                    slidesToShow: 4,
+                  }
+                },
+                {
+                  breakpoint: 479,
+                  settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    vertical: false,
+                  }
                 }
-              },
-              {
-                breakpoint: 479,
-                settings: {
-                  slidesToShow: 4,
-                  slidesToScroll: 1,
-                  vertical: false,
-                }
-              }
-            ]
+              ]
+          });
         });
         let i = 1;
         $(".qtyplus").on("click", () => {
@@ -323,5 +325,10 @@
       {%- endif -%}
       {%endcomment%}
     </div>
+    
+    {% comment %}Super Bar snippet start{% endcomment %}
+    <div id="sabhq-root"></div>
+    <script>function superbarLoader(e,t){if(e){var a=document.createElement("script"),d=!1,n=document.getElementsByTagName("head")[0];a.onload=a.onreadystatechange=function(){d||this.readyState&&"loaded"!==this.readyState&&"complete"!==this.readyState||(d=!0,t(),a.onload=a.onreadystatechange=null,n&&a.parentNode&&n.removeChild(a))},a.setAttribute("type","text/javascript"),a.setAttribute("src",e),n.appendChild(a)}};superbarLoader("https://cdn.jsdelivr.net/gh/apphq/superbar-dist@master/superbar.js?"+(new Date).getTime(), function() {window.SUPERBAR_INIT({{ product | json }}, '{{ shop.money_format }}', '{{ product.selected_or_first_available_variant.id }}', {{ cart | json }}, "{{ template }}")})</script>
+    {% comment %}Super Bar snippet end{% endcomment %}
   </body>
 </html>

@@ -1,3 +1,4 @@
+
 /* Color custom properties */
 
 :root,
@@ -538,6 +539,9 @@ table:not([class]) th {
 @media screen and (max-width: 749px) {
   .small-hide {
     display: none !important;
+  }
+  .grid{
+    grid-column-gap: 2px;
   }
 }
 
@@ -2869,7 +2873,19 @@ details-disclosure > details {
     }
   }
 }
-
+@media screen and (max-width: 749px) {
+  .slider-mobile-gutter .grid{
+    grid-column-gap: 4px !important;
+  }
+  .slider-mobile-gutter .grid__item{
+  	padding: 0 5px;
+  }
+}
 .font-body-bold {
   font-weight: var(--font-body-weight-bold);
 }
+.cart-icon-black{
+  height: 3rem !important;
+  width: 3rem !important;
+  filter: sepia(1) saturate(5) brightness(0.2) hue-rotate(180deg);
+} 

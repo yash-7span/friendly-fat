@@ -21,7 +21,7 @@
         "6d2283a4-ecb8-4340-a5d7-2b2775f308de": {
           "type": "features_block",
           "settings": {
-            "features_image": "shopify:\/\/shop_images\/features-3.png",
+            "features_image": "shopify:\/\/shop_images\/Leafs.png",
             "features_text": "Vegan"
           }
         },
@@ -67,14 +67,14 @@
         "e63a1ecc-d16f-4d0e-a355-b5e56ec91760": {
           "type": "ingredients",
           "settings": {
-            "section_title": "C8 MCT-oil from coconut",
+            "section_title": "C8 MCT-oil from coconut,",
             "section_dec": "C8 MCT-oil from coconut,C8 MCT-oil from coconut,"
           }
         },
         "3229b412-2a03-4c54-bc9b-bcdb36487373": {
           "type": "ingredients",
           "settings": {
-            "section_title": "Acacia fiber",
+            "section_title": "Acacia fiber,",
             "section_dec": "Acacia fiber,Acacia fiber,Acacia fiber,Acacia fiber,"
           }
         },
@@ -136,6 +136,7 @@
         "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8"
       ],
       "settings": {
+        "advantage_bg_color": "#f8dac1",
         "section_bg": "shopify:\/\/shop_images\/lionsmane-birds-custom.png"
       }
     },
@@ -187,6 +188,7 @@
       "type": "product-about",
       "disabled": true,
       "settings": {
+        "mct_mobile_title": "What is MCT?",
         "section_image": "shopify:\/\/shop_images\/about-product.png",
         "section_text": "MCT stands for Medium Chain Triglycerides which are fatty acids derived mainly from coconut oil. MCT’s are shorter in length than most other fats and can therefore take a shortcut in the body and instantly be used as powerful energy."
       }
@@ -293,6 +295,8 @@
       ],
       "settings": {
         "user_guide_bg": "",
+        "guide_text_color": "",
+        "inverse_color_svg": false,
         "section_heading": "HOW TO USE"
       }
     },

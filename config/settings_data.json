@@ -122,6 +122,7 @@
           "logo_width": 90,
           "logo_position": "middle-left",
           "menu": "main-menu",
+          "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "margin_bottom": 0
@@ -187,19 +188,21 @@
         "type": "announce-bar",
         "settings": {
           "announce_text": "Try our Lion’s mane, an edible mushroom that kicks ass!",
-          "icon_image": "shopify:\/\/shop_images\/61e7aeac59dfe00969a584e1_fire-icon.png"
+          "icon_image": "shopify:\/\/shop_images\/61e7aeac59dfe00969a584e1_fire-icon.png",
+          "hide_show": "show"
         }
       },
       "header-new": {
         "type": "header-new",
         "settings": {
           "logo_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/the-friendly-fat-company-logo2x.png?v=1649077657",
-          "logo2_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Mascot.svg?v=1649077887"
+          "logo2_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/fat1.svg?v=1649920195"
         }
       },
       "footer-new": {
         "type": "footer-new",
         "settings": {
+          "newsletter_title": "Let’s be friends forever!",
           "footer_links_1_title": "Supplements",
           "footer_links_1": "footer-menu-1",
           "footer_links_2_title": "Snacks",

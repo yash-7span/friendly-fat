@@ -174,9 +174,9 @@
       
       <script type="text/javascript">
         function flipFatMan() {                                               // start function to change image
-          imageNames = ['623ae9ce8480f60e4915defe_fat1.svg', '6244149f4983707767dd5906_fat3.svg',         // put the image filenames that 
-                        '624414a0af7e411bb6884ed5_fat4.svg','6244149ec529b318618d97f3_fat5.svg',
-                        '6244149f4853242a9f4725ae_fat6.svg','6244149f81dd6dc1a6ec9010_fat7.svg']// will be used this array
+          imageNames = ['fat1.svg?v=1649920195', 'fat3.svg?v=1649920195',         // put the image filenames that 
+                        'fat4.svg?v=1649920195','fat5.svg?v=1649920195',
+                        'fat6.svg?v=1649920195','fat7.svg?v=1649920195']// will be used this array
           let currentIndex = 0                                                // setup a variable to pick an image in the array
           let currentImageName = document.getElementById("fatman").src        // pick up the currently displayed image's name
           for (let i=0; i<imageNames.length; i++) {                           // find within the array of images, the index of 
@@ -188,7 +188,7 @@
               }                                                                   //
           if (currentIndex == (imageNames.length-1)) currentIndex = 0         // pick the next image after the current one in the
           else currentIndex = currentIndex + 1                                // array of possible images
-          let imgSourcePath = 'https://uploads-ssl.webflow.com/61e7aa41824d2f42455c1e9b/'                          //
+          let imgSourcePath = 'https://cdn.shopify.com/s/files/1/0062/3981/3716/files/'                          //
           let imgPath = imgSourcePath + imageNames[currentIndex]              // set it to display it
           document.getElementById("fatman").src = imgPath                     //
         }                                                                     // end function to change image
@@ -235,6 +235,13 @@
               spaceBetween: 30
             }
           }
+        });
+        $(document).scroll(function() {
+          var lsetScrollTop = 0;
+          setInterval(function(event){
+          	var st = $(this).scrollTop();
+            console.log('scroll=>',st);
+          },100);
         });
       </script>
       <!--   End - New scripts     -->

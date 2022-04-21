@@ -18,7 +18,8 @@
       {% if section.settings.section_image %}
       <div class="hero-product-img-wrapper">
         <img src="{{ section.settings.section_image | img_url: 'master' }}" loading="eager" sizes="100vw" srcset="{{ section.settings.section_image | img_url: 'master' }} 500w, {{ section.settings.section_image | img_url: 'master' }} 800w, {{ section.settings.section_image | img_url: 'master' }} 1080w, {{ section.settings.section_image | img_url: 'master' }} 1600w, {{ section.settings.section_image | img_url: 'master' }} 1832w" alt="" class="img-full-width hide-tablet">
-        <img src="{{ section.settings.section_image | img_url: 'master' }}" loading="lazy" sizes="100vw" srcset="{{ section.settings.section_image | img_url: 'master' }} 500w, {{ section.settings.section_image | img_url: 'master' }} 800w, {{ section.settings.section_image | img_url: 'master' }} 1003w" alt="" class="img-full-width show-tablet">
+        <img src="{{ section.settings.img_tablet | img_url: 'master' }}" loading="lazy" sizes="100vw" srcset="{{ section.settings.img_tablet | img_url: 'master' }} 500w, {{ section.settings.img_tablet | img_url: 'master' }} 800w, {{ section.settings.img_tablet | img_url: 'master' }} 1003w" alt="" class="img-full-width show-tablet">
+        <img src="{{ section.settings.img_mobile | img_url: 'master' }}" loading="lazy" alt="" class="img-full-width show-mobile-portrait">
         <div class="image-cover-top"></div>
       </div>
       {% endif %}
@@ -55,7 +56,17 @@
 		{
           "type" : "image_picker",
           "id": "section_image",
-          "label": "Section Image"
+          "label": "Section Image Desktop"
+        },
+		{
+          "type" : "image_picker",
+          "id": "img_tablet",
+          "label": "Section Image Tablet"
+        },
+		{
+          "type" : "image_picker",
+          "id": "img_mobile",
+          "label": "Section Image Mobile"
         }
 	]
   }

@@ -3,11 +3,285 @@
   "sections": {
     "product-cover": {
       "type": "product-cover",
+      "blocks": {
+        "a490dbd8-64a5-436f-bcd2-796245985e43": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-1.png",
+            "features_text": "100 % natural"
+          }
+        },
+        "fe4a15d0-5d3c-4a9e-a3cc-89892451ee84": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-2.png",
+            "features_text": "Keto friendly"
+          }
+        },
+        "6d2283a4-ecb8-4340-a5d7-2b2775f308de": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/Leafs.png",
+            "features_text": "Vegan"
+          }
+        },
+        "a0fd7991-f288-4ba9-bf7b-077e2724798b": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-4.png",
+            "features_text": "Gluten free"
+          }
+        },
+        "0618db0d-e78f-4b8c-bca4-5872fa2e1e13": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-5.png",
+            "features_text": "Dairy free"
+          }
+        },
+        "7914bf7d-b182-4d21-a32d-76bfbad2b8ab": {
+          "type": "features_block",
+          "settings": {
+            "features_image": "shopify:\/\/shop_images\/features-6.png",
+            "features_text": "No sugar"
+          }
+        }
+      },
+      "block_order": [
+        "a490dbd8-64a5-436f-bcd2-796245985e43",
+        "fe4a15d0-5d3c-4a9e-a3cc-89892451ee84",
+        "6d2283a4-ecb8-4340-a5d7-2b2775f308de",
+        "a0fd7991-f288-4ba9-bf7b-077e2724798b",
+        "0618db0d-e78f-4b8c-bca4-5872fa2e1e13",
+        "7914bf7d-b182-4d21-a32d-76bfbad2b8ab"
+      ],
       "settings": {
+        "section_bg": "#ffeddf",
+        "section_bg_image": "shopify:\/\/shop_images\/Vector.png",
+        "badge_image": "shopify:\/\/shop_images\/nutbutter-stamp_1.png"
+      }
+    },
+    "1649246199abda83bd": {
+      "type": "ingredients",
+      "blocks": {
+        "7b4d64b4-60a2-4755-a96e-e7e70d6dc11d": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "C8 MCT-oil from coconut",
+            "section_dec": "C8 MCT-oil from coconutC8 MCT-oil from coconutC8 MCT-oil from coconut"
+          }
+        }
+      },
+      "block_order": [
+        "7b4d64b4-60a2-4755-a96e-e7e70d6dc11d"
+      ],
+      "settings": {
+        "section_bg": "shopify:\/\/shop_images\/roughedges.png",
+        "section_heading": "INGREDIENTS",
+        "section_arrow": "shopify:\/\/shop_images\/Polygon-1.png"
+      }
+    },
+    "164993011541cbc0d8": {
+      "type": "only-image",
+      "settings": {
+        "section_image": "shopify:\/\/shop_images\/FFC_nya_produkter_8_of_14_mer_bakgrund_1.png"
+      }
+    },
+    "1649920507424e8f3f": {
+      "type": "product-benefits",
+      "blocks": {
+        "1f10480e-a34d-45a3-a322-ac52c226f20a": {
+          "type": "benifits_left",
+          "settings": {
+            "benifits_text": "100% natural energy",
+            "benifits_subtext": "Only natural ingredients. No additives or other junk."
+          }
+        },
+        "94fad31d-cd53-46ee-809c-2c65f3d331f6": {
+          "type": "benifits_left",
+          "settings": {
+            "benifits_text": "No added sugar",
+            "benifits_subtext": "Acacia fiber is a natural prebiotic fiber that feeds our friendly gut bacteria."
+          }
+        },
+        "f5aa2b85-6dc9-4b00-94f1-5407ae4cbc89": {
+          "type": "benifits_left",
+          "settings": {
+            "benifits_text": "Delicious & addictive",
+            "benifits_subtext": "You don’t need crap to make something delicious. But be careful. It’s addictive."
+          }
+        },
+        "3e1a4208-0607-43f2-8456-2689b35300e6": {
+          "type": "benifits_right",
+          "settings": {
+            "benifits_text": "Boosted with C8 MCT-oil",
+            "benifits_subtext": "we’ve added C8 MCT-oil from coocnut for instant and longlasting energy."
+          }
+        },
+        "6c01fd1a-aeb6-4d26-83e6-390de7e462f9": {
+          "type": "benifits_right",
+          "settings": {
+            "benifits_text": "Low carb &keto friendly",
+            "benifits_subtext": "1 g carb per tbsp. The perfect low carb snack!"
+          }
+        }
+      },
+      "block_order": [
+        "1f10480e-a34d-45a3-a322-ac52c226f20a",
+        "94fad31d-cd53-46ee-809c-2c65f3d331f6",
+        "f5aa2b85-6dc9-4b00-94f1-5407ae4cbc89",
+        "3e1a4208-0607-43f2-8456-2689b35300e6",
+        "6c01fd1a-aeb6-4d26-83e6-390de7e462f9"
+      ],
+      "settings": {
+        "benefits_bg": "#f2d1b7",
+        "section_heading": "Benefits",
+        "section_image": "shopify:\/\/shop_images\/Natural_7f25c1b5-6a00-4cd1-8fe2-042a1f13a8e2.png"
+      }
+    },
+    "1649255761b8483492": {
+      "type": "why-use",
+      "blocks": {
+        "537022a4-d3dc-4878-8fe5-fd25dfec75a6": {
+          "type": "product_advantages",
+          "settings": {
+            "section_image": "shopify:\/\/shop_images\/done.png",
+            "section_title": "A healthy and delicious snack",
+            "section_text": "When you want a little snack to boost your energy or still your cravings. Grab a spoon and have it straight from the jar."
+          }
+        },
+        "70ecd7c0-a8ef-4eba-afff-daee73946765": {
+          "type": "product_advantages",
+          "settings": {
+            "section_image": "shopify:\/\/shop_images\/Boxing.png",
+            "section_title": "Boost your other snacks",
+            "section_text": "Make other snacks even more tasty and powerful. Drizzle it on yoghurt, a banana, pancakes, add to a shake, a dessert or to... anything!"
+          }
+        },
+        "089cf010-dfad-4a57-a072-adbd711e8112": {
+          "type": "product_advantages",
+          "settings": {
+            "section_image": "shopify:\/\/shop_images\/Chef.png",
+            "section_title": "To curb cravings between meals.",
+            "section_text": "Filled with healthy fats from nuts and MCT-oil, just a small spoon will satisfy your cravings and keep your blood sugar stable."
+          }
+        },
+        "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9": {
+          "type": "product_advantages",
+          "settings": {
+            "section_image": "shopify:\/\/shop_images\/02.png",
+            "section_title": "Energize your workouts",
+            "section_text": "The perfect snack before a workout, or as a quick recovery after. Boosted with MCT-oil for instant and long lasting energy when you need it the most!"
+          }
+        }
+      },
+      "block_order": [
+        "537022a4-d3dc-4878-8fe5-fd25dfec75a6",
+        "70ecd7c0-a8ef-4eba-afff-daee73946765",
+        "089cf010-dfad-4a57-a072-adbd711e8112",
+        "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9"
+      ],
+      "settings": {
+        "section_heading": "WHY SHOULD I USE IT?"
+      }
+    },
+    "1649315994f16d631c": {
+      "type": "product-gallery",
+      "blocks": {
+        "19c6d0e4-22b5-4f50-8e13-b3322e7fa656": {
+          "type": "gallery",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/FFC_27_of_28_1.png"
+          }
+        },
+        "7fa34d3a-a7b2-49f2-a2a6-fc2ccba2d51c": {
+          "type": "gallery",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/FFC_nya_produkter_6_of_14_1.png"
+          }
+        },
+        "20d34d58-4f61-4af2-bf4c-544e05dda3c8": {
+          "type": "gallery",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/DSC_0154_1.png"
+          }
+        }
+      },
+      "block_order": [
+        "19c6d0e4-22b5-4f50-8e13-b3322e7fa656",
+        "7fa34d3a-a7b2-49f2-a2a6-fc2ccba2d51c",
+        "20d34d58-4f61-4af2-bf4c-544e05dda3c8"
+      ],
+      "settings": {
+      }
+    },
+    "1649326080cf851ab4": {
+      "type": "faq",
+      "blocks": {
+        "78cf29b8-2ffc-4ec6-9c98-99eb1b55091c": {
+          "type": "faq",
+          "settings": {
+            "section_title": "What is MCT?",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        },
+        "58e23bb7-8a15-4210-abe0-ef8b8e306de0": {
+          "type": "faq",
+          "settings": {
+            "section_title": "What is the benefits of MCT?",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        },
+        "473c1fd1-9b67-49d6-9141-2e7d3f58b543": {
+          "type": "faq",
+          "settings": {
+            "section_title": "How do I use MCT Powder?",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        },
+        "e2c4f709-a7d5-4a1a-92aa-8a90c173e35b": {
+          "type": "faq",
+          "settings": {
+            "section_title": "What is Acacia fiber?",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        },
+        "58b8ad2a-7e73-4ef5-b6f1-7fd649536510": {
+          "type": "faq",
+          "settings": {
+            "section_title": "What is the difference between coconut oil and MCT?",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        },
+        "c9082315-a02b-4ad6-b316-2d4ed40be7cf": {
+          "type": "faq",
+          "settings": {
+            "section_title": "Ingredients & Nutrition facts - Unflavored",
+            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+          }
+        }
+      },
+      "block_order": [
+        "78cf29b8-2ffc-4ec6-9c98-99eb1b55091c",
+        "58e23bb7-8a15-4210-abe0-ef8b8e306de0",
+        "473c1fd1-9b67-49d6-9141-2e7d3f58b543",
+        "e2c4f709-a7d5-4a1a-92aa-8a90c173e35b",
+        "58b8ad2a-7e73-4ef5-b6f1-7fd649536510",
+        "c9082315-a02b-4ad6-b316-2d4ed40be7cf"
+      ],
+      "settings": {
+        "faq_bg": "#ffeddf",
+        "section_heading": "FAQs"
       }
     }
   },
   "order": [
-    "product-cover"
+    "product-cover",
+    "1649246199abda83bd",
+    "164993011541cbc0d8",
+    "1649920507424e8f3f",
+    "1649255761b8483492",
+    "1649315994f16d631c",
+    "1649326080cf851ab4"
   ]
 }

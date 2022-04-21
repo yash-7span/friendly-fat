@@ -4,14 +4,13 @@
     "shop-cover": {
       "type": "shop-cover",
       "settings": {
-        "section_title": "<span>UNLOCK YOUR <\/span><span class=\"super-powers-span\">SUPERPOWERS<\/span>",
+        "section_title": "<span class=\"super-powers-span\">UNLOCK YOUR SUPERPOWERS<\/span>",
         "section_image": "shopify:\/\/shop_images\/shop-hero.png"
       }
     },
     "1649656674f99916fd": {
       "type": "shop-list-main",
       "settings": {
-        "shop_collection_id": "shop-list"
       }
     }
   },

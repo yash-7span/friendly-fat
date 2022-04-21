@@ -21,7 +21,7 @@
         "6d2283a4-ecb8-4340-a5d7-2b2775f308de": {
           "type": "features_block",
           "settings": {
-            "features_image": "shopify:\/\/shop_images\/features-3.png",
+            "features_image": "shopify:\/\/shop_images\/Leafs.png",
             "features_text": "Vegan"
           }
         },
@@ -67,28 +67,28 @@
         "e63a1ecc-d16f-4d0e-a355-b5e56ec91760": {
           "type": "ingredients",
           "settings": {
-            "section_title": "Marine hydrolized collagen from wild caught fish",
+            "section_title": "Marine hydrolized collagen from wild caught fish,",
             "section_dec": "Marine hydrolized collagen from wild caught fish,Marine hydrolized collagen from wild caught fish,"
           }
         },
         "3229b412-2a03-4c54-bc9b-bcdb36487373": {
           "type": "ingredients",
           "settings": {
-            "section_title": "Vitamin D3 from algae",
+            "section_title": "Vitamin D3 from algae,",
             "section_dec": "Vitamin D3 from algaeVitamin D3 from algaeVitamin D3 from algae"
           }
         },
         "63d7ef54-03bf-4bc3-8666-206f0048175c": {
           "type": "ingredients",
           "settings": {
-            "section_title": "MCT-oil from coconut",
+            "section_title": "MCT-oil from coconut,",
             "section_dec": "MCT-oil from coconut,MCT-oil from coconut,"
           }
         },
         "0d35bb62-bab8-4aa6-9e4a-2b9408d35813": {
           "type": "ingredients",
           "settings": {
-            "section_title": "Acacia fiber",
+            "section_title": "Acacia fiber,",
             "section_dec": "Acacia fiber,Acacia fiber,Acacia fiber,"
           }
         },
@@ -152,6 +152,7 @@
         "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8"
       ],
       "settings": {
+        "advantage_bg_color": "#f6dccf",
         "section_bg": "shopify:\/\/shop_images\/collagen-birds-custom.png"
       }
     },

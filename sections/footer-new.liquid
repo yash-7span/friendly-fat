@@ -3,7 +3,7 @@
     <div class="footer-form-warpper">
       <div class="form-wrapper-footer">
         <div class="form-header">
-          <h1 class="heading-regular text-color-cream">Let’s be friends forever!</h1>
+          <h1 class="heading-regular text-color-cream">{{section.settings.newsletter_title}}</h1>
         </div>
         <div class="form-block w-form">
            {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form form-block' -%}
@@ -87,10 +87,11 @@
           </div>
           <div class="footer-icons-wrapper">
             <div class="footer-linkblock-images">
-              {% assign payments_blocks = section.blocks | where: 'type', 'payments' %}
-              {% for block in payments_blocks %}
-              	<div class="footer-linkblock"><img src="{{ block.settings.pay_logo | img_url: 'master' }}" loading="lazy" alt=""></div>
-              {% endfor %}
+                {%- for type in shop.enabled_payment_types -%}
+                  <div class="footer-linkblock">
+                    {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                  </div>
+                  {%- endfor -%}
             </div>
           </div>
         </div>
@@ -102,6 +103,11 @@
   {
     "name": "Footer",
     "settings": [
+		{
+		"type" : "text",
+		"id": "newsletter_title",
+		"label": "Newsletter Title"
+	   	},
 		{
 		"type" : "text",
 		"id": "footer_links_1_title",

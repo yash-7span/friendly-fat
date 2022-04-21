@@ -2,6 +2,9 @@
   <div class="page-padding">
     <div class="container-extra-large">
       <div class="what-is-mct-wrapper">
+        <div class="mobile-section-title">
+          <h3 class="heading-large align-center">{{ section.settings.mct_mobile_title }}</h3>
+        </div>
         <img src="{{ section.settings.section_image | img_url: 'master' }}" loading="lazy" alt="" class="what-is-mct-img">
         <div class="what-is-mct-text-wrapper">
           <p class="text-size-medium">{{section.settings.section_text}}</p>
@@ -15,6 +18,13 @@
   {
     "name": "Product About Section",
     "settings": [
+		
+		{
+          "type": "text",
+          "id": "mct_mobile_title",
+          "label": "MCT Mobile Title",
+		  "default": "What is MCT?"
+    	},
 		{
           "type": "image_picker",
           "id": "section_image",

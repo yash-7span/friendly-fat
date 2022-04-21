@@ -11,9 +11,9 @@
         {% for block in product_advantages %}
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         <div class="why-should-wrappers {% if thecycle == 'even' %}reverse{% endif %}">
-          {% if block.settings.section_image != blank %}
+          {% if block.settings.section_image != blank or block.settings.section_svg != blank%}
           <div class="image-why-wrapper">
-            <img loading="lazy" bind="4105ec9d-9082-e435-c240-14f3ac549d55" src="{{ block.settings.section_image | img_url: 'master' }}" alt="" class="character-icons">
+            <img loading="lazy" bind="4105ec9d-9082-e435-c240-14f3ac549d55" src="{% if block.settings.section_svg != blank %}{{ block.settings.section_svg }}{% else %}{{ block.settings.section_image | img_url: 'master' }}{% endif %}" alt="" class="character-icons">
           </div>
           {% endif %}
           <div class="why-content-wrapper {% if thecycle == 'even' %}align-left {% else %}padding-left {% endif %}">
@@ -54,6 +54,11 @@
           "type": "product_advantages",
           "name": "Product Advantages",
           "settings": [           
+			{
+              "type": "url",
+              "id": "section_svg",
+              "label": "Section Image"	
+            },
 			{
               "type": "image_picker",
               "id": "section_image",

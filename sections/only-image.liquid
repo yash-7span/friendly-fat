@@ -1,0 +1,29 @@
+<div class="section-only-image wf-section">
+  <img src="{{ section.settings.section_image | img_url: 'master' }}" loading="eager" sizes="100vw" srcset="{{ section.settings.section_image | img_url: 'master' }} 500w, {{ section.settings.section_image | img_url: 'master' }} 800w, {{ section.settings.section_image | img_url: 'master' }} 1080w, {{ section.settings.section_image | img_url: 'master' }} 1600w, {{ section.settings.section_image | img_url: 'master' }} 1832w" alt="" class="img-full-width">
+</div>
+
+{% schema %}
+  {
+    "name": "Only Image",
+    "settings": [
+		{
+          "type": "image_picker",
+          "id": "section_image",
+          "label": "Section Image"
+    	}
+	],
+	"presets": [
+		{
+		  "name": {
+          "en": "Only Image"
+  		}
+  	  }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

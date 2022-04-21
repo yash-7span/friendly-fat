@@ -8,7 +8,9 @@
         "section_tagline": "Snacks and supplements made with real ingredients. No sugar, no bullshit.",
         "btn_title": "Shop Now",
         "btn_link": "shopify:\/\/collections\/shop-list",
-        "section_image": "shopify:\/\/shop_images\/topbg1b-new.png"
+        "section_image": "shopify:\/\/shop_images\/topbg1b-new.png",
+        "img_tablet": "shopify:\/\/shop_images\/the-friendly-fat-company-products-tablet.jpg",
+        "img_mobile": "shopify:\/\/shop_images\/the-friendly-fat-company-products-mobile.jpg"
       }
     },
     "advantages": {

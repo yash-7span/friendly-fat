@@ -21,7 +21,7 @@
         "6d2283a4-ecb8-4340-a5d7-2b2775f308de": {
           "type": "features_block",
           "settings": {
-            "features_image": "shopify:\/\/shop_images\/features-3.png",
+            "features_image": "shopify:\/\/shop_images\/Leafs.png",
             "features_text": "Vegan"
           }
         },
@@ -67,28 +67,28 @@
         "e63a1ecc-d16f-4d0e-a355-b5e56ec91760": {
           "type": "ingredients",
           "settings": {
-            "section_title": "C8 MCT-oil from coconut",
+            "section_title": "C8 MCT-oil from coconut,",
             "section_dec": "C8 MCT-oil from coconut,C8 MCT-oil from coconut,"
           }
         },
         "3229b412-2a03-4c54-bc9b-bcdb36487373": {
           "type": "ingredients",
           "settings": {
-            "section_title": "Acacia fiber",
+            "section_title": "Acacia fiber,",
             "section_dec": "Acacia fiber,Acacia fiber,Acacia fiber,Acacia fiber,"
           }
         },
         "63d7ef54-03bf-4bc3-8666-206f0048175c": {
           "type": "ingredients",
           "settings": {
-            "section_title": "Cocoa powder",
+            "section_title": "Cocoa powder,",
             "section_dec": "Cocoa powder,Cocoa powder,Cocoa powder,Cocoa powder,"
           }
         },
         "0d35bb62-bab8-4aa6-9e4a-2b9408d35813": {
           "type": "ingredients",
           "settings": {
-            "section_title": "Erythritol",
+            "section_title": "Erythritol,",
             "section_dec": "Erythritol,Erythritol,Erythritol,Erythritol,"
           }
         },
@@ -152,6 +152,7 @@
         "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8"
       ],
       "settings": {
+        "advantage_bg_color": "#e9cfcc",
         "section_bg": "shopify:\/\/shop_images\/chocolate-birds-custom.png"
       }
     },
@@ -264,13 +265,6 @@
     "16493080030e67300f": {
       "type": "user-guide",
       "blocks": {
-        "3f81d856-0432-415f-8bb8-1a5185999f0f": {
-          "type": "user_block",
-          "settings": {
-            "section_title": "Add 2-3 scoops to water and sweep",
-            "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/glass-ico.svg?v=1649853361"
-          }
-        },
         "bd7fb5ab-1264-4398-9171-cdf3496c4917": {
           "type": "user_block",
           "settings": {
@@ -281,23 +275,22 @@
         "c02df784-25d6-4c3b-8409-6802121108cf": {
           "type": "user_block",
           "settings": {
-            "section_title": "Mix in smoothies & shakes",
+            "section_title": "Add to your smoothies or shakes",
             "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/cold-coffee.svg?v=1649853613"
           }
         },
-        "427d4b8d-9fda-4313-9329-8e1e0e21f203": {
+        "3f81d856-0432-415f-8bb8-1a5185999f0f": {
           "type": "user_block",
           "settings": {
-            "section_title": "Boost other snacks like yogurt or energy balls",
-            "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/snacks.svg?v=1649853773"
+            "section_title": "Make a sugar free hot chocolate",
+            "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Hot_chocolate.svg?v=1649855637"
           }
         }
       },
       "block_order": [
-        "3f81d856-0432-415f-8bb8-1a5185999f0f",
         "bd7fb5ab-1264-4398-9171-cdf3496c4917",
         "c02df784-25d6-4c3b-8409-6802121108cf",
-        "427d4b8d-9fda-4313-9329-8e1e0e21f203"
+        "3f81d856-0432-415f-8bb8-1a5185999f0f"
       ],
       "settings": {
         "user_guide_bg": "#372c23",

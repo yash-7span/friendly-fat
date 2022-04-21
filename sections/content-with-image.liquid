@@ -12,6 +12,7 @@
             </div>
             <a href="{{section.settings.btn_link}}" class="button w-button">{{section.settings.btn_text}}</a>
           </div>
+          {% comment %}
           <div data-delay="2000" data-animation="cross" class="slider-characters w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="500" data-infinite="true">
             <div class="mask-characters w-slider-mask">
               {% assign devious_block = section.blocks | where: 'type', 'devious_block' %}
@@ -33,6 +34,7 @@
             </div>
             <div class="hide w-slider-nav w-round"></div>
           </div>
+          {% endcomment %}
         </div>
       </div>
     </div>

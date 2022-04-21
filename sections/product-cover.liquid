@@ -42,7 +42,7 @@
               {{ product.description }}
               
               
-              <p item="description" bind="ffb70b4f-2afa-6caa-3779-d9ed3a72444a" class="text-size-large-bold">{{ product.price | money }} / bag</p>
+              <p item="description" bind="ffb70b4f-2afa-6caa-3779-d9ed3a72444a" class="text-size-large-bold">{{ product.price | money }}</p>
               <div bind="bfc6db84-9535-365f-f92d-6cdc203cca7f" class="addtocart-input products">
                 {%- form 'product', product, id: product_form_id, class: 'form w-commerce-commerceaddtocartform default-state-2', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                 <form method="post" action="/cart/add" class="w-commerce-commerceaddtocartform default-state-2" data-node-type="commerce-add-to-cart-form" template-bind="bfc6db84-9535-365f-f92d-6cdc203cca80" position-bind-position="prepend" bind="bfc6db84-9535-365f-f92d-6cdc203cca80">

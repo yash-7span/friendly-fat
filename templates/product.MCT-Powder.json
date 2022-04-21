@@ -57,20 +57,36 @@
       ],
       "settings": {
         "section_bg": "#ccf2ef",
-        "section_bg_image": "shopify:\/\/shop_images\/mct-powder__bg.png",
+        "section_bg_image": "shopify:\/\/shop_images\/hero-bg-vector.png",
         "badge_image": "shopify:\/\/shop_images\/tffcstamp.png"
       }
     },
     "1649246199abda83bd": {
       "type": "ingredients",
+      "blocks": {
+        "81407373-86e3-43d7-99ea-114c815a84b3": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "MCT-oil from coconut,",
+            "section_dec": "MCT-oil from coconut,MCT-oil from coconut,MCT-oil from coconut,"
+          }
+        },
+        "4296f7fb-c8ed-4dc6-9feb-38d6fa875ccb": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Acacia fiber",
+            "section_dec": "Acacia fiber Acacia fiberAcacia fiber"
+          }
+        }
+      },
+      "block_order": [
+        "81407373-86e3-43d7-99ea-114c815a84b3",
+        "4296f7fb-c8ed-4dc6-9feb-38d6fa875ccb"
+      ],
       "settings": {
         "section_bg": "shopify:\/\/shop_images\/roughedges.png",
         "section_heading": "WHAT'S INSIDE",
-        "section_title": "MCT-oil from coconut",
-        "section_dec": "Acacia Fiber helps you ooze awesomeness on a daily basis. test",
-        "section_arrow": "shopify:\/\/shop_images\/Polygon-1.png",
-        "section_title1": "Acacia fiber",
-        "section_dec1": "Acacia Fiber helps you ooze awesomeness on a daily basis."
+        "section_arrow": "shopify:\/\/shop_images\/Polygon-1.png"
       }
     },
     "164924851544a442e1": {
@@ -112,7 +128,9 @@
         "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8"
       ],
       "settings": {
-        "section_bg": "shopify:\/\/shop_images\/mct-birds.jpg"
+        "text_color_mobile": "#ffffff",
+        "advantage_bg_color": "#009178",
+        "section_bg": "shopify:\/\/shop_images\/mct-birds.png"
       }
     },
     "16492508185ee8a919": {
@@ -159,13 +177,22 @@
         "section_image": "shopify:\/\/shop_images\/Benefits-mct-powder-image.png"
       }
     },
+    "16499245695a78089b": {
+      "type": "product-about",
+      "settings": {
+        "mct_mobile_title": "What is MCT?",
+        "section_image": "shopify:\/\/shop_images\/about-product.png",
+        "section_text": "MCT stands for Medium Chain Triglycerides which are fatty acids derived mainly from coconut oil. MCT’s are shorter in length than most other fats and can therefore take a shortcut in the body and instantly be used as powerful energy."
+      }
+    },
     "1649255761b8483492": {
       "type": "why-use",
       "blocks": {
         "537022a4-d3dc-4878-8fe5-fd25dfec75a6": {
           "type": "product_advantages",
           "settings": {
-            "section_image": "shopify:\/\/shop_images\/done.png",
+            "section_svg": "",
+            "section_image": "shopify:\/\/shop_images\/GSD.png",
             "section_title": "To boost your brain...",
             "section_text": "...and get shit dome! Wake your brain in the morning by adding MCT to your coffee or tea and get the most out of your day."
           }
@@ -173,6 +200,7 @@
         "70ecd7c0-a8ef-4eba-afff-daee73946765": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/Boxing.png",
             "section_title": "To avoid that afternoon crash.",
             "section_text": "Feeling tired in the afternoons? MCT gives you instant energy and keeps your blood sugar stable. No more yawning in the office!"
@@ -181,7 +209,8 @@
         "089cf010-dfad-4a57-a072-adbd711e8112": {
           "type": "product_advantages",
           "settings": {
-            "section_image": "shopify:\/\/shop_images\/Boxing.png",
+            "section_svg": "",
+            "section_image": "shopify:\/\/shop_images\/Powah.png",
             "section_title": "To reduce cravings between meals.",
             "section_text": "Never feeling really satisfied? MCT makes you feeling full for longer and help you resist the constant urge to snack!"
           }
@@ -189,6 +218,7 @@
         "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/barbell_icon_b824f091-cdaf-469f-907a-396d08c26acf.png",
             "section_title": "To boost your workout performance.",
             "section_text": "MCT gives you instant but also long lasting energy to crush it at the gym! It’s especially powerful for endurance sports like running and cycling."
@@ -238,6 +268,8 @@
       ],
       "settings": {
         "user_guide_bg": "#fdf5e5",
+        "guide_text_color": "",
+        "inverse_color_svg": false,
         "section_heading": "HOW TO USE IT?"
       }
     },
@@ -326,14 +358,8 @@
         "c9082315-a02b-4ad6-b316-2d4ed40be7cf"
       ],
       "settings": {
+        "faq_bg": "",
         "section_heading": "FAQs"
-      }
-    },
-    "16498480643fb5bb8d": {
-      "type": "product-about-text",
-      "settings": {
-        "section_title": "What is Lions mane?",
-        "section_text": "Lion's Mane is an edible mushroom that has been used in traditional Chinese medicine for thousands of years. It contains two special compounds (hericenones and erinacines) that may stimulate the growth and repair of brain cells. This is why it’s believed to improve brain health and cognitive performance."
       }
     }
   },
@@ -342,10 +368,10 @@
     "1649246199abda83bd",
     "164924851544a442e1",
     "16492508185ee8a919",
+    "16499245695a78089b",
     "1649255761b8483492",
     "16493080030e67300f",
     "1649315994f16d631c",
-    "1649326080cf851ab4",
-    "16498480643fb5bb8d"
+    "1649326080cf851ab4"
   ]
 }

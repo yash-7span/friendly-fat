@@ -21,7 +21,7 @@
         "6d2283a4-ecb8-4340-a5d7-2b2775f308de": {
           "type": "features_block",
           "settings": {
-            "features_image": "shopify:\/\/shop_images\/features-3.png",
+            "features_image": "shopify:\/\/shop_images\/Leafs.png",
             "features_text": "Vegan"
           }
         },
@@ -63,9 +63,69 @@
     },
     "1649246199abda83bd": {
       "type": "ingredients",
+      "blocks": {
+        "67cb26b3-9e97-4b0b-899a-dfa35f5d03a7": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Roasted peanuts,",
+            "section_dec": "Roasted peanuts,Roasted peanuts,Roasted peanuts,Roasted peanuts,"
+          }
+        },
+        "7b4d64b4-60a2-4755-a96e-e7e70d6dc11d": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Roasted almonds,",
+            "section_dec": "Roasted almonds,Roasted almonds,Roasted almonds,Roasted almonds,Roasted almonds,"
+          }
+        },
+        "c2672a3f-1ca8-4d91-b373-76f0fa1078f3": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Coconut oil,",
+            "section_dec": "Coconut oil,Coconut oil,Coconut oil,Coconut oil,"
+          }
+        },
+        "dcabdf5a-ef79-44a6-b9f0-57ce9bf550ba": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "C8 MCT-oil,",
+            "section_dec": "C8 MCT-oil,C8 MCT-oil,C8 MCT-oil,C8 MCT-oil,"
+          }
+        },
+        "a6f37e79-a05f-4e64-9fca-63b2185f2d3f": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Steviol glycosides,",
+            "section_dec": "Steviol glycosides,Steviol glycosides,Steviol glycosides,Steviol glycosides,"
+          }
+        },
+        "4c78b072-4f09-4005-9f51-3172730edeaf": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Cinnamon,",
+            "section_dec": "Cinnamon,Cinnamon,Cinnamon,Cinnamon,Cinnamon,"
+          }
+        },
+        "5358f33b-36d8-4c72-bdab-8866b7ef7c80": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Himalayan sea salt",
+            "section_dec": "Himalayan sea saltHimalayan sea saltHimalayan sea salt"
+          }
+        }
+      },
+      "block_order": [
+        "67cb26b3-9e97-4b0b-899a-dfa35f5d03a7",
+        "7b4d64b4-60a2-4755-a96e-e7e70d6dc11d",
+        "c2672a3f-1ca8-4d91-b373-76f0fa1078f3",
+        "dcabdf5a-ef79-44a6-b9f0-57ce9bf550ba",
+        "a6f37e79-a05f-4e64-9fca-63b2185f2d3f",
+        "4c78b072-4f09-4005-9f51-3172730edeaf",
+        "5358f33b-36d8-4c72-bdab-8866b7ef7c80"
+      ],
       "settings": {
         "section_bg": "shopify:\/\/shop_images\/roughedges.png",
-        "section_heading": "WHAT'S INSIDE",
+        "section_heading": "INGREDIENTS",
         "section_arrow": "shopify:\/\/shop_images\/Polygon-1.png"
       }
     },
@@ -75,29 +135,29 @@
         "40d8761a-246c-4e9a-82c7-50e701030c50": {
           "type": "advantages_block",
           "settings": {
-            "advantages_title": "Fuels your brain",
-            "advantages_text": "MCT provides instant energy and focus when you need to get shit done!"
+            "advantages_title": "100% natural & delicious",
+            "advantages_text": "You don't need junk additives to make something taste amazing!"
           }
         },
         "18e12e96-bb6e-41da-9045-b008ba4a4bd1": {
           "type": "advantages_block",
           "settings": {
-            "advantages_title": "Long lasting energy",
-            "advantages_text": "MCT is instantly converted to energy and because its a fat it lasts longer than carbs."
+            "advantages_title": "No added sugar",
+            "advantages_text": ""
           }
         },
         "8749c033-ffab-4195-96c6-adc1a599b172": {
           "type": "advantages_block",
           "settings": {
-            "advantages_title": "Supports weightloss",
-            "advantages_text": "MCT increases satiety and fatburn and help reduce cravings between meals."
+            "advantages_title": "Low carb & keto friendly",
+            "advantages_text": "Only 3g net carbs per pouch."
           }
         },
         "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8": {
           "type": "advantages_block",
           "settings": {
-            "advantages_title": "Keeps blood sugar stable",
-            "advantages_text": "Get the most out of your day without energy crashes or hunger pangs."
+            "advantages_title": "Boosted with MCT-oil",
+            "advantages_text": "MCT provides instant energy while keeping your blood sugar stable."
           }
         }
       },
@@ -108,59 +168,8 @@
         "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8"
       ],
       "settings": {
-        "section_bg": "shopify:\/\/shop_images\/mct-birds.jpg"
-      }
-    },
-    "16492508185ee8a919": {
-      "type": "product-benefits",
-      "blocks": {
-        "6a275c2b-7dfb-4b74-8d0c-726fac219065": {
-          "type": "benifits_left",
-          "settings": {
-            "benifits_text": "100% natural energy",
-            "benifits_subtext": "Only MCT-oil and acacia fiber. That's it. No fillers or junk additives."
-          }
-        },
-        "ad226b0c-205f-4856-8190-28e642770ce1": {
-          "type": "benifits_left",
-          "settings": {
-            "benifits_text": "Gut healthy fibers",
-            "benifits_subtext": "Acacia fiber is a natural prebiotic fiber that feeds our friendly gut bacteria."
-          }
-        },
-        "e263665d-80ea-476e-97bc-40b5bbaafc60": {
-          "type": "benifits_right",
-          "settings": {
-            "benifits_text": "C8 MCT-oil from coconut",
-            "benifits_subtext": "C8 is the holy grail of MCT’s. We extract it from coconut, no palm oil in sight."
-          }
-        },
-        "50d26c46-aa58-4d89-a102-962af35781b0": {
-          "type": "benifits_right",
-          "settings": {
-            "benifits_text": "Dissolves easy",
-            "benifits_subtext": "Makes the coffee creamy and smooth without the need of a mixer"
-          }
-        }
-      },
-      "block_order": [
-        "6a275c2b-7dfb-4b74-8d0c-726fac219065",
-        "ad226b0c-205f-4856-8190-28e642770ce1",
-        "e263665d-80ea-476e-97bc-40b5bbaafc60",
-        "50d26c46-aa58-4d89-a102-962af35781b0"
-      ],
-      "settings": {
-        "benefits_bg": "",
-        "section_heading": "BENEFITS",
-        "section_image": "shopify:\/\/shop_images\/Benefits-mct-powder-image.png",
-        "section_bg": "shopify:\/\/shop_images\/roughedges.png"
-      }
-    },
-    "1649255280f1e480cb": {
-      "type": "product-about",
-      "settings": {
-        "section_image": "shopify:\/\/shop_images\/about-product.png",
-        "section_text": "MCT stands for Medium Chain Triglycerides which are fatty acids derived mainly from coconut oil. MCT’s are shorter in length than most other fats and can therefore take a shortcut in the body and instantly be used as powerful energy."
+        "advantage_bg_color": "#f6dccf",
+        "section_bg": "shopify:\/\/shop_images\/fatpack2_1.png"
       }
     },
     "1649400986aa5d34cb": {
@@ -178,32 +187,32 @@
           "type": "product_advantages",
           "settings": {
             "section_image": "shopify:\/\/shop_images\/done.png",
-            "section_title": "To boost your brain...",
-            "section_text": "...and get shit dome! Wake your brain in the morning by adding MCT to your coffee or tea and get the most out of your day."
+            "section_title": "A healthy snack anywhere, anytime.",
+            "section_text": "Have it straight from the pouch whenever you need to boost your day."
           }
         },
         "70ecd7c0-a8ef-4eba-afff-daee73946765": {
           "type": "product_advantages",
           "settings": {
             "section_image": "shopify:\/\/shop_images\/Boxing.png",
-            "section_title": "To avoid that afternoon crash.",
-            "section_text": "Feeling tired in the afternoons? MCT gives you instant energy and keeps your blood sugar stable. No more yawning in the office!"
+            "section_title": "Boost your workout performance.",
+            "section_text": "The perfect snack before a workout, or as a quick recovery after. Boosted with MCT-oil for instant and long lasting energy when you need it the most!"
           }
         },
         "089cf010-dfad-4a57-a072-adbd711e8112": {
           "type": "product_advantages",
           "settings": {
-            "section_image": "shopify:\/\/shop_images\/Boxing.png",
-            "section_title": "To reduce cravings between meals.",
-            "section_text": "Never feeling really satisfied? MCT makes you feeling full for longer and help you resist the constant urge to snack!"
+            "section_image": "shopify:\/\/shop_images\/Powah.png",
+            "section_title": "A delicoius (& addictve) snack.",
+            "section_text": "When you want a little something with your afternoon coffee. You don't need sugar and additives to make something taste amazing. Here's your proof."
           }
         },
         "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9": {
           "type": "product_advantages",
           "settings": {
             "section_image": "shopify:\/\/shop_images\/barbell_icon_b824f091-cdaf-469f-907a-396d08c26acf.png",
-            "section_title": "To boost your workout performance.",
-            "section_text": "MCT gives you instant but also long lasting energy to crush it at the gym! It’s especially powerful for endurance sports like running and cycling."
+            "section_title": "Boost other snacks.",
+            "section_text": "Make other snacks even more tasty and powerful. Drizzle it on yoghurt, a banana, add to a shake, a dessert or to... anything!"
           }
         }
       },
@@ -214,45 +223,7 @@
         "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9"
       ],
       "settings": {
-        "section_heading": "WHY SHOULD I USE IT?",
-        "section_waves": "shopify:\/\/shop_images\/waves.png"
-      }
-    },
-    "16493080030e67300f": {
-      "type": "user-guide",
-      "blocks": {
-        "3f81d856-0432-415f-8bb8-1a5185999f0f": {
-          "type": "user_block",
-          "settings": {
-            "section_title": "Mix in your coffee or tea..",
-            "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Coffee-110x100.svg?v=1649311816"
-          }
-        },
-        "bd7fb5ab-1264-4398-9171-cdf3496c4917": {
-          "type": "user_block",
-          "settings": {
-            "section_title": "..or smoothies",
-            "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Smoothie-110x110.svg?v=1649311816"
-          }
-        },
-        "c02df784-25d6-4c3b-8409-6802121108cf": {
-          "type": "user_block",
-          "settings": {
-            "section_title": "...or add power to other snacks.",
-            "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Snakcs--110x110.svg?v=1649311816"
-          }
-        }
-      },
-      "block_order": [
-        "3f81d856-0432-415f-8bb8-1a5185999f0f",
-        "bd7fb5ab-1264-4398-9171-cdf3496c4917",
-        "c02df784-25d6-4c3b-8409-6802121108cf"
-      ],
-      "settings": {
-        "user_guide_bg": "",
-        "guide_text_color": "",
-        "inverse_color_svg": false,
-        "section_heading": "HOW TO USE IT?"
+        "section_heading": "WHY SHOULD I USE IT?"
       }
     },
     "1649315994f16d631c": {
@@ -261,19 +232,19 @@
         "19c6d0e4-22b5-4f50-8e13-b3322e7fa656": {
           "type": "gallery",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/FFC_new_design-6_1.jpg"
+            "product_image": "shopify:\/\/shop_images\/Fat-pack_back-pack_1.png"
           }
         },
         "7fa34d3a-a7b2-49f2-a2a6-fc2ccba2d51c": {
           "type": "gallery",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/Water_bottle_push_up_get_shit_done_1.jpg"
+            "product_image": "shopify:\/\/shop_images\/Friendly_Fat_21_of_25_1.png"
           }
         },
         "20d34d58-4f61-4af2-bf4c-544e05dda3c8": {
           "type": "gallery",
           "settings": {
-            "product_image": "shopify:\/\/shop_images\/Rectangle_1302.jpg"
+            "product_image": "shopify:\/\/shop_images\/Rectangle_1340.png"
           }
         }
       },
@@ -340,7 +311,7 @@
         "c9082315-a02b-4ad6-b316-2d4ed40be7cf"
       ],
       "settings": {
-        "faq_bg": "",
+        "faq_bg": "#ffeddf",
         "section_heading": "FAQs"
       }
     }
@@ -349,11 +320,8 @@
     "product-cover",
     "1649246199abda83bd",
     "164924851544a442e1",
-    "16492508185ee8a919",
-    "1649255280f1e480cb",
     "1649400986aa5d34cb",
     "1649255761b8483492",
-    "16493080030e67300f",
     "1649315994f16d631c",
     "1649326080cf851ab4"
   ]

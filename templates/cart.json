@@ -1,4 +1,5 @@
 {
+  "layout": "theme.cart",
   "sections": {
     "cart-items": {
       "type": "main-cart-items",

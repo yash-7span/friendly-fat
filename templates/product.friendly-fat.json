@@ -56,7 +56,7 @@
         "7914bf7d-b182-4d21-a32d-76bfbad2b8ab"
       ],
       "settings": {
-        "show_bedge": true
+        "section_bg": ""
       }
     },
     "1649246199abda83bd": {
@@ -64,11 +64,7 @@
       "settings": {
         "section_bg": "shopify:\/\/shop_images\/roughedges.png",
         "section_heading": "WHAT'S INSIDE",
-        "section_title": "MCT-oil from coconut",
-        "section_dec": "Acacia Fiber helps you ooze awesomeness on a daily basis. test",
-        "section_arrow": "shopify:\/\/shop_images\/Polygon-1.png",
-        "section_title1": "Acacia fiber",
-        "section_dec1": "Acacia Fiber helps you ooze awesomeness on a daily basis."
+        "section_arrow": "shopify:\/\/shop_images\/Polygon-1.png"
       }
     },
     "164924851544a442e1": {
@@ -152,6 +148,7 @@
         "50d26c46-aa58-4d89-a102-962af35781b0"
       ],
       "settings": {
+        "benefits_bg": "",
         "section_heading": "BENEFITS",
         "section_image": "shopify:\/\/shop_images\/Benefits-mct-powder-image.png",
         "section_bg": "shopify:\/\/shop_images\/roughedges.png"
@@ -250,6 +247,9 @@
         "c02df784-25d6-4c3b-8409-6802121108cf"
       ],
       "settings": {
+        "user_guide_bg": "",
+        "guide_text_color": "",
+        "inverse_color_svg": false,
         "section_heading": "HOW TO USE IT?"
       }
     },
@@ -338,6 +338,7 @@
         "c9082315-a02b-4ad6-b316-2d4ed40be7cf"
       ],
       "settings": {
+        "faq_bg": "",
         "section_heading": "FAQs"
       }
     }

@@ -25,11 +25,31 @@
     </div>
   </div>
 </div>
-
+<style>
+  @media screen and (max-width: 767px){
+    .section-fuels-yourbrain .container-medium {
+      background: {{ section.settings.advantage_bg_color }};
+    }
+   	.section-fuels-yourbrain .heading-medium.text-color-cream ,.section-fuels-yourbrain .subheading-wrapper{
+      color: {{ section.settings.text_color_mobile }};
+    }
+  }
+</style>
 {% schema %}
   {
     "name": "Advantages Section",
     "settings": [
+		{
+          "type": "color",
+          "id": "text_color_mobile",
+          "label": "Add text Color for Mobile Text Only",
+		  "default" : "#372C23"
+    	},
+		{
+          "type": "color",
+          "id": "advantage_bg_color",
+          "label": "Section Background Color For Mobile"	
+    	},
 		{
           "type": "image_picker",
           "id": "section_bg",

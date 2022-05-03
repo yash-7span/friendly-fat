@@ -55,14 +55,7 @@
               </div>
               <div bind="f1674068-6f4f-b60a-172f-d3b41d43a44a" class="text-size-medium-bold">{{ product.title }}</div>
               <div class="ratings-wrapper">
-                <div class="star-wrapper">
-                  <img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star">
-                  <img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star">
-                  <img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star">
-                  <img src="images/star_icon_yellow.png" loading="lazy" alt="" class="star">
-                  <img src="images/starbig-inactive.png" loading="lazy" alt="" class="star">
-                  <img src="images/star-gray.png" loading="lazy" alt="" class="transparent-star">
-                </div>
+                {% render 'okendo-reviews-product-rating-summary', product: product %}
               </div>
             </a>
           </div>

@@ -1,7 +1,7 @@
-<div class="section-fuels-yourbrain cc-relative wf-section">
+<div class="section-fuels-yourbrain cc-relative wf-section" style="background-color: {{ section.settings.advantage_bg_color }};">
   <div class="bg-image-wrapper">
     <div class="bg-wrapper">
-      <img src="{{ section.settings.section_bg | img_url: 'master' }}" loading="lazy" sizes="(max-width: 991px) 100vw, (max-width: 1432px) 98vw, 1404px" srcset="{{ section.settings.section_bg | img_url: 'master' }} 500w, {{ section.settings.section_bg | img_url: 'master' }} 800w, {{ section.settings.section_bg | img_url: 'master' }} 1080w, {{ section.settings.section_bg | img_url: 'master' }} 1404w" alt="" class="bg-image-lionsmane">
+      <img src="{{ section.settings.section_bg | img_url: 'master' }}" sizes="(max-width: 991px) 100vw, (max-width: 1432px) 98vw, 1404px" srcset="{{ section.settings.section_bg | img_url: 'master' }} 500w, {{ section.settings.section_bg | img_url: 'master' }} 800w, {{ section.settings.section_bg | img_url: 'master' }} 1080w, {{ section.settings.section_bg | img_url: 'master' }} 1404w" alt="" class="bg-image-lionsmane">
       <div class="birds-eye-view-repeater"></div>
     </div>
   </div>
@@ -27,13 +27,14 @@
 </div>
 <style>
   @media screen and (max-width: 767px){
-    .section-fuels-yourbrain .container-medium {
-      background: {{ section.settings.advantage_bg_color }};
+    .section-fuels-yourbrain .cc-relative .wf-section {
+      background-color: {{ section.settings.advantage_bg_color }};
     }
    	.section-fuels-yourbrain .heading-medium.text-color-cream ,.section-fuels-yourbrain .subheading-wrapper{
       color: {{ section.settings.text_color_mobile }};
     }
   }
+  
 </style>
 {% schema %}
   {

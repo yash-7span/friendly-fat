@@ -24,12 +24,15 @@
           	</div>
           <!-- </form> -->
           {% endform %}
+          {% if form.posted_successfully? %}
           <div class="w-form-done">
             <div>Thank you! Your submission has been received!</div>
           </div>
+          {% else %}
           <div class="w-form-fail">
             <div>Oops! Something went wrong while submitting the form.</div>
           </div>
+          {% endif %}
         </div>
       </div>
     </div>

@@ -95,6 +95,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
     "currency_code_enabled": true,
     "sections": {
       "announcement-bar": {
@@ -189,7 +190,7 @@
         "settings": {
           "announce_text": "Try our Lion’s mane, an edible mushroom that kicks ass!",
           "icon_image": "shopify:\/\/shop_images\/61e7aeac59dfe00969a584e1_fire-icon.png",
-          "hide_show": "show"
+          "hide_show": "hide"
         }
       },
       "header-new": {
@@ -202,7 +203,7 @@
       "footer-new": {
         "type": "footer-new",
         "settings": {
-          "newsletter_title": "Let’s be friends forever!",
+          "newsletter_title": "Let’s be friends!",
           "footer_links_1_title": "Supplements",
           "footer_links_1": "footer-menu-1",
           "footer_links_2_title": "Snacks",
@@ -216,7 +217,16 @@
     },
     "content_for_index": [
 
-    ]
+    ],
+    "blocks": {
+      "733389323033596483": {
+        "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "disabled": false,
+        "settings": {
+          "show_preview_data": true
+        }
+      }
+    }
   },
   "presets": {
     "Default": {

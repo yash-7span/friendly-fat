@@ -58,7 +58,9 @@
       "settings": {
         "section_bg": "#ccf2ef",
         "section_bg_image": "shopify:\/\/shop_images\/mct-powder__bg.png",
-        "badge_image": "shopify:\/\/shop_images\/stamp_1_95b80e85-3b78-4c6e-8bd0-b83dc0863ead.png"
+        "badge_image": "shopify:\/\/shop_images\/stamp_1_95b80e85-3b78-4c6e-8bd0-b83dc0863ead.png",
+        "product_ing_info_text": "Ingredients & nutritional info",
+        "product_ing_info_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/fat-packs.jpg?v=1651064075"
       }
     },
     "1649246199abda83bd": {
@@ -68,24 +70,25 @@
           "type": "ingredients",
           "settings": {
             "section_title": "C8 MCT-oil from coconut",
-            "section_dec": "C8 MCT-oil from coconut,C8 MCT-oil from coconut,"
+            "section_dec": "Medium Chain Triglycerides are a type of fat derived from coconut oil. They are shorter in length than other fats and are instantly converted to ketones that the body can use for long lasting energy. Ketones can pass the blood brain barrier, making it a powerful brain fuel for instant energy and focus. C8 MCT (Caprylic acid) is the most exclusive MCT because it’s the most powerful."
+          }
+        },
+        "cb9d5524-e243-410f-ae28-5c2fd43cd08e": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "",
+            "section_dec": ""
           }
         }
       },
       "block_order": [
-        "e63a1ecc-d16f-4d0e-a355-b5e56ec91760"
+        "e63a1ecc-d16f-4d0e-a355-b5e56ec91760",
+        "cb9d5524-e243-410f-ae28-5c2fd43cd08e"
       ],
       "settings": {
         "section_bg": "shopify:\/\/shop_images\/roughedges.png",
         "section_heading": "INGREDIENTS",
         "section_arrow": "shopify:\/\/shop_images\/Polygon-1.png"
-      }
-    },
-    "1649849750d51ef620": {
-      "type": "product-about-text",
-      "settings": {
-        "section_title": "What is MCT?",
-        "section_text": "MCT stands for Medium Chain Triglycerides which are fatty acids derived mainly from coconut oil. MCT’s are shorter in length than most other fats and can therefore take a shortcut in the body and instantly be used as powerful energy for the brain and body!"
       }
     },
     "16492508185ee8a919": {
@@ -132,12 +135,21 @@
         "section_image": "shopify:\/\/shop_images\/Natural_89d3d44a-e715-40c2-9bfc-5031de3ff088.png"
       }
     },
+    "1651229410e202ddaf": {
+      "type": "product-about",
+      "settings": {
+        "mct_mobile_title": "What is MCT?",
+        "section_image": "shopify:\/\/shop_images\/about-product.png",
+        "section_text": "MCT stands for Medium Chain Triglycerides which are fatty acids derived mainly from coconut oil. MCT’s are shorter in length than most other fats and can therefore take a shortcut in the body and instantly be used as powerful energy for the brain and body!"
+      }
+    },
     "1649255761b8483492": {
       "type": "why-use",
       "blocks": {
         "537022a4-d3dc-4878-8fe5-fd25dfec75a6": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/done.png",
             "section_title": "To boost your brain...",
             "section_text": "...and get shit done! Wake your brain in the morning by adding MCT to your coffee or tea and get the most out of your day."
@@ -146,6 +158,7 @@
         "70ecd7c0-a8ef-4eba-afff-daee73946765": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/Boxing.png",
             "section_title": "To avoid that afternoon crash.",
             "section_text": "Feeling tired in the afternoons? MCT gives you instant energy and keeps your blood sugar stable. No more yawning in the office!"
@@ -154,6 +167,7 @@
         "089cf010-dfad-4a57-a072-adbd711e8112": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/Chef.png",
             "section_title": "To reduce cravings between meals.",
             "section_text": "Never feeling really satisfied? MCT makes you feeling full for longer and help you resist the constant urge to snack!"
@@ -162,6 +176,7 @@
         "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/02.png",
             "section_title": "To boost your workout performance.",
             "section_text": "MCT is perfect to have before a workout as it gives you instant and long lasting energy to crush it at the gym. It's also powerful fuel for endurance athletes."
@@ -176,7 +191,7 @@
       ],
       "settings": {
         "section_heading": "WHY SHOULD I USE IT?",
-        "section_waves": "shopify:\/\/shop_images\/roughedges.png"
+        "section_waves": "shopify:\/\/shop_images\/lions_mane_wawe.png"
       }
     },
     "16493080030e67300f": {
@@ -184,6 +199,7 @@
       "blocks": {
         "3f81d856-0432-415f-8bb8-1a5185999f0f": {
           "type": "user_block",
+          "disabled": true,
           "settings": {
             "section_title": "Add 2-3 scoops to water and sweep",
             "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/glass-ico.svg?v=1649853361"
@@ -206,8 +222,15 @@
         "427d4b8d-9fda-4313-9329-8e1e0e21f203": {
           "type": "user_block",
           "settings": {
-            "section_title": "Boost other snacks like yogurt or energy balls",
+            "section_title": "Add power to other snacks like yogurt or energy balls",
             "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/snacks.svg?v=1649853773"
+          }
+        },
+        "688c28bc-5e3b-4c20-8276-4709082bfaf9": {
+          "type": "user_block",
+          "settings": {
+            "section_title": "Or use as salad dressing",
+            "section_image": ""
           }
         }
       },
@@ -215,12 +238,10 @@
         "3f81d856-0432-415f-8bb8-1a5185999f0f",
         "bd7fb5ab-1264-4398-9171-cdf3496c4917",
         "c02df784-25d6-4c3b-8409-6802121108cf",
-        "427d4b8d-9fda-4313-9329-8e1e0e21f203"
+        "427d4b8d-9fda-4313-9329-8e1e0e21f203",
+        "688c28bc-5e3b-4c20-8276-4709082bfaf9"
       ],
       "settings": {
-        "user_guide_bg": "#372c23",
-        "guide_text_color": "#fdf5e5",
-        "inverse_color_svg": true,
         "section_heading": "HOW TO USE"
       }
     },
@@ -231,42 +252,43 @@
           "type": "faq",
           "settings": {
             "section_title": "What is MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>MCT stands for Medium Chain Triglycerides which means medium length fatty acids and is a a form of friendly fat mainly derived from coconut. It is one of the best, most bioavailable clean forms of energy for your body and your brain because the body breaks it down more effectively than other fats. MCT is not stored as fat in your body because it is instantly converted to ketones  that will be used to energize your brain and body. <br\/><br\/>MCT’s are often used by athletes who needs instant and sustained energy to boost their performance and improve endurance during a tough workout. MCT’s are also very helpful for weight loss, assisting to keep blood sugar levels stable and control appetite by increasing the feeling of fullness. MCT-oil also improves gut health and reduces inflammation.<\/p>"
           }
         },
         "58e23bb7-8a15-4210-abe0-ef8b8e306de0": {
           "type": "faq",
           "settings": {
-            "section_title": "What is the benefits of MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_title": "Can I use MCT even if I'm not doing Keto?",
+            "section_text": "<p>Yes you can, MCT oil is beneficial regardless of diet. But as MCT increases the ketone levels in the body it is extra helpful for those who are following the keto diet, as ketones are their primary source of fuel. But no matter if you're following the keto diet or not you will still benefit from using MCT, as ketones are a powerful source of fuel for everyone.<\/p>"
           }
         },
         "473c1fd1-9b67-49d6-9141-2e7d3f58b543": {
           "type": "faq",
           "settings": {
-            "section_title": "How do I use MCT Powder?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_title": "How much should I take?",
+            "section_text": "<p>Start with 1 tsp a day if you’re new to MCT and increase gradually to 1-2 tbsp daily for optimal results. Larger amounts can have laxative effects, especially if you take it on an empty stomach.<\/p>"
           }
         },
         "e2c4f709-a7d5-4a1a-92aa-8a90c173e35b": {
           "type": "faq",
           "settings": {
-            "section_title": "What is Acacia fiber?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_title": "What is the difference between MCT-oil and MCT-powder?",
+            "section_text": "<p>MCT-powder has the same effect as MCT-oil but is easier for the stomach to digest and is more practical to mix in your coffee without the need of a mixer, plus it's easy to bring on the go.\n\nMCT-oil is great for using in cooking or in salad dressings.<\/p>"
           }
         },
         "58b8ad2a-7e73-4ef5-b6f1-7fd649536510": {
           "type": "faq",
           "settings": {
-            "section_title": "What is the difference between coconut oil and MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_title": "What is the difference between coconut oil and MCT-oil",
+            "section_text": "<p>Regular coconut oil consists of several types of fatty acids with different lengths, but mostly longer chain fatty acids which are absorbed more slowly in the body and can't be used for instant energy.\n\nThere are four types of MCT's (medium length fatty acids) in coconut oil. The composition looks like this:\n\n- Caproic acid (C6): <3%\n- Caprylic Acid (C8): 6%\n- Capric Acid (C10): 9%\n- Lauric Acid (C12): +50%\n\nWe have extracted C8 (caprylic acid) because it's the most powerful fatty acid because if its quick absorption and instantly converts to energy. There are 6% C8 MCT in coconut oil compared to 100% C8 in the MCT-oil we use.<\/p>"
           }
         },
         "c9082315-a02b-4ad6-b316-2d4ed40be7cf": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "section_title": "Ingredients & Nutrition facts - Unflavored",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         }
       },
@@ -282,15 +304,46 @@
         "faq_bg": "#ccf2ef",
         "section_heading": "FAQs"
       }
+    },
+    "16508840313fecd2f9": {
+      "type": "product-reviews",
+      "settings": {
+        "section_heading": "What our friends think"
+      }
+    },
+    "1651151398dd3f6faa": {
+      "type": "product-gallery",
+      "blocks": {
+        "2f2b04a9-d902-4e5b-936a-13508035a59e": {
+          "type": "gallery",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/FFC_15_of_28__cropped.jpg"
+          }
+        },
+        "98fa91a9-7ecb-43bd-a9d3-c7e56f0695d3": {
+          "type": "gallery",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "2f2b04a9-d902-4e5b-936a-13508035a59e",
+        "98fa91a9-7ecb-43bd-a9d3-c7e56f0695d3"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "product-cover",
     "1649246199abda83bd",
-    "1649849750d51ef620",
     "16492508185ee8a919",
+    "1651229410e202ddaf",
     "1649255761b8483492",
     "16493080030e67300f",
-    "1649326080cf851ab4"
+    "1649326080cf851ab4",
+    "16508840313fecd2f9",
+    "1651151398dd3f6faa"
   ]
 }

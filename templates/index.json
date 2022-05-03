@@ -1,211 +1,172 @@
 {
+  "layout": "theme.home",
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "home-hero": {
+      "type": "home-hero",
+      "settings": {
+        "section_title": "FUEL YOUR MISSION",
+        "section_tagline": "Snacks and supplements made with real ingredients. No sugar, no bullshit.",
+        "btn_title": "Shop Now",
+        "btn_link": "https:\/\/www.friendlyfat.co\/collections\/all-products",
+        "section_image": "shopify:\/\/shop_images\/topbg1b-new.png",
+        "img_tablet": "shopify:\/\/shop_images\/the-friendly-fat-company-products-tablet.jpg",
+        "img_mobile": "shopify:\/\/shop_images\/mobile-img.jpg"
+      }
+    },
+    "advantages": {
+      "type": "advantages",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "53a3a296-8fe4-4bc0-b82a-a71206bfaea7": {
+          "type": "advantages",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "title": "NO SUGAR & LOW CARB",
+            "tag": "Max 5g carbs per serving"
           }
         },
-        "text": {
-          "type": "text",
+        "3520095a-7e87-4014-8361-0ff6f7ccdcbf": {
+          "type": "advantages",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "title": "100% NATURAL INGREDIENTS",
+            "tag": "No additives or junk fillers"
           }
         },
-        "button": {
-          "type": "buttons",
+        "0b8659a9-0e11-42d0-bd81-bdd435698e1c": {
+          "type": "advantages",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "title": "HEALTHY<br>FATS",
+            "tag": "Nutrient rich & delicious"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "53a3a296-8fe4-4bc0-b82a-a71206bfaea7",
+        "3520095a-7e87-4014-8361-0ff6f7ccdcbf",
+        "0b8659a9-0e11-42d0-bd81-bdd435698e1c"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "section_image": "shopify:\/\/shop_images\/beach-coconut-delicious-322483-1.jpg"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "products-slider": {
+      "type": "products-slider",
+      "settings": {
+        "section_title": "Shop Now",
+        "feature_collection": "all-products"
+      }
+    },
+    "testimonials": {
+      "type": "testimonials",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "a4233b7e-b34d-4898-bb80-5d6181afde8e": {
+          "type": "testimonials",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/swetrail_s1_1_av_16_1591718712618.png",
+            "comment": "I start every morning with MCT in my coffee, and the nut butter is a given ingredient in my post-workout shake.\n\nI really think they have made something healthy taste great and practical to use. The products fit my active lifestyle perfectly!",
+            "name": "Robert Carlsson",
+            "possition": "Mountainbiker"
           }
         },
-        "text": {
-          "type": "text",
+        "dd25bd6d-2f86-4cde-bd5e-491a6397d7f1": {
+          "type": "testimonials",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "image": "shopify:\/\/shop_images\/Ellipse_4.png",
+            "comment": "I am a plant based athlete and only use top quality products. The MCT powder gives me the extra energy I need to fuel me for my training sessions.\n\nThe Nut butter is my favorite to snack on throughout the day that serves me a little energy boost.",
+            "name": "Carlos Varona",
+            "possition": "Jiu-Jitsu Black Belt Professor,\nfounder of The Flow Academy"
+          }
+        },
+        "db56eb9a-5240-48dd-af11-de9eb6da0c3a": {
+          "type": "testimonials",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lars_17dbe20a-c0aa-4b71-9fde-9ff5f7a65e5f.jpg",
+            "comment": "I'm surprised to find an MCT-powder of this quality and with so pure ingredients. Only using C8 MCT oil and healthy fibers, that's high level",
+            "name": "Lars Åstrand",
+            "possition": "Lic. Naprapath and Dietician. Former elite soccer player and personal trainer"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "a4233b7e-b34d-4898-bb80-5d6181afde8e",
+        "dd25bd6d-2f86-4cde-bd5e-491a6397d7f1",
+        "db56eb9a-5240-48dd-af11-de9eb6da0c3a"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "16491490640ec52d4f": {
+      "type": "health-section",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "show_view_all": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
+        "section_bg": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/scene-background.svg?v=1649149284",
+        "section_stage": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/stage.svg?v=1649149353",
+        "curtain_left": "shopify:\/\/shop_images\/curtain-left.png",
+        "curtain_right": "shopify:\/\/shop_images\/curtain-right.png",
+        "section_heading": "<span class=\"heading-title-small\">DON’T BE FOOLED BY<\/span> THE HEALTH MASQUERADE",
+        "section_text": "Most products out there claim they are healthy and awesome, but at a closer look, they are full of crap. Liar liar pants on fire!",
+        "section_text1": "Most products out there claim they are healthy and awesome, but at a closer look, they are full of crap. Liar liar pants on fire!",
+        "curtain_health": "shopify:\/\/shop_images\/health-before.png",
+        "curtain_health1": "shopify:\/\/shop_images\/health-after.png"
       }
     },
-    "collage": {
-      "type": "collage",
+    "1649139684634184c1": {
+      "type": "content-with-image",
       "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "61c83a94-7ac0-4950-bb46-d7a20577c351": {
+          "type": "devious_block",
           "settings": {
-            "collection": ""
+            "devious_image": "shopify:\/\/shop_images\/lifting-bar.png",
+            "devious_text": "“Bullshit Bar”"
           }
         },
-        "product": {
-          "type": "product",
+        "8acf143a-316b-4e8c-8090-7e8c9c53fa58": {
+          "type": "devious_block",
           "settings": {
-            "product": "",
-            "second_image": false
+            "devious_image": "shopify:\/\/shop_images\/smoothie.png",
+            "devious_text": "“Shady Shakesson”"
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "cc75afd6-1384-438a-b9fb-566bc4d24c08": {
+          "type": "devious_block",
           "settings": {
-            "collection": ""
+            "devious_image": "shopify:\/\/shop_images\/meditating-soda.png",
+            "devious_text": "“Devious Drink”"
+          }
+        },
+        "89bd5ad1-773c-44a9-a302-cb180dfa579d": {
+          "type": "devious_block",
+          "settings": {
+            "devious_image": "shopify:\/\/shop_images\/pudding.png",
+            "devious_text": "“Pesky Pudding”"
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "61c83a94-7ac0-4950-bb46-d7a20577c351",
+        "8acf143a-316b-4e8c-8090-7e8c9c53fa58",
+        "cc75afd6-1384-438a-b9fb-566bc4d24c08",
+        "89bd5ad1-773c-44a9-a302-cb180dfa579d"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "section_heading": ".. But friends don’t lie",
+        "section_text": "There’s too much bullshit going on behind healthy looking labels and creative marketing. We fight for a future where store shelves are filled with real food and healthy fats, and less bullshit such as sugars, crappy carbs, junk additives and sneaky marketing",
+        "btn_link": "shopify:\/\/pages\/manifesto",
+        "btn_text": "Read our manifesto"
       }
     },
-    "video": {
-      "type": "video",
+    "1649136989bccbca08": {
+      "type": "content-with-background",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "section_image": "shopify:\/\/shop_images\/man-playing-basketball.jpg",
+        "section_heading": "The world is a happier place when people are feeling awesome!"
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "home-hero",
+    "advantages",
+    "products-slider",
+    "testimonials",
+    "16491490640ec52d4f",
+    "1649139684634184c1",
+    "1649136989bccbca08"
   ]
 }

@@ -57,39 +57,41 @@
       ],
       "settings": {
         "section_bg": "#fdf5e5",
-        "section_bg_image": "shopify:\/\/shop_images\/Lions_mane.png",
-        "badge_image": "shopify:\/\/shop_images\/stamp_1.png"
+        "section_bg_image": "shopify:\/\/shop_images\/lions-bg_820965f5-b168-405e-8f47-5d98dab15f22.png",
+        "badge_image": "shopify:\/\/shop_images\/stamp_1.png",
+        "product_ing_info_text": "Ingredients & nutritional info",
+        "product_ing_info_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Lion-mane.jpg?v=1651064075"
       }
     },
     "1649246199abda83bd": {
       "type": "ingredients",
       "blocks": {
+        "63d7ef54-03bf-4bc3-8666-206f0048175c": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Organic Lion's Mane extract,",
+            "section_dec": "Lion's Mane is an edible mushroom that has been used in ancient Chinese medicine as a natural and powerful adaptogen to support brain and neurological health. Studies show that Lion's Mane may support brain health, improve mood and boost memory & focus."
+          }
+        },
         "e63a1ecc-d16f-4d0e-a355-b5e56ec91760": {
           "type": "ingredients",
           "settings": {
             "section_title": "C8 MCT-oil from coconut,",
-            "section_dec": "C8 MCT-oil from coconut,C8 MCT-oil from coconut,"
+            "section_dec": "Medium Chain Triglycerides are a type of fat derived from coconut oil. They are instantly converted to ketones which is used by the body for long lasting energy. Ketones can pass the blood brain barrier, making it a powerful brain fuel for instant energy and focus."
           }
         },
         "3229b412-2a03-4c54-bc9b-bcdb36487373": {
           "type": "ingredients",
           "settings": {
-            "section_title": "Acacia fiber,",
-            "section_dec": "Acacia fiber,Acacia fiber,Acacia fiber,Acacia fiber,"
-          }
-        },
-        "63d7ef54-03bf-4bc3-8666-206f0048175c": {
-          "type": "ingredients",
-          "settings": {
-            "section_title": "Organic Lion's Mane extract",
-            "section_dec": "Organic Lion's Mane extractOrganic Lion's Mane extractOrganic Lion's Mane extract"
+            "section_title": "Acacia fiber",
+            "section_dec": "Acacia fiber is a natural prebiotic fiber derived from the sap of the Acacia tree. It's a powerful superfood that feeds our healthy gut bacteria and supports our bodyies digestive health."
           }
         }
       },
       "block_order": [
+        "63d7ef54-03bf-4bc3-8666-206f0048175c",
         "e63a1ecc-d16f-4d0e-a355-b5e56ec91760",
-        "3229b412-2a03-4c54-bc9b-bcdb36487373",
-        "63d7ef54-03bf-4bc3-8666-206f0048175c"
+        "3229b412-2a03-4c54-bc9b-bcdb36487373"
       ],
       "settings": {
         "section_bg": "shopify:\/\/shop_images\/roughedges.png",
@@ -104,7 +106,7 @@
           "type": "advantages_block",
           "settings": {
             "advantages_title": "Boost brain performance",
-            "advantages_text": "MCT provides the brain with instant energy and Lion’s mane improves focus and concentration. A powerful combinatin!"
+            "advantages_text": "MCT provides the brain with instant energy and Lion’s mane improves focus and concentration. A powerful combination!"
           }
         },
         "18e12e96-bb6e-41da-9045-b008ba4a4bd1": {
@@ -118,7 +120,7 @@
           "type": "advantages_block",
           "settings": {
             "advantages_title": "Support brain health",
-            "advantages_text": "Lion’s Mane can stimulate the growth of new brain cells, repair damaged cells and promote the creation of new neurons."
+            "advantages_text": "Lion’s Mane may stimulate the growth of new brain cells, repair damaged cells and promote the creation of new neurons."
           }
         },
         "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8": {
@@ -136,6 +138,7 @@
         "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8"
       ],
       "settings": {
+        "text_color_mobile": "#372c23",
         "advantage_bg_color": "#f8dac1",
         "section_bg": "shopify:\/\/shop_images\/lionsmane-birds-custom.png"
       }
@@ -146,7 +149,7 @@
         "6a275c2b-7dfb-4b74-8d0c-726fac219065": {
           "type": "benifits_left",
           "settings": {
-            "benifits_text": "100% natural. No fillers.",
+            "benifits_text": "100% natural with no fillers",
             "benifits_subtext": "Only 3 ingredients, all natural. That’s it."
           }
         },
@@ -186,17 +189,9 @@
     },
     "1649255280f1e480cb": {
       "type": "product-about",
-      "disabled": true,
       "settings": {
         "mct_mobile_title": "What is MCT?",
         "section_image": "shopify:\/\/shop_images\/about-product.png",
-        "section_text": "MCT stands for Medium Chain Triglycerides which are fatty acids derived mainly from coconut oil. MCT’s are shorter in length than most other fats and can therefore take a shortcut in the body and instantly be used as powerful energy."
-      }
-    },
-    "1649849750d51ef620": {
-      "type": "product-about-text",
-      "settings": {
-        "section_title": "What is Lions mane?",
         "section_text": "Lion's Mane is an edible mushroom that has been used in traditional Chinese medicine for thousands of years. It contains two special compounds (hericenones and erinacines) that may stimulate the growth and repair of brain cells. This is why it’s believed to improve brain health and cognitive performance."
       }
     },
@@ -206,6 +201,7 @@
         "537022a4-d3dc-4878-8fe5-fd25dfec75a6": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/Lions_mane_mascot_illustration_2021_1.png",
             "section_title": "For focus and concentration...",
             "section_text": "...when you need to get shit done!  MCT fuels your brain with instant energy, while Lion's Mane makes you focused \nand alert. This combination makes you unstoppable!"
@@ -214,6 +210,7 @@
         "70ecd7c0-a8ef-4eba-afff-daee73946765": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_title": "For general brain health.",
             "section_text": "When used daily, studies show that Lion’s mane may support brain health by stimulating the growth of new brain cells, repairing damaged cells and promote the creation of new neurons."
           }
@@ -221,6 +218,7 @@
         "089cf010-dfad-4a57-a072-adbd711e8112": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/Boxing_e7f92d27-7f46-4cb6-92bb-f154951c5c04.png",
             "section_title": "To avoid the afternoon crash.",
             "section_text": "Feeling tired in the afternoons? MCT boosts your energy and keeps your blood sugar stable. No more yawning in the office!"
@@ -229,6 +227,7 @@
         "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/RGB_Mascot_04_1.png",
             "section_title": "To boost your workout performance.",
             "section_text": "MCT gives you instant but also long lasting energy to crush it at the gym! It’s especially powerful for endurance sports like running and cycling."
@@ -237,6 +236,7 @@
         "a7665b74-4d16-40af-afea-23e91781cbbc": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/Chef.png",
             "section_title": "To reduce cravings between meals.",
             "section_text": "Never feeling really satisfied? MCT makes you feeling full for longer and help you resist the constant urge to snack!"
@@ -260,6 +260,7 @@
       "blocks": {
         "3f81d856-0432-415f-8bb8-1a5185999f0f": {
           "type": "user_block",
+          "disabled": true,
           "settings": {
             "section_title": "Add 2-3 scoops to water and sweep",
             "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/glass-ico.svg?v=1649853361"
@@ -282,7 +283,7 @@
         "427d4b8d-9fda-4313-9329-8e1e0e21f203": {
           "type": "user_block",
           "settings": {
-            "section_title": "Boost other snacks like yogurt or energy balls",
+            "section_title": "Or add power to other snacks like yogurt or energy balls",
             "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/snacks.svg?v=1649853773"
           }
         }
@@ -337,42 +338,44 @@
           "type": "faq",
           "settings": {
             "section_title": "What is MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>MCT stands for Medium Chain Triglycerides which are fatty acids derived mainly from coconut oil. MCT’s are shorter in lenght than most other fats and therefore takes a shortcut in the body.\n\nBecause of this, the body can turn MCT into energy far more quickly and through a totally different pathway, compared to other types of fats.\n\nKetones are a powerful fuel for your body that will instantly improve energy, increase fat burn, reduce cravings and improve your mental performance and focus.\n\nMCT’s are often used by athletes who needs instant and sustained energy to boost their performance and improve endurance during a tough workout. MCT’s are also very helpful for weight loss, assisting to keep blood sugar levels stable and control appetite by increasing the feeling of fullness. MCT-oil also improves gut health and reduces inflammation.<\/p>"
           }
         },
         "58e23bb7-8a15-4210-abe0-ef8b8e306de0": {
           "type": "faq",
           "settings": {
-            "section_title": "What is the benefits of MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_title": "What is Acacia fiber?",
+            "section_text": "<p>Acacia is a natural prebiotic fiber derived from the sap of the Acacia tree. It's a powerful superfood  that feeds our healthy gut bacteria and supports your body's digestive health, which is the foundation of a healthy body.\n\nAcacia fiber is great to include in your diet for many everyday health benefits. Especially to promote a healthy microbiome\n\nYour microbiome (gut bacteria) is the trillions of live bacteria living in your body and these organisms are crucial to our overall health. Researcher are starting to understand just how much of our health is starting in the gut and how important it is to keep it healthy and flourishing.\n\nOur Microbiome can be compared to a garden where the beautiful flowers are the good bacteria and the weed is the bad bacteria. To stay healthy we need to grow the flowers and minimize the weed. To grow our healthy bacterias in the gut we need to give them plenty of nourishing food (prebiotics=soluble fibers) and Acacia fiber is the holy grail of prebiotics.<\/p>"
           }
         },
         "473c1fd1-9b67-49d6-9141-2e7d3f58b543": {
           "type": "faq",
           "settings": {
-            "section_title": "How do I use MCT Powder?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_title": "Can I use MCT even if I'm not doing Keto?",
+            "section_text": "<p>Yes you can. But as MCT increases the ketone levels in the body it is extra helpful for those who are following the keto diet, as ketones are their primary source of fuel. But no matter if you're following the keto diet or not you will still benefit from using MCT, as ketones are a powerful source of fuel for everyone.<\/p>"
           }
         },
         "e2c4f709-a7d5-4a1a-92aa-8a90c173e35b": {
           "type": "faq",
           "settings": {
-            "section_title": "What is Acacia fiber?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_title": "Does Lion's mane mushroom get you high?",
+            "section_text": "<p>No. Lion's mane will not get you high and it’s not psychoactive.<\/p>"
           }
         },
         "58b8ad2a-7e73-4ef5-b6f1-7fd649536510": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "section_title": "What is the difference between coconut oil and MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         },
         "c9082315-a02b-4ad6-b316-2d4ed40be7cf": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "section_title": "Ingredients & Nutrition facts - Unflavored",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         }
       },
@@ -388,6 +391,12 @@
         "faq_bg": "#fdf5e5",
         "section_heading": "FAQs"
       }
+    },
+    "165087974406424749": {
+      "type": "product-reviews",
+      "settings": {
+        "section_heading": "What our friends think"
+      }
     }
   },
   "order": [
@@ -396,10 +405,10 @@
     "164924851544a442e1",
     "16492508185ee8a919",
     "1649255280f1e480cb",
-    "1649849750d51ef620",
     "1649255761b8483492",
     "16493080030e67300f",
     "1649315994f16d631c",
-    "1649326080cf851ab4"
+    "1649326080cf851ab4",
+    "165087974406424749"
   ]
 }

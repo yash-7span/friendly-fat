@@ -7,10 +7,10 @@
         "section_title": "FUEL YOUR MISSION",
         "section_tagline": "Snacks and supplements made with real ingredients. No sugar, no bullshit.",
         "btn_title": "Shop Now",
-        "btn_link": "shopify:\/\/collections\/shop-list",
+        "btn_link": "shopify:\/\/collections\/all",
         "section_image": "shopify:\/\/shop_images\/topbg1b-new.png",
         "img_tablet": "shopify:\/\/shop_images\/the-friendly-fat-company-products-tablet.jpg",
-        "img_mobile": "shopify:\/\/shop_images\/the-friendly-fat-company-products-mobile.jpg"
+        "img_mobile": "shopify:\/\/shop_images\/mobile-img.jpg"
       }
     },
     "advantages": {
@@ -51,7 +51,7 @@
       "type": "products-slider",
       "settings": {
         "section_title": "Shop Now",
-        "feature_collection": "frontpage"
+        "feature_collection": "all-products"
       }
     },
     "testimonials": {
@@ -60,28 +60,28 @@
         "a4233b7e-b34d-4898-bb80-5d6181afde8e": {
           "type": "testimonials",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ellipse-3.png",
-            "comment": "Probably the best MCT on the market! Dissolves quickly, no lumps, and makes my coffee super creamy!",
-            "name": "Joe Rogan",
-            "possition": "Comedian, podcast host & MMA commentator"
+            "image": "shopify:\/\/shop_images\/swetrail_s1_1_av_16_1591718712618.png",
+            "comment": "I start every morning with MCT in my coffee, and the nut butter is a given ingredient in my post-workout shake.\n\nI really think they have made something healthy taste great and practical to use. The products fit my active lifestyle perfectly!",
+            "name": "Robert Carlsson",
+            "possition": "Mountainbiker"
           }
         },
         "dd25bd6d-2f86-4cde-bd5e-491a6397d7f1": {
           "type": "testimonials",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ellipse-3.png",
-            "comment": "Probably the best MCT on the market! Dissolves quickly, no lumps, and makes my coffee super creamy!",
-            "name": "Joe Rogan",
-            "possition": "Comedian, podcast host & MMA commentator"
+            "image": "shopify:\/\/shop_images\/Ellipse_4.png",
+            "comment": "I am a plant based athlete and only use top quality products. The MCT powder gives me the extra energy I need to fuel me for my training sessions.\n\nThe Nut butter is my favorite to snack on throughout the day that serves me a little energy boost.",
+            "name": "Carlos Varona",
+            "possition": "Jiu-Jitsu Black Belt Professor,\nfounder of The Flow Academy"
           }
         },
         "db56eb9a-5240-48dd-af11-de9eb6da0c3a": {
           "type": "testimonials",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ellipse-3.png",
-            "comment": "Probably the best MCT on the market! Dissolves quickly, no lumps, and makes my coffee super creamy!",
-            "name": "Joe Rogan",
-            "possition": "Comedian, podcast host & MMA commentator"
+            "image": "shopify:\/\/shop_images\/lars_17dbe20a-c0aa-4b71-9fde-9ff5f7a65e5f.jpg",
+            "comment": "I'm surprised to find an MCT-powder of this quality and with so pure ingredients. Only using C8 MCT oil and healthy fibers, that's high level",
+            "name": "Lars Åstrand",
+            "possition": "Lic. Naprapath and Dietician. Former elite soccer player and personal trainer"
           }
         }
       },
@@ -101,8 +101,8 @@
         "curtain_left": "shopify:\/\/shop_images\/curtain-left.png",
         "curtain_right": "shopify:\/\/shop_images\/curtain-right.png",
         "section_heading": "<span class=\"heading-title-small\">DON’T BE FOOLED BY<\/span> THE HEALTH MASQUERADE",
-        "section_text": "There’s too much bullshit going on behind healthy looking labels and creative marketing.",
-        "section_text1": "So called ‘healthy’ products make bold claims, but at a closer look, they are full of crap. Liar liar pants on fire!",
+        "section_text": "Most products out there claim they are healthy and awesome, but at a closer look, they are full of crap. Liar liar pants on fire!",
+        "section_text1": "Most products out there claim they are healthy and awesome, but at a closer look, they are full of crap. Liar liar pants on fire!",
         "curtain_health": "shopify:\/\/shop_images\/health-before.png",
         "curtain_health1": "shopify:\/\/shop_images\/health-after.png"
       }
@@ -147,7 +147,7 @@
       ],
       "settings": {
         "section_heading": ".. But friends don’t lie",
-        "section_text": "We fight for a future where store shelves are filled with real food and healthy fats, and less bullshit such as sugars, crappy carbs, junk additives and sneaky marketing",
+        "section_text": "There’s too much bullshit going on behind healthy looking labels and creative marketing. We fight for a future where store shelves are filled with real food and healthy fats, and less bullshit such as sugars, crappy carbs, junk additives and sneaky marketing",
         "btn_link": "shopify:\/\/pages\/manifesto",
         "btn_text": "Read our manifesto"
       }

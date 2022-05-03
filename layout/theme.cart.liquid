@@ -214,7 +214,8 @@
     	background: #fffbf4;
       }
       .cart__warnings .heading-large {
-      	margin-bottom: 20px
+      	margin-bottom: 40px;
+    	color: #372C23;
       }
       .title-wrapper-with-link .heading-large{
          font-size: 3.56em;
@@ -331,7 +332,11 @@
       .field__input::placeholder {
         opacity: 1 !important;
       }
-      
+      .title-wrapper--no-top-margin>.title {
+        margin-top: 0;
+        color: #372C23 !important;
+        font-size: 30px !important;
+      }
       @media screen and (max-width: 479px) {
         .title-wrapper-with-link .heading-large {
         	font-size: 2.56em;
@@ -363,6 +368,7 @@
       document.documentElement.classList.add('shopify-design-mode');
     }
     </script>
+    
   </head>
 
   <body class="{{page.handle}}">
@@ -458,6 +464,7 @@
       <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=61e7aa41824d2f42455c1e9b" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
       
       <script src="{{ 'webflow.js' | asset_url }}" defer="defer"></script>
+      <script src="{{ 'app.js' | asset_url }}" defer="defer"></script>
       
       <script type="text/javascript">
         function flipFatMan() {                                               // start function to change image
@@ -523,6 +530,17 @@
             }
           }
         });
+        
+        // Currency switcher        
+        function currencyFormSubmit(event) {
+          event.target.form.submit();
+        }
+
+        document.querySelectorAll('.shopify-currency-form select').forEach(function(element) {
+          element.addEventListener('change', currencyFormSubmit);
+        });
+        // END - Currency switcher
+        
       </script>
       <!--   End - New scripts     -->
 

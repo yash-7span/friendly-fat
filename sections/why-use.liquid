@@ -12,7 +12,7 @@
         {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
         <div class="why-should-wrappers {% if thecycle == 'even' %}reverse{% endif %}">
           {% if block.settings.section_image != blank or block.settings.section_svg != blank%}
-          <div class="image-why-wrapper">
+          <div class="image-why-wrapper {%if forloop.index == 3%}image--fit{% endif %}">
             <img loading="lazy" bind="4105ec9d-9082-e435-c240-14f3ac549d55" src="{% if block.settings.section_svg != blank %}{{ block.settings.section_svg }}{% else %}{{ block.settings.section_image | img_url: 'master' }}{% endif %}" alt="" class="character-icons">
           </div>
           {% endif %}

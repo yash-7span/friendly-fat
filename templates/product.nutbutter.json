@@ -58,7 +58,9 @@
       "settings": {
         "section_bg": "#ffeddf",
         "section_bg_image": "shopify:\/\/shop_images\/Vector.png",
-        "badge_image": "shopify:\/\/shop_images\/nutbutter-stamp_1.png"
+        "badge_image": "shopify:\/\/shop_images\/nutbutter-stamp_1.png",
+        "product_ing_info_text": "Ingredients & nutritional info",
+        "product_ing_info_image": ""
       }
     },
     "1649246199abda83bd": {
@@ -68,32 +70,33 @@
           "type": "ingredients",
           "settings": {
             "section_title": "Roasted peanuts,",
-            "section_dec": "Roasted peanuts,Roasted peanuts,Roasted peanuts,Roasted peanuts,"
+            "section_dec": "Peanuts are delicious! And they're an excellent plant-based source of protein and high in various vitamins, minerals, and fiber. They're also a great source of healthy fats and low in carbs."
           }
         },
         "7b4d64b4-60a2-4755-a96e-e7e70d6dc11d": {
           "type": "ingredients",
           "settings": {
             "section_title": "Roasted almonds,",
-            "section_dec": "Roasted almonds,Roasted almonds,Roasted almonds,Roasted almonds,Roasted almonds,"
+            "section_dec": "Almonds are low in carbs and high in protein and fiber. They're highly nutritious and also rich in healthy fats, antioxidants, vitamins and minerals. They're actually one of the best sources of vitamin E and contain high amounts of Manganese and Magnesium."
           }
         },
         "c2672a3f-1ca8-4d91-b373-76f0fa1078f3": {
           "type": "ingredients",
           "settings": {
             "section_title": "Coconut oil,",
-            "section_dec": "Coconut oil,Coconut oil,Coconut oil,Coconut oil,"
+            "section_dec": "Coconut oil is the richest natural source of MCTs, in total 54%. Most of the MCT's in coconut are Lauric Acids which has strong antibacterial, antiviral, antifungal properties."
           }
         },
         "dcabdf5a-ef79-44a6-b9f0-57ce9bf550ba": {
           "type": "ingredients",
           "settings": {
-            "section_title": "C8 MCT-oil,",
-            "section_dec": "C8 MCT-oil,C8 MCT-oil,C8 MCT-oil,C8 MCT-oil,"
+            "section_title": "C8 MCT-powder,",
+            "section_dec": "Our MCT-powder consist of MCT-oil and acacia fiber. MCT stands for Medium Chain Triglycerides which are a type of fat derived from coconut oil. MCT's are instantly converted to ketones which is used by the body for long lasting energy. Ketones can pass the blood brain barrier, making it a powerful brain fuel for instant energy and focus."
           }
         },
         "a6f37e79-a05f-4e64-9fca-63b2185f2d3f": {
           "type": "ingredients",
+          "disabled": true,
           "settings": {
             "section_title": "Steviol glycosides,",
             "section_dec": "Steviol glycosides,Steviol glycosides,Steviol glycosides,Steviol glycosides,"
@@ -103,14 +106,14 @@
           "type": "ingredients",
           "settings": {
             "section_title": "Cinnamon,",
-            "section_dec": "Cinnamon,Cinnamon,Cinnamon,Cinnamon,Cinnamon,"
+            "section_dec": "Cinnamon used to be regarded as a gift fit for kings. It’s high in cinnamaldehyde, which is thought to be responsible for most of cinnamon’s health benefits."
           }
         },
         "5358f33b-36d8-4c72-bdab-8866b7ef7c80": {
           "type": "ingredients",
           "settings": {
-            "section_title": "Himalayan sea salt",
-            "section_dec": "Himalayan sea saltHimalayan sea saltHimalayan sea salt"
+            "section_title": "Himalayan salt",
+            "section_dec": "Himalayan salt is one of the purest salts available. It's a rock salt from the Punjab region of Pakistan. Mined in the foothills of the Himalayas, it contains dozens of trace minerals that give it its rosy hue."
           }
         }
       },
@@ -168,6 +171,7 @@
         "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8"
       ],
       "settings": {
+        "text_color_mobile": "#372c23",
         "advantage_bg_color": "#f6dccf",
         "section_bg": "shopify:\/\/shop_images\/fatpack2_1.png"
       }
@@ -177,7 +181,7 @@
       "settings": {
         "section_heading": "US VS THEM",
         "section_text": "Most sugar free products are filled with junk, and most natural products are filled with sugar. We’ve combined the best of two worlds. Natural & sugar free.",
-        "section_image": "shopify:\/\/shop_images\/compare.png"
+        "section_image": "shopify:\/\/shop_images\/comp_ce6658ca-9b76-4b4f-8926-44323e5f56a5.png"
       }
     },
     "1649255761b8483492": {
@@ -186,6 +190,7 @@
         "537022a4-d3dc-4878-8fe5-fd25dfec75a6": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/done.png",
             "section_title": "A healthy snack anywhere, anytime.",
             "section_text": "Have it straight from the pouch whenever you need to boost your day."
@@ -194,6 +199,7 @@
         "70ecd7c0-a8ef-4eba-afff-daee73946765": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/Boxing.png",
             "section_title": "Boost your workout performance.",
             "section_text": "The perfect snack before a workout, or as a quick recovery after. Boosted with MCT-oil for instant and long lasting energy when you need it the most!"
@@ -202,6 +208,7 @@
         "089cf010-dfad-4a57-a072-adbd711e8112": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/Powah.png",
             "section_title": "A delicoius (& addictve) snack.",
             "section_text": "When you want a little something with your afternoon coffee. You don't need sugar and additives to make something taste amazing. Here's your proof."
@@ -210,6 +217,7 @@
         "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/barbell_icon_b824f091-cdaf-469f-907a-396d08c26acf.png",
             "section_title": "Boost other snacks.",
             "section_text": "Make other snacks even more tasty and powerful. Drizzle it on yoghurt, a banana, add to a shake, a dessert or to... anything!"
@@ -263,42 +271,45 @@
           "type": "faq",
           "settings": {
             "section_title": "What is MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>MCT stands for Medium Chain Triglycerides which means medium length fatty acids and is a a form of friendly fat mainly derived from coconut. It is one of the best, most bioavailable clean forms of energy for your body and your brain because the body breaks it down more effectively than other fats. MCT is not stored as fat in your body because it is instantly converted to ketones by the liver. Ketones are a powerful fuel for your body that will instantly improve energy, increase fat burn, reduce cravings and improve your mental performance and focus.<\/p><p>MCT’s are often used by athletes who needs instant and sustained energy to boost their performance and improve endurance during a tough workout. MCT’s are also very helpful for weight loss, assisting to keep blood sugar levels stable and control appetite by increasing the feeling of fullness. MCT-oil also improves gut health and reduces inflammation.<\/p>"
           }
         },
         "58e23bb7-8a15-4210-abe0-ef8b8e306de0": {
           "type": "faq",
           "settings": {
-            "section_title": "What is the benefits of MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_title": "What is Acacia fiber?",
+            "section_text": "<p>Acacia is a natural prebiotic fiber derived from the sap of the Acacia tree. It's a powerful superfood  that feeds our healthy gut bacteria and supports your body's digestive health, which is the foundation of a healthy body.<\/p><p>Acacia fiber is great to include in your diet for many everyday health benefits. Especially to promote a healthy microbiome<\/p><p>Your microbiome (gut bacteria) is the trillions of live bacteria living in your body and these organisms are crucial to our overall health. Researcher are starting to understand just how much of our health is starting in the gut and how important it is to keep it healthy and flourishing.<\/p><p>Our Microbiome can be compared to a garden where the beautiful flowers are the good bacteria and the weed is the bad bacteria. To stay healthy we need to grow the flowers and minimize the weed. To grow our healthy bacterias in the gut we need to give them plenty of nourishing food (prebiotics=soluble fibers) and Acacia fiber is the holy grail of prebiotics.<\/p>"
           }
         },
         "473c1fd1-9b67-49d6-9141-2e7d3f58b543": {
           "type": "faq",
           "settings": {
-            "section_title": "How do I use MCT Powder?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_title": "What is the difference between coconut oil and MCT?",
+            "section_text": "<p>Regular coconut oil consists of several types of fatty acids with different lengths, but mostly longer chain fatty acids which are absorbed more slowly in the body and can't be used for instant energy.<\/p><p>There are four types of MCT's (medium length fatty acids) in coconut oil. The composition looks like this:<\/p><p>Caproic acid (C6): &lt;3%<strong><br\/>Caprylic Acid (C8): 6%<br\/><\/strong>Capric Acid (C10): 9%<br\/>Lauric Acid (C12): +50%<\/p><p>We have extracted C8 (caprylic acid) because it's the most powerful fatty acid because if its quick absorption and instantly converts to energy. There are 6% C8 MCT in coconut oil compared to 100% C8 in the MCT-oil we use.<\/p>"
           }
         },
         "e2c4f709-a7d5-4a1a-92aa-8a90c173e35b": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "section_title": "What is Acacia fiber?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         },
         "58b8ad2a-7e73-4ef5-b6f1-7fd649536510": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "section_title": "What is the difference between coconut oil and MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         },
         "c9082315-a02b-4ad6-b316-2d4ed40be7cf": {
           "type": "faq",
+          "disabled": true,
           "settings": {
             "section_title": "Ingredients & Nutrition facts - Unflavored",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         }
       },
@@ -314,6 +325,12 @@
         "faq_bg": "#ffeddf",
         "section_heading": "FAQs"
       }
+    },
+    "1650883318eb314d3d": {
+      "type": "product-reviews",
+      "settings": {
+        "section_heading": "What our friends think"
+      }
     }
   },
   "order": [
@@ -323,6 +340,7 @@
     "1649400986aa5d34cb",
     "1649255761b8483492",
     "1649315994f16d631c",
-    "1649326080cf851ab4"
+    "1649326080cf851ab4",
+    "1650883318eb314d3d"
   ]
 }

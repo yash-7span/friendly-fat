@@ -3,7 +3,7 @@
     <div class="container-xlarge" >
       <div class="dropdown-wrapper">
         {% comment %}
-        	<div class="dropdown-wrapper-list">
+        <div class="dropdown-wrapper-list">
           <div data-hover="false" data-delay="0" class="w-dropdown">
             <div class="w-dropdown-toggle">
               <div class="w-icon-dropdown-toggle"></div>
@@ -15,13 +15,13 @@
               {% endfor %}
             </nav>
           </div>
-          
+
           <div data-hover="false" data-delay="0" class="sort-by--container w-dropdown product-shorting">
             <div class="w-dropdown-toggle">
-<!--               <div class="w-icon-dropdown-toggle"></div> -->
+              <!--               <div class="w-icon-dropdown-toggle"></div> -->
               <div class="text-size-medium text-opacity">Sort by:</div>
             </div>
-            
+
             <select id="sort-by" class="sort-by">
               {% for option in collection.sort_options %}
               <option value="{{ option.value }}"{% if option.value == collection.sort_by %} selected{% endif %}>{{ option.name }}</option>
@@ -44,15 +44,9 @@
                 <div class="item-wrapper-info">
                   <div class="shop-text-wrapper">
                     <a bind="131dd647-6df1-b5f0-b47f-5849f54d4f67" href="{{ product.url }}" class="text-size-large-bold">{{ product.title }}</a>
+                    
                     <div class="ratings-wrapper">
-                      <div class="star-wrapper">
-                        <img src="https://uploads-ssl.webflow.com/61e7aa41824d2f42455c1e9b/61ef9ecfd2ed63658a02fa97_Star.png" loading="lazy" alt="" class="star">
-                        <img src="https://uploads-ssl.webflow.com/61e7aa41824d2f42455c1e9b/61ef9ecfd2ed63658a02fa97_Star.png" loading="lazy" alt="" class="star">
-                        <img src="https://uploads-ssl.webflow.com/61e7aa41824d2f42455c1e9b/61ef9ecfd2ed63658a02fa97_Star.png" loading="lazy" alt="" class="star">
-                        <img src="https://uploads-ssl.webflow.com/61e7aa41824d2f42455c1e9b/61ef9ecfd2ed63658a02fa97_Star.png" loading="lazy" alt="" class="star">
-                        <img src="https://uploads-ssl.webflow.com/61e7aa41824d2f42455c1e9b/61ef9f1ff28beac92a26cb4e_star%20gray.png" loading="lazy" alt="" class="transparent-star">
-                      </div>
-                      <div class="text-size-regular text-opacity">4.2 (37 reviews)</div>
+                      {% render 'okendo-reviews-product-rating-summary', product: product %}
                     </div>
                     <div class="price-btn-wrapper">
                       <a bind="df6ee390-89b1-73ac-9ba4-4ce92a9dcd81" data-commerce-type="variation-price" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" href="#" class="text-size-medium">{{ product.price | money }}</a>

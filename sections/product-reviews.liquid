@@ -1,0 +1,33 @@
+<div class="section-product-review">
+  <div class="reviews-heading-wrapper">
+    <h1 class="heading-large">{{section.settings.section_heading}}</h1>
+  </div>
+  <div class="page-padding">
+    {% render 'okendo-reviews-widget', product: product %}
+  </div>
+</div>  
+{% schema %}
+  {
+    "name": "Product Reviews",
+    "settings": [
+		{
+          "type": "text",
+          "id": "section_heading",
+          "label": "Section Heading"
+    	}
+	],
+	"presets": [
+      {
+        "name": { 
+        "en": "Product Reviews"
+		  }
+	  }
+  	]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

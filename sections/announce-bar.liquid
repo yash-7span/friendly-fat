@@ -1,4 +1,4 @@
-<div {% if section.settings.hide_show == 'hide'%} style="display:none;" {% endif %}>
+<div {% if section.settings.hide_show == 'hide'%} class="announcement-hide" {% endif %}>
   <div bind="2edb4635-c260-0919-021d-1a45f2fc0410" class="try-lion-s-mane-wrapper">
     <div class="banner-flames-text-wrapper">
       {% if section.settings.icon_image %}<div class="flames-wrapper"><img src="{{ section.settings.icon_image | img_url: 'master' }}" loading="lazy" option:image="Flames-img" alt="" class="flame"></div>{%endif%}

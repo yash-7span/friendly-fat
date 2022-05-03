@@ -9,14 +9,16 @@
               <div class="product-slide-nav _3-circle-image-wrapper">
                 {% for image in product.images %}
                 <div class="circle-image-wrapper">
-                  <img src="{{image | img_url : 'master'}}" alt="" loading="lazy" bind="3a6135b0-6fd4-4a74-cd2a-fb38dc235e0c" class="circle-image">
+                  <a data-fancybox="preview" data-src="{{image | img_url : 'master'}}">
+                  	<img src="{{image | img_url : 'master'}}" alt="" loading="lazy" bind="3a6135b0-6fd4-4a74-cd2a-fb38dc235e0c" class="circle-image">
+                  </a>
                 </div>
                 {%endfor%}
               </div>
 
               {%if product.images.size > 1%}
               <div class="product-slider hero-main-image-wrapper">
-                {% for image in product.images %}
+                {% for image in product.images limit:1%}
                 <div class="product-slide">
                   <img src="{{image | img_url : 'master'}}" loading="lazy" bind="2d20e309-230d-ee1d-caf1-c0fbf7e868bd" alt="" class="img-full-width fit-contain">
                 </div>
@@ -30,6 +32,7 @@
               <h1 item="title" liquid:object="product.metafields.accentuate.sectionproductname" bind="bfc6db84-9535-365f-f92d-6cdc203cca68" class="heading-medium">{{ product.title | escape }}</h1>
               
               <div class="review-wrapper">
+                {% render 'okendo-reviews-product-rating-summary', product: product %}
                 {% comment %}
                 <div class="star-wrapper">
                   <img src="images/star_icon_yellow.png" loading="lazy" width="40" alt="" class="star cc-opacity">
@@ -39,6 +42,9 @@
                 </div>
                 {% endcomment %}
               </div>
+              <a href="javascript:;" data-popup="image-popup" data-src="{{ section.settings.product_ing_info_image }}" class="text-size-medium-bold img-run underlined">
+                {{ section.settings.product_ing_info_text }}
+              </a>
               {{ product.description }}
               
               
@@ -61,7 +67,7 @@
                         <path d="M7 18.12L12.7688 12L7 5.88L8.77598 4L16.3333 12L8.77598 20L7 18.12Z" fill="currentColor"></path>
                       </svg>
                     </div>
-                    <div class="quantity-label mobile">Qty</div>
+                    <div class="quantity-label mobile">Quantity</div>
                     <div class="quantity-label">Quantity</div>
                   </div>
                   
@@ -104,6 +110,22 @@
   </div>
 </div>
 
+<div class="popup popup--sm" id="image-popup">
+  <div class="popup__wrap">
+    <!--    header -->
+    <div class="popup__header clearfix">
+      <button class="popup__close"></button>
+    </div>
+    <!--    popup__header -->
+    <!--    content -->
+    <div class="popup__content clearfix">
+      <div class="video-responsive">
+        <img src="" id="popup_img_id"/>
+      </div>
+    </div>
+  </div>
+</div>
+
 {% schema %}
   {
     "name": "Product Cover",
@@ -123,8 +145,19 @@
           "type": "image_picker",
           "id": "badge_image",
           "label": "Product Badge Image"
-        }	
-],
+        },
+		{
+          "type": "text",
+          "id": "product_ing_info_text",
+          "label": "Ingredients Info Text",
+		  "default": "Ingredients & nutritional info"
+        },
+		{
+          "type": "url",
+          "id": "product_ing_info_image",
+          "label": "Ingredients Info Image Link"
+        }
+	],
 	"blocks": [
       {
         "type": "features_block",

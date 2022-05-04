@@ -58,7 +58,7 @@
       "settings": {
         "section_bg": "#ffeddf",
         "section_bg_image": "shopify:\/\/shop_images\/Vector.png",
-        "badge_image": "shopify:\/\/shop_images\/nutbutter-stamp_1.png",
+        "badge_image": "shopify:\/\/shop_images\/stamp_1_4a946d4b-493a-4a0c-a8dd-fb4af07c4e21.png",
         "product_ing_info_text": "Ingredients & nutritional info",
         "product_ing_info_image": ""
       }
@@ -91,7 +91,7 @@
           "type": "ingredients",
           "settings": {
             "section_title": "C8 MCT-powder,",
-            "section_dec": "Our MCT-powder consist of MCT-oil and acacia fiber. MCT stands for Medium Chain Triglycerides which are a type of fat derived from coconut oil. MCT's are instantly converted to ketones which is used by the body for long lasting energy. Ketones can pass the blood brain barrier, making it a powerful brain fuel for instant energy and focus."
+            "section_dec": "Our MCT-powder consist of MCT-oil and acacia fiber. MCT stands for Medium Chain Triglycerides which are a type of fat derived from coconut oil. MCT's are instantly converted to ketones which is used by the body for long lasting energy."
           }
         },
         "a6f37e79-a05f-4e64-9fca-63b2185f2d3f": {
@@ -146,7 +146,7 @@
           "type": "advantages_block",
           "settings": {
             "advantages_title": "No added sugar",
-            "advantages_text": ""
+            "advantages_text": "A snack that wont spike your blood sugar."
           }
         },
         "8749c033-ffab-4195-96c6-adc1a599b172": {
@@ -172,7 +172,7 @@
       ],
       "settings": {
         "text_color_mobile": "#372c23",
-        "advantage_bg_color": "#f6dccf",
+        "advantage_bg_color": "#cb6b35",
         "section_bg": "shopify:\/\/shop_images\/fatpack2_1.png"
       }
     },

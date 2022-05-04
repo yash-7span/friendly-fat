@@ -4866,6 +4866,11 @@ figcaption {
   line-height: 1.3;
   font-weight: 700;
   text-decoration: none;
+/*   display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis; */
 }
 
 .text-size-medium-bold.text-color-cream {
@@ -6537,6 +6542,7 @@ figcaption {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
 }
 
 .product-image {
@@ -6829,7 +6835,7 @@ figcaption {
 }
 
 .addtocart-input {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 .addtocart-input.products {
@@ -7095,6 +7101,9 @@ figcaption {
 }
 .marine-collagen-mct-powder .fuels-text-content-wrapper{
   padding-bottom: 0em;
+}
+.marine-collagen .fuels-text-content-wrapper{
+  padding-bottom: 4em;
 }
 .image-18 {
   position: absolute;
@@ -9534,6 +9543,7 @@ figcaption {
 }
 .rtb-product {
   margin-top: 1.25em;
+  padding-bottom: 1.5em;
 }
 
 .rtb-product li {
@@ -9544,6 +9554,7 @@ figcaption {
 .rtb-product h4 {
   font-family: Nunito, sans-serif;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .rtb-product.hide {
@@ -9584,7 +9595,7 @@ figcaption {
   position: absolute;
   left: 0%;
   top: 0%;
-  right: 0%;
+/*   right: 0%; */
   bottom: 0%;
   display: block;
   -o-object-fit: fill;
@@ -9601,6 +9612,7 @@ figcaption {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+  max-width: 97.5em;
 }
 
 .benefits-wrapper-text {
@@ -9953,10 +9965,10 @@ figcaption {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
+/*   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .swiper-slide {
@@ -10227,6 +10239,7 @@ figcaption {
 }
 
 .birds-eye-view-repeater {
+  display: none;
   position: relative;
   z-index: 1;
   width: 2%;
@@ -10243,7 +10256,7 @@ figcaption {
 
 .bg-wrapper {
   position: relative;
-  top: -11.25em;
+/*   top: -11.25em; */
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -11156,7 +11169,7 @@ form#currency_form {
 /* end currency-switcher */
 @media screen and (max-width: 1440px) {
   .bg-wrapper{
-    top: -2.25em;
+    top: 0em;
   }
 }
 @media screen and (max-width: 1024px) {
@@ -16817,7 +16830,7 @@ form#currency_form {
   }
 
   .rtb-product li {
-    font-size: 1.11em;
+    font-size: 1em;
   }
 
   .bg-image-lionsmane {

@@ -7,8 +7,8 @@
         </div>
         <div class="form-block w-form">
            {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form form-block' -%}
-           <!--  <form id="wf-form-Newsletter-Form" name="wf-form-Newsletter-Form" data-name="Newsletter Form" method="get" class="footer-form"> -->
-              <div class="form-wrapper-input">
+           <input type="hidden" name="contact[tags]" value="newsletter">
+              <div class="form-wrapper-input newsletter-form__field-wrapper field">
                 <input type="email" class="text-field w-input field__input" maxlength="256"  name="contact[email]" data-name="Email 2" placeholder="Your email here" id="email-2" required="" id="NewsletterForm--{{ section.id }}"
                       {% if form.errors %}
                         autofocus
@@ -19,19 +19,15 @@
                       {% endif %}
                 >
               </div>
-            <div class="submit-wrapper">
-              <input type="submit" value="Join our newsletter" data-wait="Please wait..." class="submit-button w-button">
+            <div class="submit-wrapper field">
+              <input type="submit" value="Join our newsletter" id="Subscribe" data-wait="Please wait..." class="newsletter-form__button field__button submit-button w-button">
           	</div>
           <!-- </form> -->
           {% endform %}
           {% if form.posted_successfully? %}
-          <div class="w-form-done">
-            <div>Thank you! Your submission has been received!</div>
-          </div>
+          	Comment posted successfully!
           {% else %}
-          <div class="w-form-fail">
-            <div>Oops! Something went wrong while submitting the form.</div>
-          </div>
+          	{{ form.errors | default_errors }}
           {% endif %}
         </div>
       </div>

@@ -58,7 +58,7 @@
       "settings": {
         "section_bg": "#ccf2ef",
         "section_bg_image": "shopify:\/\/shop_images\/mct-powder__bg.png",
-        "badge_image": "shopify:\/\/shop_images\/stamp_1_95b80e85-3b78-4c6e-8bd0-b83dc0863ead.png",
+        "badge_image": "shopify:\/\/shop_images\/stamp_1_4a946d4b-493a-4a0c-a8dd-fb4af07c4e21.png",
         "product_ing_info_text": "Ingredients & nutritional info",
         "product_ing_info_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/fat-packs.jpg?v=1651064075"
       }
@@ -70,7 +70,7 @@
           "type": "ingredients",
           "settings": {
             "section_title": "C8 MCT-oil from coconut",
-            "section_dec": "Medium Chain Triglycerides are a type of fat derived from coconut oil. They are shorter in length than other fats and are instantly converted to ketones that the body can use for long lasting energy. Ketones can pass the blood brain barrier, making it a powerful brain fuel for instant energy and focus. C8 MCT (Caprylic acid) is the most exclusive MCT because it’s the most powerful."
+            "section_dec": "Medium Chain Triglycerides are a type of fat derived from coconut oil. They are shorter in length than other fats and are instantly converted to ketones that the body can use for long lasting energy. C8 MCT (Caprylic acid) is the most exclusive MCT because it’s the most powerful."
           }
         },
         "cb9d5524-e243-410f-ae28-5c2fd43cd08e": {
@@ -132,7 +132,7 @@
       "settings": {
         "benefits_bg": "#ccf2ef",
         "section_heading": "BENEFITS",
-        "section_image": "shopify:\/\/shop_images\/Natural_89d3d44a-e715-40c2-9bfc-5031de3ff088.png"
+        "section_image": "shopify:\/\/shop_images\/mctoil-tone-adj.png"
       }
     },
     "1651229410e202ddaf": {
@@ -245,6 +245,29 @@
         "section_heading": "HOW TO USE"
       }
     },
+    "1651151398dd3f6faa": {
+      "type": "product-gallery",
+      "blocks": {
+        "2f2b04a9-d902-4e5b-936a-13508035a59e": {
+          "type": "gallery",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/FFC_15_of_28__cropped.jpg"
+          }
+        },
+        "98fa91a9-7ecb-43bd-a9d3-c7e56f0695d3": {
+          "type": "gallery",
+          "settings": {
+            "product_image": "shopify:\/\/shop_images\/MCT-Oil_6_of_10.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "2f2b04a9-d902-4e5b-936a-13508035a59e",
+        "98fa91a9-7ecb-43bd-a9d3-c7e56f0695d3"
+      ],
+      "settings": {
+      }
+    },
     "1649326080cf851ab4": {
       "type": "faq",
       "blocks": {
@@ -310,29 +333,6 @@
       "settings": {
         "section_heading": "What our friends think"
       }
-    },
-    "1651151398dd3f6faa": {
-      "type": "product-gallery",
-      "blocks": {
-        "2f2b04a9-d902-4e5b-936a-13508035a59e": {
-          "type": "gallery",
-          "settings": {
-            "product_image": "shopify:\/\/shop_images\/FFC_15_of_28__cropped.jpg"
-          }
-        },
-        "98fa91a9-7ecb-43bd-a9d3-c7e56f0695d3": {
-          "type": "gallery",
-          "disabled": true,
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "2f2b04a9-d902-4e5b-936a-13508035a59e",
-        "98fa91a9-7ecb-43bd-a9d3-c7e56f0695d3"
-      ],
-      "settings": {
-      }
     }
   },
   "order": [
@@ -342,8 +342,8 @@
     "1651229410e202ddaf",
     "1649255761b8483492",
     "16493080030e67300f",
+    "1651151398dd3f6faa",
     "1649326080cf851ab4",
-    "16508840313fecd2f9",
-    "1651151398dd3f6faa"
+    "16508840313fecd2f9"
   ]
 }

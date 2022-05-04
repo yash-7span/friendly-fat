@@ -29,8 +29,8 @@
           </div>
           <div class="hero-main-products-details-wrapper hero-product__content">
             <div class="content-wrapper-products">
+              <div class="rtb-product w-richtext" item="description">
               <h1 item="title" liquid:object="product.metafields.accentuate.sectionproductname" bind="bfc6db84-9535-365f-f92d-6cdc203cca68" class="heading-medium">{{ product.title | escape }}</h1>
-              
               <div class="review-wrapper">
                 {% render 'okendo-reviews-product-rating-summary', product: product %}
                 {% comment %}
@@ -42,11 +42,12 @@
                 </div>
                 {% endcomment %}
               </div>
+              
               <a href="javascript:;" data-popup="image-popup" data-src="{{ section.settings.product_ing_info_image }}" class="text-size-medium-bold img-run underlined">
                 {{ section.settings.product_ing_info_text }}
               </a>
               {{ product.description }}
-              
+              </div>
               
               <p item="description" bind="ffb70b4f-2afa-6caa-3779-d9ed3a72444a" class="text-size-large-bold">{{ product.price | money }}</p>
               <div bind="bfc6db84-9535-365f-f92d-6cdc203cca7f" class="addtocart-input products">

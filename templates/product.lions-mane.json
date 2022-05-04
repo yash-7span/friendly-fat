@@ -58,7 +58,7 @@
       "settings": {
         "section_bg": "#fdf5e5",
         "section_bg_image": "shopify:\/\/shop_images\/lions-bg_820965f5-b168-405e-8f47-5d98dab15f22.png",
-        "badge_image": "shopify:\/\/shop_images\/stamp_1.png",
+        "badge_image": "shopify:\/\/shop_images\/stamp_1_4a946d4b-493a-4a0c-a8dd-fb4af07c4e21.png",
         "product_ing_info_text": "Ingredients & nutritional info",
         "product_ing_info_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Lion-mane.jpg?v=1651064075"
       }
@@ -77,7 +77,7 @@
           "type": "ingredients",
           "settings": {
             "section_title": "C8 MCT-oil from coconut,",
-            "section_dec": "Medium Chain Triglycerides are a type of fat derived from coconut oil. They are instantly converted to ketones which is used by the body for long lasting energy. Ketones can pass the blood brain barrier, making it a powerful brain fuel for instant energy and focus."
+            "section_dec": "Medium Chain Triglycerides are a type of fat derived from coconut oil. They are instantly converted to ketones which is used by the body for long lasting energy."
           }
         },
         "3229b412-2a03-4c54-bc9b-bcdb36487373": {
@@ -127,7 +127,7 @@
           "type": "advantages_block",
           "settings": {
             "advantages_title": "Improves mood",
-            "advantages_text": "New animal research has found that lion’s mane has anti-inflammatory effects that can reduce symptoms of anxiety and depression."
+            "advantages_text": "New research on mice has found that lion’s mane has anti-inflammatory effects that can reduce symptoms of anxiety and depression."
           }
         }
       },
@@ -139,8 +139,8 @@
       ],
       "settings": {
         "text_color_mobile": "#372c23",
-        "advantage_bg_color": "#f8dac1",
-        "section_bg": "shopify:\/\/shop_images\/lionsmane-birds-custom.png"
+        "advantage_bg_color": "#c17137",
+        "section_bg": "shopify:\/\/shop_images\/lionsmane-final-advantage.png"
       }
     },
     "16492508185ee8a919": {
@@ -184,13 +184,13 @@
       "settings": {
         "benefits_bg": "#fdf5e5",
         "section_heading": "BENEFITS",
-        "section_image": "shopify:\/\/shop_images\/Natural.png"
+        "section_image": "shopify:\/\/shop_images\/lionsmane-tone-adj.png"
       }
     },
     "1649255280f1e480cb": {
       "type": "product-about",
       "settings": {
-        "mct_mobile_title": "What is MCT?",
+        "mct_mobile_title": "What is Lion's Mane?",
         "section_image": "shopify:\/\/shop_images\/about-product.png",
         "section_text": "Lion's Mane is an edible mushroom that has been used in traditional Chinese medicine for thousands of years. It contains two special compounds (hericenones and erinacines) that may stimulate the growth and repair of brain cells. This is why it’s believed to improve brain health and cognitive performance."
       }
@@ -295,9 +295,6 @@
         "427d4b8d-9fda-4313-9329-8e1e0e21f203"
       ],
       "settings": {
-        "user_guide_bg": "",
-        "guide_text_color": "",
-        "inverse_color_svg": false,
         "section_heading": "HOW TO USE"
       }
     },
@@ -364,10 +361,9 @@
         },
         "58b8ad2a-7e73-4ef5-b6f1-7fd649536510": {
           "type": "faq",
-          "disabled": true,
           "settings": {
-            "section_title": "What is the difference between coconut oil and MCT?",
-            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
+            "section_title": "What type of Lion's Mane extract do you use?",
+            "section_text": "<p>We use an organic 8:1 extract which means that it is eight times more concentrated than regular mushroom powder. <br\/><br\/>The extract is made only from the fruiting body of the mushroom (the acutal mushroom that grows above the ground). This ensures a high quality extract that is not diluted with anything else than the actual mushroom and its active compounds.<\/p>"
           }
         },
         "c9082315-a02b-4ad6-b316-2d4ed40be7cf": {

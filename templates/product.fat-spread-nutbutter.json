@@ -58,7 +58,7 @@
       "settings": {
         "section_bg": "#ffeddf",
         "section_bg_image": "shopify:\/\/shop_images\/Vector.png",
-        "badge_image": "shopify:\/\/shop_images\/nutbutter-stamp_1.png",
+        "badge_image": "shopify:\/\/shop_images\/stamp_1_4a946d4b-493a-4a0c-a8dd-fb4af07c4e21.png",
         "product_ing_info_text": "Ingredients & nutritional info",
         "product_ing_info_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Fat-spread.jpg?v=1651064075"
       }
@@ -91,7 +91,7 @@
           "type": "ingredients",
           "settings": {
             "section_title": "C8 MCT-oil,",
-            "section_dec": "Medium Chain Triglycerides are a type of fat derived from coconut oil. They are instantly converted to ketones which is used by the body for long lasting energy. Ketones can pass the blood brain barrier, making it a powerful brain fuel for instant energy and focus."
+            "section_dec": "Medium Chain Triglycerides are a type of fat derived from coconut oil. They are instantly converted to ketones which is used by the body for long lasting energy."
           }
         },
         "d7ef2f82-d1e8-4de1-b2d2-592643885278": {
@@ -186,7 +186,7 @@
       "settings": {
         "benefits_bg": "#f2d1b7",
         "section_heading": "Benefits",
-        "section_image": "shopify:\/\/shop_images\/Natural_7f25c1b5-6a00-4cd1-8fe2-042a1f13a8e2.png"
+        "section_image": "shopify:\/\/shop_images\/nutbutter-tone-adj.png"
       }
     },
     "1649255761b8483492": {

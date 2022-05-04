@@ -59,7 +59,7 @@
       "settings": {
         "section_bg": "#fff1ea",
         "section_bg_image": "shopify:\/\/shop_images\/Collagen_bg.png",
-        "badge_image": "shopify:\/\/shop_images\/stamp_1-collagen.png",
+        "badge_image": "shopify:\/\/shop_images\/stamp_1_4a946d4b-493a-4a0c-a8dd-fb4af07c4e21.png",
         "product_ing_info_text": "Ingredients & nutritional info",
         "product_ing_info_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Collagen.jpg?v=1651064075"
       }
@@ -78,7 +78,7 @@
           "type": "ingredients",
           "settings": {
             "section_title": "MCT-oil from coconut,",
-            "section_dec": "Medium Chain Triglycerides are a type of fat derived from coconut oil. They are shorter in length than other fats and are instantly converted to ketones that the body can use for long lasting energy. Ketones can pass the blood brain barrier, making it a powerful brain fuel for instant energy and focus. C8 MCT (Caprylic acid) is the most exclusive MCT because it’s the most powerful."
+            "section_dec": "Medium Chain Triglycerides are a type of fat derived from coconut oil. They are shorter in length than other fats and are instantly converted to ketones that the body can use for long lasting energy."
           }
         },
         "0d35bb62-bab8-4aa6-9e4a-2b9408d35813": {
@@ -136,7 +136,7 @@
         "8749c033-ffab-4195-96c6-adc1a599b172": {
           "type": "advantages_block",
           "settings": {
-            "advantages_title": "Boost your workouts  & recovery",
+            "advantages_title": "Boost your workouts & recovery",
             "advantages_text": "The combination of MCT and collagen makes it both the perfect pre-workout fuel & post workout recovery."
           }
         },
@@ -156,8 +156,8 @@
       ],
       "settings": {
         "text_color_mobile": "#372c23",
-        "advantage_bg_color": "#f6dccf",
-        "section_bg": "shopify:\/\/shop_images\/collagen-birds-custom.png"
+        "advantage_bg_color": "#d08b77",
+        "section_bg": "shopify:\/\/shop_images\/collagen-final-advantage.png"
       }
     },
     "16492508185ee8a919": {
@@ -209,7 +209,7 @@
       "settings": {
         "benefits_bg": "#fdf5e5",
         "section_heading": "BENEFITS",
-        "section_image": "shopify:\/\/shop_images\/Collagen.png"
+        "section_image": "shopify:\/\/shop_images\/collagen-tone-adj.png"
       }
     },
     "1651229142c7fb1b97": {

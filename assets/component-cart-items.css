@@ -1,3 +1,13 @@
+.cart .field:before{
+  content: unset;
+}
+.cart .field:after{
+  content: unset;
+}
+.cart input.w-button{
+  position: unset;
+}
+
 .cart-items td,
 .cart-items th {
   padding: 0;

@@ -1,3 +1,12 @@
+@media screen and (max-width: 479px){
+  .c8-mct-powder-lions-mane .product-slide-nav .slick-track {
+    width: 100% !important;
+  }
+  
+  .single-product .text-size-medium.dark-brown.centered{
+    padding-top: 1em;
+  }
+}
 /* Popup Modal */
 
 .popup {
@@ -2693,6 +2702,15 @@
   .logo-big-wrapper{
   	width: 8.3em !important;
   }
+  
+  .home .section-testimonial.wf-section {
+    overflow: hidden;
+  }
+  
+  .home .quote-wrapper .text-size-medium {
+    font-size: 18px;
+  }
+  
 }
 
 @media screen and (max-width: 479px) {
@@ -8522,6 +8540,12 @@ figcaption {
   padding-top: 38%;
   overflow: hidden;
 }
+.single-product .image-row-warpper{
+  max-height: 40em;
+  padding-top: initial;
+  height: 40em;
+}
+  
 .image-row-warpper .img-full-width{
   object-fit: cover;
   object-position: center;
@@ -11159,6 +11183,7 @@ form#currency_form {
 .scrolled-header .currency-switcher {
   border: 2px solid #fff;
   color: #ffff;
+  background: #372c23;
 }
 .desk-currency {
   display: contents;
@@ -11167,6 +11192,24 @@ form#currency_form {
   display: none;
 }
 /* end currency-switcher */
+
+
+.manifesto .currency-switcher {
+    border-color: #FDF5E5;
+    color: #FDF5E5;
+}
+.manifesto .nav-wrapper .cartpage-cart-icon {
+    filter: invert(1) saturate(1.5) hue-rotate(65deg);
+}
+
+.manifesto .nav-wrapper .cart-quantity{
+  background-color: #FDF5E5 !important;
+  color: rgb(55, 44, 35) !important; 
+}
+.fuels-text-wrapper {
+    color: #FDF5E5;
+}
+
 @media screen and (max-width: 1440px) {
   .bg-wrapper{
     top: 0em;
@@ -15445,6 +15488,16 @@ form#currency_form {
   form#currency_form{
 	margin-right: 0;
   }
+  .section-product-review {
+    padding: 70px 0;
+	}
+  .section-product-review .okeReviews.oke-w{
+    padding-top: 0 !important;
+  }
+  .section-product-review .reviews-heading-wrapper {
+    margin-bottom: 1em;
+	}
+  
 }
 
 @media screen and (max-width: 479px) {
@@ -17188,7 +17241,7 @@ form#currency_form {
 }
 
 .manifesto .nav-link{
-  color: #fff !important
+  color: #FDF5E5 !important
 }
 .form-wrapper-footer .form-block{
   position:relative;
@@ -17258,4 +17311,10 @@ html body #sabhq-root .sabhq .sabhq-right-buy-button{
 }
 .announcement-hide{
   display: none;
+}
+a.soundest-form-background-image-close::before, a.soundest-form-background-image-close::after {
+    background: #000 !important;
+}
+a.soundest-form-background-image-close {
+    border-color: #000 !important;
 }

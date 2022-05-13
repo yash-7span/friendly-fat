@@ -56,7 +56,9 @@
         "7914bf7d-b182-4d21-a32d-76bfbad2b8ab"
       ],
       "settings": {
-        "section_bg": ""
+        "section_bg": "",
+        "product_ing_info_text": "Ingredients & nutritional info",
+        "product_ing_info_image": ""
       }
     },
     "1649246199abda83bd": {
@@ -106,6 +108,8 @@
         "4b5b2e6b-8179-4c60-92d2-f399fa8bc3e8"
       ],
       "settings": {
+        "text_color_mobile": "#372C23",
+        "advantage_bg_color": "",
         "section_bg": "shopify:\/\/shop_images\/mct-birds.jpg"
       }
     },
@@ -157,6 +161,7 @@
     "1649255280f1e480cb": {
       "type": "product-about",
       "settings": {
+        "mct_mobile_title": "What is MCT?",
         "section_image": "shopify:\/\/shop_images\/about-product.png",
         "section_text": "MCT stands for Medium Chain Triglycerides which are fatty acids derived mainly from coconut oil. MCT’s are shorter in length than most other fats and can therefore take a shortcut in the body and instantly be used as powerful energy."
       }
@@ -175,6 +180,7 @@
         "537022a4-d3dc-4878-8fe5-fd25dfec75a6": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/done.png",
             "section_title": "To boost your brain...",
             "section_text": "...and get shit dome! Wake your brain in the morning by adding MCT to your coffee or tea and get the most out of your day."
@@ -183,6 +189,7 @@
         "70ecd7c0-a8ef-4eba-afff-daee73946765": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/Boxing.png",
             "section_title": "To avoid that afternoon crash.",
             "section_text": "Feeling tired in the afternoons? MCT gives you instant energy and keeps your blood sugar stable. No more yawning in the office!"
@@ -191,6 +198,7 @@
         "089cf010-dfad-4a57-a072-adbd711e8112": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/Boxing.png",
             "section_title": "To reduce cravings between meals.",
             "section_text": "Never feeling really satisfied? MCT makes you feeling full for longer and help you resist the constant urge to snack!"
@@ -199,6 +207,7 @@
         "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9": {
           "type": "product_advantages",
           "settings": {
+            "section_svg": "",
             "section_image": "shopify:\/\/shop_images\/barbell_icon_b824f091-cdaf-469f-907a-396d08c26acf.png",
             "section_title": "To boost your workout performance.",
             "section_text": "MCT gives you instant but also long lasting energy to crush it at the gym! It’s especially powerful for endurance sports like running and cycling."
@@ -212,6 +221,7 @@
         "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9"
       ],
       "settings": {
+        "section_wavesmain": "shopify:\/\/shop_images\/Wave_tall_dark_turquoise_fa324ab2-9238-4d05-abc5-3dd8e02dec37.png",
         "section_heading": "WHY SHOULD I USE IT?",
         "section_waves": "shopify:\/\/shop_images\/waves.png"
       }
@@ -247,9 +257,6 @@
         "c02df784-25d6-4c3b-8409-6802121108cf"
       ],
       "settings": {
-        "user_guide_bg": "",
-        "guide_text_color": "",
-        "inverse_color_svg": false,
         "section_heading": "HOW TO USE IT?"
       }
     },
@@ -290,42 +297,42 @@
           "type": "faq",
           "settings": {
             "section_title": "What is MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         },
         "58e23bb7-8a15-4210-abe0-ef8b8e306de0": {
           "type": "faq",
           "settings": {
             "section_title": "What is the benefits of MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         },
         "473c1fd1-9b67-49d6-9141-2e7d3f58b543": {
           "type": "faq",
           "settings": {
             "section_title": "How do I use MCT Powder?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         },
         "e2c4f709-a7d5-4a1a-92aa-8a90c173e35b": {
           "type": "faq",
           "settings": {
             "section_title": "What is Acacia fiber?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         },
         "58b8ad2a-7e73-4ef5-b6f1-7fd649536510": {
           "type": "faq",
           "settings": {
             "section_title": "What is the difference between coconut oil and MCT?",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         },
         "c9082315-a02b-4ad6-b316-2d4ed40be7cf": {
           "type": "faq",
           "settings": {
             "section_title": "Ingredients & Nutrition facts - Unflavored",
-            "section_text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere."
+            "section_text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.<\/p>"
           }
         }
       },

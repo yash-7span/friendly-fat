@@ -268,6 +268,7 @@
         "a7665b74-4d16-40af-afea-23e91781cbbc"
       ],
       "settings": {
+        "section_wavesmain": "shopify:\/\/shop_images\/Wave_tall_dark_turquoise_fa324ab2-9238-4d05-abc5-3dd8e02dec37.png",
         "section_heading": "WHY SHOULD I USE IT?",
         "section_waves": "shopify:\/\/shop_images\/lions_mane_wawe.png"
       }
@@ -292,7 +293,7 @@
         "3f81d856-0432-415f-8bb8-1a5185999f0f": {
           "type": "user_block",
           "settings": {
-            "section_title": "Make a sugar free hot chocolate, or use in baking",
+            "section_title": "Add to warm milk. Delicious!",
             "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Hot_chocolate_1.png?v=1651231361"
           }
         },

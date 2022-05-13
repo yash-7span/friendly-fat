@@ -190,6 +190,7 @@
         "0cabf05c-77e0-44ef-9ae0-e3b2ccdb24d9"
       ],
       "settings": {
+        "section_wavesmain": "shopify:\/\/shop_images\/Wave_tall_dark_turquoise_fa324ab2-9238-4d05-abc5-3dd8e02dec37.png",
         "section_heading": "WHY SHOULD I USE IT?",
         "section_waves": "shopify:\/\/shop_images\/lions_mane_wawe.png"
       }
@@ -230,7 +231,7 @@
           "type": "user_block",
           "settings": {
             "section_title": "Or use as salad dressing",
-            "section_image": ""
+            "section_image": "https:\/\/cdn.shopify.com\/s\/files\/1\/0062\/3981\/3716\/files\/Dressing_bottle.svg?v=1651763129"
           }
         }
       },

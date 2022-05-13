@@ -66,13 +66,6 @@
     "1649246199abda83bd": {
       "type": "ingredients",
       "blocks": {
-        "63d7ef54-03bf-4bc3-8666-206f0048175c": {
-          "type": "ingredients",
-          "settings": {
-            "section_title": "Organic Lion's Mane extract,",
-            "section_dec": "Lion's Mane is an edible mushroom that has been used in ancient Chinese medicine as a natural and powerful adaptogen to support brain and neurological health. Studies show that Lion's Mane may support brain health, improve mood and boost memory & focus."
-          }
-        },
         "e63a1ecc-d16f-4d0e-a355-b5e56ec91760": {
           "type": "ingredients",
           "settings": {
@@ -83,15 +76,22 @@
         "3229b412-2a03-4c54-bc9b-bcdb36487373": {
           "type": "ingredients",
           "settings": {
-            "section_title": "Acacia fiber",
+            "section_title": "Acacia fiber,",
             "section_dec": "Acacia fiber is a natural prebiotic fiber derived from the sap of the Acacia tree. It's a powerful superfood that feeds our healthy gut bacteria and supports our bodyies digestive health."
+          }
+        },
+        "63d7ef54-03bf-4bc3-8666-206f0048175c": {
+          "type": "ingredients",
+          "settings": {
+            "section_title": "Organic Lion's Mane extract",
+            "section_dec": "Lion's Mane is an edible mushroom that has been used in ancient Chinese medicine as a natural and powerful adaptogen to support brain and neurological health. Studies show that Lion's Mane may support brain health, improve mood and boost memory & focus."
           }
         }
       },
       "block_order": [
-        "63d7ef54-03bf-4bc3-8666-206f0048175c",
         "e63a1ecc-d16f-4d0e-a355-b5e56ec91760",
-        "3229b412-2a03-4c54-bc9b-bcdb36487373"
+        "3229b412-2a03-4c54-bc9b-bcdb36487373",
+        "63d7ef54-03bf-4bc3-8666-206f0048175c"
       ],
       "settings": {
         "section_bg": "shopify:\/\/shop_images\/roughedges.png",
@@ -183,7 +183,7 @@
       ],
       "settings": {
         "benefits_bg": "#fdf5e5",
-        "section_heading": "BENEFITS",
+        "section_heading": "PRODUCT QUALITIES",
         "section_image": "shopify:\/\/shop_images\/lionsmane-tone-adj.png"
       }
     },
@@ -191,7 +191,7 @@
       "type": "product-about",
       "settings": {
         "mct_mobile_title": "What is Lion's Mane?",
-        "section_image": "shopify:\/\/shop_images\/about-product.png",
+        "section_image": "shopify:\/\/shop_images\/whatislionsmane.png",
         "section_text": "Lion's Mane is an edible mushroom that has been used in traditional Chinese medicine for thousands of years. It contains two special compounds (hericenones and erinacines) that may stimulate the growth and repair of brain cells. This is why it’s believed to improve brain health and cognitive performance."
       }
     },
@@ -251,6 +251,7 @@
         "a7665b74-4d16-40af-afea-23e91781cbbc"
       ],
       "settings": {
+        "section_wavesmain": "shopify:\/\/shop_images\/Wave_tall_dark_turquoise_fa324ab2-9238-4d05-abc5-3dd8e02dec37.png",
         "section_heading": "WHY SHOULD I USE IT?",
         "section_waves": "shopify:\/\/shop_images\/waves.png"
       }

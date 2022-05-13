@@ -1,3 +1,4 @@
+
 @media screen and (max-width: 479px){
   .c8-mct-powder-lions-mane .product-slide-nav .slick-track {
     width: 100% !important;
@@ -4914,14 +4915,14 @@ figcaption {
   font-weight: 700;
 }
 
-/* .item-wrapper-info .text-size-large-bold{
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  height: 51px;
-} */
+
+.item-wrapper-info .text-size-large-bold{
+  text-align: center;
+  display: block;
+}
+.item-wrapper-info .price-btn-wrapper{
+  align-items: center;
+}
 
 .text-size-large-bold.margin-top-small {
   max-width: 100%;
@@ -5892,7 +5893,9 @@ figcaption {
   flex: 0 0 auto;
   border-radius: 100%;
 }
-
+.testimonial-image-wrapper .img-full-width{
+  border-radius: 100%;
+}
 .image-5 {
   width: 100%;
   height: 100%;
@@ -7379,7 +7382,10 @@ figcaption {
 .slide-image.first-icon {
   max-width: 6em;
 }
-
+.slide-image {
+  max-height: 75px;
+  height: auto;
+}
 .slide-image.second-icon {
   max-width: 6em;
 }
@@ -7400,7 +7406,7 @@ figcaption {
   position: relative;
   margin-bottom: 0px;
   background-color: #4ed7b8;
-  background-image: url('https://cdn.shopify.com/s/files/1/0062/3981/3716/files/Wave_tall_dark_turquoise.png?v=1650013241');
+/*   background-image: url('https://cdn.shopify.com/s/files/1/0062/3981/3716/files/Wave_tall_dark_turquoise.png?v=1650013241'); */
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -8091,7 +8097,7 @@ figcaption {
 .testimonial-name-wrapper {
   display: block;
   width: 100%;
-  max-width: 18.23em;
+/*   max-width: 18.23em; */
   margin-top: 1.67em;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -9148,7 +9154,10 @@ figcaption {
   -ms-flex: 0 auto;
   flex: 0 auto;
 }
-
+.banner-flames-text-wrapper .heading-small.banner{
+  font-family: Nunito,sans-serif;
+  font-size: 18px;
+}
 .close-banner-wrapper {
   position: absolute;
   left: auto;
@@ -9190,7 +9199,9 @@ figcaption {
   height: auto;
   cursor: pointer;
 }
-
+.close-wrapper .close-image-banner{
+  filter: brightness(100);
+}
 .icons-flex-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -11219,6 +11230,10 @@ form#currency_form {
   .add-to-cart-button{
   	width: 220px
   }
+  .slide-image.first-icon {
+    min-width: 8em;
+    width: auto;	
+  }
 }
 @media screen and (max-width: 991px) {
   body {
@@ -13020,6 +13035,23 @@ form#currency_form {
   .cms-wrapper-shop{
 	padding-top: 0;
   }
+  .item-wrapper-info .text-size-large-bold{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 51px;
+  }
+  html #sabhq-root .sabhq.stack_sections {
+    display: flex !important;
+  }
+  .heading-small.spacing{
+  	font-size: 1.3em;
+  }
+  .slide-image {
+    min-height: 75px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -13856,7 +13888,7 @@ form#currency_form {
   }
 
   .form-wrapper-input {
-    padding-top: 1em;
+    padding-top: 0em;
   }
 
   .footer-logo-container {
@@ -14989,9 +15021,11 @@ form#currency_form {
     -ms-flex-pack: center;
     justify-content: center;
     -webkit-box-align: center;
-    -webkit-align-items: center;
+    padding: 0.56em 20px;
+    text-align: center
+/*     -webkit-align-items: center;
     -ms-flex-align: center;
-    align-items: center;
+    align-items: center; */
   }
 
   .close-banner-wrapper {
@@ -15170,7 +15204,9 @@ form#currency_form {
     width: 100%;
     max-width: 5.21em;
   }
-
+  .item-img-wrapper img{
+	border-radius: 100%;
+  }
   .slide-nav-2 {
     margin-bottom: 2rem;
   }
@@ -15294,6 +15330,7 @@ form#currency_form {
 
   .form-header {
     margin-right: 0px;
+    margin-bottom: 20px;
   }
 
   .what-is-mct-img {
@@ -15496,8 +15533,11 @@ form#currency_form {
   }
   .section-product-review .reviews-heading-wrapper {
     margin-bottom: 1em;
-	}
-  
+  }
+  img.slider-image {
+    min-height: 80px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -15739,7 +15779,7 @@ form#currency_form {
     font-size: 26px;
   }
 
-  .heading-small.banner {
+  .banner-flames-text-wrapper .heading-small.banner {
     font-size: 1em;
   }
 
@@ -16692,11 +16732,11 @@ form#currency_form {
     text-align: center;
   }
 
-  .banner-flames-text-wrapper {
+/*   .banner-flames-text-wrapper {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-  }
+  } */
 
   .close-banner-wrapper {
     right: 0%;
@@ -17156,7 +17196,7 @@ form#currency_form {
   }
   html body #sabhq-root .sabhq .sabhq-right-buy-button{
   	line-height: 40px !important;
-    padding: 0px 40px !important;
+    padding: 0px 25px !important;
   }
   html #sabhq-root .sabhq-quantity input{
   	height: 40px !important
@@ -17207,6 +17247,9 @@ form#currency_form {
   .currency-switcher{
   	padding: 4px 8px;
   }
+  .item-wrapper-info .text-size-large-bold{
+  	height: 42px;
+  }
 }
 @media screen and (max-width: 350px) {
   .cms-list-wrapper-grid {
@@ -17219,6 +17262,9 @@ form#currency_form {
   .form-block{
     flex-wrap: wrap;
     justify-content: center;
+  }
+  .form-wrapper-input{
+  	margin-right: 0;
   }
 }
 #w-node-_0bc77b0d-ebb4-b79a-25d7-ac0bbcc35c3b-c95c1ea1 {
@@ -17263,8 +17309,9 @@ form#currency_form {
 .w-form-fail{
   color: red;
 }
+
 html body #sabhq-root .sabhq .sabhq-right-buy-button{
-  border-radius: 50px;
+  border-radius: 50px !important;
 }
 
 

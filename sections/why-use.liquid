@@ -1,4 +1,4 @@
-<div class="section-why-should wf-section">
+<div class="section-why-should wf-section" style="background-image:url({{section.settings.section_wavesmain | img_url : 'master'}})">
   <div class="page-padding">
     <div class="container-large">
       <div class="why-should-wrapper">
@@ -38,6 +38,11 @@
   {
     "name": "Why Use Section",
     "settings": [
+		{
+          "type": "image_picker",
+          "id": "section_wavesmain",
+          "label": "Main Section Waves Image"	
+    	},
 		{
           "type": "text",
           "id": "section_heading",
